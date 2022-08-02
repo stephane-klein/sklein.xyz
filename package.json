@@ -16,9 +16,13 @@
         "@sveltejs/kit": "1.0.0-next.401",
         "@typescript-eslint/eslint-plugin": "5.32.0",
         "@typescript-eslint/parser": "5.32.0",
+        "autoprefixer": "10.4.8",
         "eslint": "8.21.0",
         "eslint-config-prettier": "8.5.0",
         "eslint-plugin-svelte3": "4.0.0",
+        "postcss": "8.4.14",
+        "postcss-nested": "5.0.6",
+        "postcss-normalize": "10.0.1",
         "prettier": "2.7.1",
         "prettier-plugin-svelte": "2.7.0",
         "svelte": "3.49.0",
@@ -27,10 +31,7 @@
         "tslib": "2.4.0",
         "typescript": "4.7.4",
         "vite": "3.0.4",
-        "postcss": "8.4.14",
-        "postcss-nested": "5.0.6",
-        "postcss-normalize": "10.0.1",
-        "autoprefixer": "10.4.8"
+        "mdsvex": "0.10.6"
     },
     "type": "module"
 }
