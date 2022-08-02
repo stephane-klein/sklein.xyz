@@ -4,24 +4,21 @@ export const GET = async () => {
         'body': {
             'posts': await Promise.all(
                 Object.entries(import.meta.glob('./blog/*.md')).map(async ([path, resolver]) => {
-                    console.log('aaa');
-                    console.log(path);
-                    const { metadata } = await resolver();
-                    console.log(metadata);
+                    const { frontmatter } = await resolver();
 
                     return {
                         path: path.slice(0, -3) + '/',
-                        metadata: metadata
+                        frontmatter: frontmatter
                     }
                 })
             ),
             'pages': await Promise.all(
                 Object.entries(import.meta.glob('./garden/*.md')).map(async ([path, resolver]) => {
-                    const { metadata } = await resolver();
+                    const { frontmatter } = await resolver();
 
                     return {
                         path: path.slice(0, -3) + '/',
-                        metadata: metadata
+                        frontmatter: frontmatter
                     }
                 })
             )

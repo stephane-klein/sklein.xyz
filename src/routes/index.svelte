@@ -19,6 +19,6 @@ export const load = async ({ fetch }) => {
 
 <ul>
     {#each content.pages as page}
-        <li><a href={page.path}>{page?.metadata?.title ?? page.path}</a></li>
+        <li><a href={page.path}>{page?.frontmatter?.title ?? page.path}</a></li>
     {/each}
 </ul>
