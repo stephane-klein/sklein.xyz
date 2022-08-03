@@ -4,7 +4,7 @@ title: Équipement
 
 # Équipement
 
-<img src="./images/office.jpg" style="margin: 2rem auto; display: block; width: 100%" />
+<img src="./images/office.jpg" alt="Office" style="margin: 2rem auto; display: block; width: 100%" />
 
 - Bureau chez moi :
   - Le bureau assis/debout que j'ai chez moi : [Ikea SKARSTA](https://www.ikea.com/fr/fr/p/skarsta-bureau-assis-debout-blanc-s59324818/) à 199 €<br />
