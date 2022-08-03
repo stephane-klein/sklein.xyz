@@ -1,5 +1,4 @@
 export const GET = async () => {
-    console.log('ici1');
     return {
         'body': {
             'posts': await Promise.all(
