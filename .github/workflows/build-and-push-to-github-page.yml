@@ -1,0 +1,30 @@
+name: Build and push to GitHub page
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - src/**
+      - static/**
+      - package.json
+      - pnpm-lock.yaml
+      - svelte.config.js
+      - vite.config.js
+jobs:
+  build-and-push-to-github-page:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pnpm install
+      - run: pnpm build
+        env:
+          BASE_PATH: /sklein.xyz
+      - run: touch build/.nojekyll
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
