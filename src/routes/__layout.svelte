@@ -1,7 +1,3 @@
-<script>
-	import '../screen.css';
-</script>
-
-<article>
+<article class="prose">
     <slot />
 </article>

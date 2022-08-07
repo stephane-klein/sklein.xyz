@@ -13,3 +13,9 @@ ARTICLE {
     max-width: 65ch;
     margin: auto;
 }
+
+.prose > DIV {
+    UL {
+        padding-left: 1em;
+    }
+}
