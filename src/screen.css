@@ -1,21 +1,105 @@
-body {
+/* https://hslpicker.com/ */
+:root {
+    --background-color: hsl(204, 5%, 21%);
+    --text-color: hsl(0, 0%, 80%);
+    --link-text-color: hsl(0, 0%, 100%);
+
+    --sidebar-background-color: hsl(180, 4%, 14%);
+    --sidebar-text-color: hsl(0, 0%, 70%);
+    --sidebar-h1-text-color: hsl(0, 0%, 95%);
+}
+
+
+BODY {
     font-family: Open Sans,Helvetica,Arial,sans-serif;
+    min-height: 100vh;
 
     /* https://ux.stackexchange.com/questions/211/is-there-an-optimal-font-size */
     /* https://kyleschaeffer.com/css-font-size-em-vs-px-vs-pt-vs-percent */
     font-size: 120%;
     line-height: 1.8em;
-    background-color: #dee3ed;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}
+
+H1 {
+    color: var(--sidebar-h1-text-color);
+}
+
+A {
+    color: var(--link-text-color);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 ARTICLE {
-    /* https://ux.stackexchange.com/questions/3618/ideal-column-width-for-paragraphs-online */
-    max-width: 80ch;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    max-width: calc(80rem + 30rem);
     margin: auto;
-}
+    flex-direction: row;
+    ASIDE {
+        box-sizing: border-box;
+        display: flex;
+        top: 0;
+        overflow-y: scroll;
+        position: sticky;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 26rem;
+        height: 100vh;
+        padding: 2rem 2rem;
+        color: hsl(0, 0%, 70%);
+        background-color: var(--sidebar-background-color);
 
-.prose {
-    UL {
-        padding-left: 1em;
+        .avatar {
+            width: 14rem;
+            margin: 0 auto;
+        }
+
+        DIV {
+            H1 {
+                font-size: 2rem;
+            }
+
+            HR {
+                color: hsl(0, 0%, 35%);
+            }
+
+            NAV {
+                UL {
+                    padding: 0;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        FOOTER {
+            margin-top: 2rem;
+            font-size: 1rem;
+            line-height: 1.4rem;
+            color: hsl(0, 0%, 60%);
+            A {
+                color: hsl(0, 0%, 80%);
+            }
+        }
+    }
+    MAIN {
+        /* https://ux.stackexchange.com/questions/3618/ideal-column-width-for-paragraphs-online */
+        max-width: 80rem;
+        padding: 2rem 2rem;
+        UL {
+            padding-left: 1em;
+        }
     }
 }
