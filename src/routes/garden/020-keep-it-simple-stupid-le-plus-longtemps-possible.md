@@ -1,5 +1,6 @@
 ---
 title: Keep it simple, stupid le plus longtemps possible
+created_at: 2020-03-03
 ---
 # Keep it simple, stupid le plus longtemps possible
 
