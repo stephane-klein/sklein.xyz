@@ -1,7 +1,7 @@
 /* https://hslpicker.com/ */
 :root {
     --background-color: hsl(204, 5%, 21%);
-    --text-color: hsl(0, 0%, 80%);
+    --text-color: hsl(0, 0%, 70%);
     --link-text-color: hsl(0, 0%, 100%);
 
     --sidebar-background-color: hsl(180, 4%, 14%);
@@ -55,7 +55,7 @@ ARTICLE {
         width: 26rem;
         height: 100vh;
         padding: 2rem 2rem;
-        color: hsl(0, 0%, 70%);
+        color: var(--sidebar-text-color);
         background-color: var(--sidebar-background-color);
 
         .avatar {
@@ -101,5 +101,6 @@ ARTICLE {
         UL {
             padding-left: 1em;
         }
+        margin-bottom: 10rem;
     }
 }
