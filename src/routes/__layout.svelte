@@ -17,7 +17,7 @@
             <nav>
                 <ul>
                     <li><a href="/">Home / Sommaire</a></li>
-                    <li><a herf="https://github.com/stephane-klein/">GitHub</a></li>
+                    <li><a href="https://github.com/stephane-klein/">GitHub</a></li>
                     <li><a href="https://twitter.com/klein_stephane">Twitter</a></li>
                 </ul>
             </nav>

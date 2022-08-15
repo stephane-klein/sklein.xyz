@@ -9,7 +9,11 @@ Depuis quelques années, j'utilise les mots suivants pour décrire mon mindset d
 > et quand j'ai trop de "douleur" alors je refactor mon code et j'y ajoute le minimum de sophistication indispensable »
 
 <div align="center">
-    <img  class="center" src="https://camo.githubusercontent.com/0607e034aee88cce40b832367d44265e01b42654/68747470733a2f2f7777772e6f736e6577732e636f6d2f696d616765732f636f6d6963732f7774666d2e6a7067">
+    <img
+      class="center"
+      alt="The only valid measurement of code quality : WTFs/minute"
+      src="https://camo.githubusercontent.com/0607e034aee88cce40b832367d44265e01b42654/68747470733a2f2f7777772e6f736e6577732e636f6d2f696d616765732f636f6d6963732f7774666d2e6a7067"
+    />
 </div>
 
 Ici j'utilise le mot "douleur" dans le sens de ["a pain point"](https://hn.algolia.com/?dateRange=all&page=0&prefix=false&query=pain%20point&sort=byPopularity&type=story) en anglais : quelque chose de casse-pieds, pénibilité, grosse difficulté...
