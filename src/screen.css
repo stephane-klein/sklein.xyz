@@ -59,8 +59,10 @@ ARTICLE {
         background-color: var(--sidebar-background-color);
 
         .avatar {
-            width: 14rem;
-            margin: 0 auto;
+            text-align: center;
+            img {
+                width: 14rem;
+            }
         }
 
         DIV {

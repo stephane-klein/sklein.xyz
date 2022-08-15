@@ -4,7 +4,7 @@
 </script>
 <article>
     <aside>
-        <img class="avatar" src={Avatar} alt="Avatar" />
+        <a class="avatar" href="/"><img src={Avatar} alt="Avatar" /></a>
 
         <div>
             <h1><a href="/">sklein.xyz</a></h1>
