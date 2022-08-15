@@ -1,5 +1,6 @@
 ---
 title: Équipement
+created_at: 2019-09-04
 ---
 
 # Équipement
