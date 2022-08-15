@@ -1,5 +1,6 @@
 <script>
-  import Avatar from '$lib/assets/avatar.png?w=300&webp';
+    import '../screen.css';
+    import Avatar from '$lib/assets/avatar.png?w=300&webp';
 </script>
 <article>
     <aside>
