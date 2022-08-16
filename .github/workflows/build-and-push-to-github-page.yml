@@ -23,6 +23,7 @@ jobs:
         env:
           BASE_PATH: /sklein.xyz
       - run: touch build/.nojekyll
+      - run: echo "sklein.xyz" > build/CNAME
       - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
