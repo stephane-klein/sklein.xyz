@@ -18,7 +18,7 @@ title: Documentation de référence interne
     - processus de recrutement
   - ...
 
-Pour avoir example, vous pouvez consulter la page [« Que contient le handbook de GitLab ? »](./011-analyse-du-handbook-de-gitlab).
+Pour avoir example, vous pouvez consulter la page [« Que contient le handbook de GitLab ? »](../011-analyse-du-handbook-de-gitlab/).
 
 ## Qui a besoin d'une documentation de référence interne ?
 

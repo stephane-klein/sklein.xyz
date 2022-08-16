@@ -17,6 +17,10 @@ const config = {
         prerender: {
             default: true,
             crawl: true
+        },
+        trailingSlash: 'ignore',
+        files: {
+            assets: 'contents'
         }
     }
 };

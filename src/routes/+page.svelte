@@ -1,18 +1,9 @@
-<script context="module">
-export const load = async ({ fetch }) => {
-    return {
-        props: {
-            content: await (await fetch('/content.json')).json()
-        }
-    }
-}
-</script>
 <svelte:head>
     <title>Jardin numérique de Stéphane Klein</title>
 </svelte:head>
 
 <script>
-    export let content;
+    export let data;
 </script>
 
 <div>
@@ -37,7 +28,7 @@ export const load = async ({ fetch }) => {
     <p>Sommaire de mon <a href="https://joelhooks.com/digital-garden">jardin numérique</a> :</p>
 
     <ul>
-        {#each content.pages as page}
+        {#each data.pages as page}
             <li><a href={page.path}>{page?.frontmatter?.title ?? page.path}</a></li>
         {/each}
     </ul>
