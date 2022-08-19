@@ -4,6 +4,10 @@
     --text-color: hsl(0, 0%, 70%);
     --text-color-dark: hsl(0, 0%, 50%);
     --link-text-color: hsl(0, 0%, 100%);
+    --heading-h1-text-color: hsl(0, 0%, 90%);
+    --heading-h2-h3-h4-text-color: hsl(0, 0%, 80%);
+    --header-anchor-color: hsl(0, 0%, 60%);
+    --header-anchor-color-hover: hsl(0, 0%, 80%);
 
     --sidebar-background-color: hsl(180, 4%, 14%);
     --sidebar-text-color: hsl(0, 0%, 70%);
@@ -26,7 +30,19 @@ BODY {
 }
 
 H1 {
-    color: var(--sidebar-h1-text-color);
+    color: var(--heading-h1-text-color);
+}
+H2, H3, H4 {
+    color: var(--heading-h2-h3-h4-text-color);
+}
+H1, H2, H3, H4 {
+    .header-anchor {
+        font-size: 0.6em;
+        color: var(--header-anchor-color);
+        &:hover {
+            color: var(--header-anchor-color-hover);
+        }
+    }
 }
 
 A {
@@ -69,6 +85,7 @@ ARTICLE {
         DIV {
             H1 {
                 font-size: 2rem;
+                color: var(--sidebar-h1-text-color);
             }
 
             HR {
