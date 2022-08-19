@@ -2,6 +2,7 @@
 :root {
     --background-color: hsl(204, 5%, 21%);
     --text-color: hsl(0, 0%, 70%);
+    --text-color-dark: hsl(0, 0%, 50%);
     --link-text-color: hsl(0, 0%, 100%);
 
     --sidebar-background-color: hsl(180, 4%, 14%);
@@ -104,5 +105,19 @@ ARTICLE {
             padding-left: 1em;
         }
         margin-bottom: 10rem;
+
+        H1 {
+            margin-bottom: 0;
+        }
+
+        DL {
+            display: flex;
+            font-size: 0.8em;
+            margin-top: 0;
+            color: var(--text-color-dark);
+            DT, DD {
+                margin: 0;
+            }
+        }
     }
 }
