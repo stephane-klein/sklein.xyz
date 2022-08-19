@@ -1,7 +1,7 @@
 import * as path from 'path';
 import * as cheerio from 'cheerio';
 import MarkdownIt from 'markdown-it';
-import { default as matter } from 'gray-matter';
+import matter_read from '$lib/utils';
 
 const markdownIt = new MarkdownIt({
     html: true,
@@ -15,7 +15,7 @@ export async function load({ params }) {
         path.normalize(`${params.page_slug}.md`).replace(/^[./]*/, '')
     );
 
-    const parsedFrontmatter = matter.read(filename);
+    const parsedFrontmatter = matter_read(filename);
     const $ = cheerio.load(markdownIt.render(parsedFrontmatter?.content));
 
     const frontmatter = parsedFrontmatter.data;
