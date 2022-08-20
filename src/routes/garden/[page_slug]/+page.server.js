@@ -2,6 +2,8 @@ import * as path from 'path';
 import * as cheerio from 'cheerio';
 import MarkdownIt from 'markdown-it';
 import markdownItAnchor from 'markdown-it-anchor';
+import markdownItTocDoneRight from 'markdown-it-toc-done-right';
+import slug from 'slug';
 import matter_read from '$lib/utils';
 
 const markdownIt = new MarkdownIt({
@@ -12,12 +14,21 @@ const markdownIt = new MarkdownIt({
     .use(
         markdownItAnchor,
         {
+            slugify: slug,
             permalink: markdownItAnchor.permalink.linkInsideHeader({
                 symbol: `
                     <span aria-hidden="true">¶</span>
                 `,
                 placement: 'after'
             })
+        }
+    )
+    .use(
+        markdownItTocDoneRight,
+        {
+            listType: 'ul',
+            level: 2,
+            slugify: slug
         }
     );
 

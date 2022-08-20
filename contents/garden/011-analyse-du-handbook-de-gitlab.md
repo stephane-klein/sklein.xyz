@@ -4,6 +4,8 @@ created_at: 2019-02-14
 ---
 # Analyse du Handbook de GitLab
 
+[toc]
+
 ## Que contient le handbook de GitLab ?
 
 Liste des types d'informations présents dans le Handbook de GitLab (cette liste ne paraphrase pas [son sommaire](https://about.gitlab.com/handbook/)) :

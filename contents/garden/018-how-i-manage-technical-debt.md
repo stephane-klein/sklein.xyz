@@ -4,6 +4,8 @@ created_at: 2019-11-23
 ---
 # Mes recommandations pour maîtriser la dette technique au quotidien
 
+[toc]
+
 ## Avant propos
 
 Ce document est le résultat de mes divers expériences, il va sans doute évoluer, sera remis en cause dans les prochaines années.

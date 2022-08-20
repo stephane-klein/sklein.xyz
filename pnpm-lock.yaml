@@ -15,7 +15,8 @@ specifiers:
   gray-matter: 4.0.3
   js-yaml: 4.1.0
   markdown-it: 13.0.1
-  markdown-it-anchor: ^8.6.4
+  markdown-it-anchor: 8.6.4
+  markdown-it-toc-done-right: 4.2.0
   postcss: 8.4.16
   postcss-import: 14.1.0
   postcss-load-config: 4.0.1
@@ -23,6 +24,8 @@ specifiers:
   postcss-normalize: 10.0.1
   prettier: 2.7.1
   prettier-plugin-svelte: 2.7.0
+  scrollama: 3.2.0
+  slug: 6.0.0
   svelte: 3.49.0
   svelte-check: 2.8.1
   svelte-preprocess: 4.10.7
@@ -39,6 +42,9 @@ dependencies:
   js-yaml: 4.1.0
   markdown-it: 13.0.1
   markdown-it-anchor: 8.6.4_markdown-it@13.0.1
+  markdown-it-toc-done-right: 4.2.0
+  scrollama: 3.2.0
+  slug: 6.0.0
 
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.39
@@ -1505,6 +1511,10 @@ packages:
       markdown-it: 13.0.1
     dev: false
 
+  /markdown-it-toc-done-right/4.2.0:
+    resolution: {integrity: sha512-UB/IbzjWazwTlNAX0pvWNlJS8NKsOQ4syrXZQ/C72j+jirrsjVRT627lCaylrKJFBQWfRsPmIVQie8x38DEhAQ==}
+    dev: false
+
   /markdown-it/13.0.1:
     resolution: {integrity: sha512-lTlxriVoy2criHP0JKRhO2VDG9c2ypWCsT237eDiLqi09rmbKoUetyGHq2uOIRoRS//kfoJckS0eUzzkDR+k2Q==}
     hasBin: true
@@ -1988,6 +1998,10 @@ packages:
     resolution: {integrity: sha512-ZRwKbh/eQ6w9vmTjkuG0Ioi3HBwPFce0O+v//ve+aOq1oeCy7jMV2qzzAlpsNuqpqCBjjriM1lbtZbF/Q8jVyA==}
     dev: true
 
+  /scrollama/3.2.0:
+    resolution: {integrity: sha512-PIPwB1kYBnbw/ezvPBJa5dCN5qEwokfpAkI3BmpZWAwcVID4nDf1qH6WV16A2fQaJmsKx0un5S/zhxN+PQeKDQ==}
+    dev: false
+
   /section-matter/1.0.0:
     resolution: {integrity: sha512-vfD3pmTzGpufjScBh50YHKzEu2lxBWhVEHsNGoEXmCmn2hKGfeNLYMzCJpe8cD7gqX7TJluOVpBkAequ6dgMmA==}
     engines: {node: '>=4'}
@@ -2066,6 +2080,10 @@ packages:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
     dev: true
+
+  /slug/6.0.0:
+    resolution: {integrity: sha512-0MpNLyCSUSf0G1nAZmp9gY1cvesPP35a1Live25vZ23gWQ5SAopF0N+0hk9KI4ytNuTebJrHGNrgTnxboofcSg==}
+    dev: false
 
   /sorcery/0.10.0:
     resolution: {integrity: sha512-R5ocFmKZQFfSTstfOtHjJuAwbpGyf9qjQa1egyhvXSbM7emjrtLXtGdZsDJDABC85YBfVvrOiGWKSYXPKdvP1g==}

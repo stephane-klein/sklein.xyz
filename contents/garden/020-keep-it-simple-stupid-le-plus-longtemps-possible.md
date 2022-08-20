@@ -4,6 +4,8 @@ created_at: 2020-03-03
 ---
 # Keep it simple, stupid le plus longtemps possible
 
+[[toc]]
+
 Depuis quelques années, j'utilise les mots suivants pour décrire mon mindset de développement :
 
 > « Je suis au maximum le principe KISS ([Keep it simple, stupid](https://fr.wikipedia.org/wiki/Principe_KISS)), j'écris le code le plus direct possible
@@ -107,7 +109,7 @@ Depuis 15 ans, je suis très influencé par [les 19 principes du Zen de Python](
 
 Les choix minimalistes avec peu de sophistication du langage [Go](https://en.wikipedia.org/wiki/Go_(programming_language)) a conforté la direction [KISS](https://fr.wikipedia.org/wiki/Principe_KISS).
 
-## Partie 3 : prise de décision, le code direct, du code « stupide »
+## Partie 3 : prise de décision, le code direct, du code "stupide"
 
 Depuis quelques années, j'essaie d'écrire un code le plus direct possible.
 
