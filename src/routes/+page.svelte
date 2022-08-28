@@ -7,8 +7,6 @@
 </script>
 
 <div>
-    <h1>Digital Garden 🌱</h1>
-
     <p>Bonjour 👋</p>
 
     <p>Mon nom est <a href="https://www.facebook.com/stephane.klein.moselle">Stéphane Klein</a>, <a href="https://fr.wikipedia.org/wiki/Metz">Messin</a> expatrié à Paris, <a href="https://fr.wikipedia.org/wiki/Software_craftsmanship">artisan développeur</a> et <a href="https://fr.wikipedia.org/wiki/Tennis_de_table">pongiste</a>.</p>
@@ -25,7 +23,7 @@
     </p>
 
 
-    <p>Sommaire de mon <a href="https://joelhooks.com/digital-garden">jardin numérique</a> :</p>
+    <p>Sommaire de mon <a href="https://joelhooks.com/digital-garden">jardin numérique</a> 🌱 :</p>
 
     <ul>
         {#each data.pages as page}
