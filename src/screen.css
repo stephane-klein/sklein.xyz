@@ -26,7 +26,9 @@ BODY {
 
     /* https://ux.stackexchange.com/questions/211/is-there-an-optimal-font-size */
     /* https://kyleschaeffer.com/css-font-size-em-vs-px-vs-pt-vs-percent */
-    font-size: 120%;
+    @media (min-width: 60rem) {
+        font-size: 120%;
+    }
     line-height: 1.8em;
     background-color: var(--background-color);
     margin: 0;
