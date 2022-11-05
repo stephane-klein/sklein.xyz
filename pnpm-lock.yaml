@@ -23,7 +23,7 @@ specifiers:
   postcss-nested: 5.0.6
   postcss-normalize: 10.0.1
   prettier: 2.7.1
-  prettier-plugin-svelte: 2.7.0
+  prettier-plugin-svelte: 2.8.0
   scrollama: 3.2.0
   slug: 6.0.0
   svelte: 3.49.0
@@ -62,7 +62,7 @@ devDependencies:
   postcss-nested: 5.0.6_postcss@8.4.16
   postcss-normalize: 10.0.1_mu2kzpkteq3ketk6piffleamkq
   prettier: 2.7.1
-  prettier-plugin-svelte: 2.7.0_o3ioganyptcsrh6x4hnxvjkpqi
+  prettier-plugin-svelte: 2.8.0_o3ioganyptcsrh6x4hnxvjkpqi
   svelte: 3.49.0
   svelte-check: 2.8.1_cxyr4u5iq6mzd44wkmoxyq62gi
   svelte-preprocess: 4.10.7_4zumkfgxglegmgur7nezhp6ifi
@@ -1863,8 +1863,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.7.0_o3ioganyptcsrh6x4hnxvjkpqi:
-    resolution: {integrity: sha512-fQhhZICprZot2IqEyoiUYLTRdumULGRvw0o4dzl5jt0jfzVWdGqeYW27QTWAeXhoupEZJULmNoH3ueJwUWFLIA==}
+  /prettier-plugin-svelte/2.8.0_o3ioganyptcsrh6x4hnxvjkpqi:
+    resolution: {integrity: sha512-QlXv/U3bUszks3XYDPsk1fsaQC+fo2lshwKbcbO+lrSVdJ+40mB1BfL8OCAk1W9y4pJxpqO/4gqm6NtF3zNGCw==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
