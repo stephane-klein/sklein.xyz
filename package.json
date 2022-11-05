@@ -8,6 +8,7 @@
         "preview": "vite preview",
         "check": "svelte-check --tsconfig ./tsconfig.json",
         "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+        "prettier-check": "prettier --check --plugin-search-dir=.",
         "lint": "prettier --check --plugin-search-dir=. . && eslint .",
         "format": "prettier --write --plugin-search-dir=. ."
     },
