@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png" />
+        <link rel="icon" type="image/png" sizes="228x228" href="../../coast-228x228.png" />
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="content-security-policy" content="">
+	<link href="../../_app/immutable/assets/+layout-2dee2d47.css" rel="stylesheet">
+	<link rel="modulepreload" href="../../_app/immutable/start-8f4530fe.js">
+	<link rel="modulepreload" href="../../_app/immutable/chunks/index-1ca892d9.js">
+	<link rel="modulepreload" href="../../_app/immutable/chunks/singletons-07a1a1ac.js">
+	<link rel="modulepreload" href="../../_app/immutable/components/pages/_layout.svelte-be3368b1.js">
+	<link rel="modulepreload" href="../../_app/immutable/components/pages/garden/_page_slug_/_page.svelte-b97ea607.js">
+    </head>
+    <body>
+        <div>
+
+
+<article><div class="border-left"></div>
+    <aside class="left-sidebar"><div><a class="avatar" href="/"><img src="/_app/immutable/assets/avatar-fd7e3a86.webp" alt="Avatar"></a>
+
+            <div><h1><a href="/">sklein.xyz</a></h1>
+
+                <p>Je suis Stéphane, <a href="https://fr.wikipedia.org/wiki/Metz">Messin</a> expatrié à Paris,
+                    <a href="https://fr.wikipedia.org/wiki/Software_craftsmanship">artisan développeur</a>
+                    et <a href="https://fr.wikipedia.org/wiki/Tennis_de_table">pongiste</a>.
+                </p>
+
+                <p>Actuellement <a href="https://fr.wikipedia.org/wiki/Directeur_de_la_technologie">CTO</a> chez
+                    <a href="https://spacefill.fr/">SpaceFill</a>, j&#39;écris du code
+                    <a href="https://news.ycombinator.com/item?id=27256867">pour le plaisir</a> et pour gagner ma vie.
+                </p>
+
+                <hr>
+
+                <nav><ul><li><a href="/">Home / Sommaire</a></li>
+                        <li><a href="https://github.com/stephane-klein/">GitHub</a></li>
+                        <li><a href="https://twitter.com/klein_stephane">Twitter</a></li></ul></nav>
+                <footer><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>Ce(tte) œuvre est mise à disposition selon les termes de la
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</a>.
+                </footer></div></div></aside>
+
+    <main><h1>Cycle de vie des Repos Git</h1>
+
+<dl><dt>Publié le : </dt><dd>2019-08-23</dd></dl>
+
+<!-- HTML_TAG_START --><html><head></head><body><h1 id="cycle-de-vie-des-repos-git" tabindex="-1"></h1>
+<nav class="table-of-contents"><ul><li><a href="#les-repository-poc">Les Repository « POC » </a></li><li><a href="#les-repository-nursery-pouponniere">Les repository « Nursery » / « Pouponnière » </a></li><li><a href="#les-repository-team-corporate">Les repository « Team / Corporate » </a></li></ul></nav><h2 id="les-repository-poc" tabindex="-1">Les Repository « POC » <a class="header-anchor" href="#les-repository-poc">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<p>POC : <a href="https://fr.wikipedia.org/wiki/Preuve_de_concept">« Preuve de concept »</a></p>
+<p>Les développeurs peuvent créer librement des Repos POC.</p>
+<ul>
+<li>Pour quel usage ? Dans quel but ?
+<ul>
+<li><strong>Pour explorer</strong> la mise en oeuvre d’une librairie, un framework</li>
+<li>Pour explorer une architecture d’organisation</li>
+<li>…</li>
+</ul>
+</li>
+<li>Nombre de participant : 1</li>
+<li>Niveau de maturité ?
+<ul>
+<li>Aucun, <strong>c’est un bac à sable</strong></li>
+<li>Le projet peut fonctionner ou non, ce n’est pas important</li>
+</ul>
+</li>
+<li>Où ?
+<ul>
+<li>Dans le <strong>GitHub perso</strong> du développeur (example: <a href="https://github.com/harobed/poc-swarm-sentry">https://github.com/harobed/poc-swarm-sentry</a>)</li>
+<li>Dans GitLab, dans namespace des repos perso du développeur (example: <code>https://gitlab.com/stephane-klein/my-poc</code>)</li>
+</ul>
+</li>
+<li>Critères de qualités ?
+<ul>
+<li>README : optionnel, à écrire au fur et à mesure de la progression du projet</li>
+<li>Commit message : pas important</li>
+</ul>
+</li>
+<li>Issue / Roadmap ?
+<ul>
+<li>Pas d’utilisation de système d’issue</li>
+<li>Une roadmap items dans le README peut être pratique pour garder un fil conducteur</li>
+</ul>
+</li>
+<li>Partage ?<br>
+Même si le projet est en Work In Progress, non exploitable, ces expérimentations peuvent être utiles à d’autre développeur.</li>
+</ul>
+<h2 id="les-repository-nursery-pouponniere" tabindex="-1">Les repository « Nursery » / « Pouponnière » <a class="header-anchor" href="#les-repository-nursery-pouponniere">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<ul>
+<li>Pour quel usage ? Dans quel but ?
+<ul>
+<li>Pour des composants, des services en cours de préparation</li>
+<li>Le but est d’itérer du draft à un niveau de maturité qui sera accepté dans le repository « Team / Corporate »</li>
+</ul>
+</li>
+<li>Nombre de participants : de 1 à 3</li>
+<li>Niveau de maturité ?
+<ul>
+<li>Plus avancé que le POC mais pas encore prêt pour une mise en production</li>
+<li>Le projet peut être parfois cassé</li>
+</ul>
+</li>
+<li>Où ?
+<ul>
+<li>Dans GitLab, dans un namespace spécifique, <code>POC</code> ou <code>nursery</code></li>
+</ul>
+</li>
+<li>Critères de qualités ?
+<ul>
+<li>Les commits peuvent se faire directement dans la branche <code>master</code></li>
+<li>Commit message : pas important</li>
+<li>Un fichier README doit être présent, même si il est au départ de faible qualité</li>
+</ul>
+</li>
+<li>Issue / Roadmap ?
+<ul>
+<li>Une roadmap items dans le README peut être pratique pour garder un fil conducteur</li>
+<li>Utilisation d’issue optionnel au bon vouloir des contributeurs</li>
+</ul>
+</li>
+<li>Partage ?
+<ul>
+<li>Public avec le reste de l’équipe, pour rendre transparent l’avancé du projet</li>
+</ul>
+</li>
+</ul>
+<p>Migration d’un projet « Nursery » vers « Team / Corporate » ? une simple copie de fichiers, l’historique Git est mis à la poubelle, création d’une Merge Request + Review Code.</p>
+<h2 id="les-repository-team-corporate" tabindex="-1">Les repository « Team / Corporate » <a class="header-anchor" href="#les-repository-team-corporate">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<ul>
+<li>Pour quel usage ? Dans quel but ?
+<ul>
+<li>C’est le code qui est en production</li>
+</ul>
+</li>
+<li>Nombre de participants : toute l’équipe, toute l’entreprise</li>
+<li>Où ?
+<ul>
+<li>Dans le namespace public de la team ou de la société</li>
+<li>Et/ou dans le <a href="https://gomonorepo.org/">monorepos</a> de l’équipe ou de la société</li>
+</ul>
+</li>
+<li>Niveau de maturité ?
+<ul>
+<li>Les branches <code>master</code> et <code>develop</code> doivent être stable</li>
+</ul>
+</li>
+<li>Issue / Roadmap ?
+<ul>
+<li><a href="https://about.gitlab.com/handbook/communication/#everything-starts-with-a-merge-request">Tout doit commencer pour une issue</a></li>
+</ul>
+</li>
+<li>Critères de qualités :
+<ul>
+<li>Documenté, présence des sections :
+<ul>
+<li>« Getting started »</li>
+<li>« Setup Development Kit »</li>
+<li>« Project Overview »</li>
+<li>« Deployments »</li>
+</ul>
+</li>
+<li>Branche <code>master</code> et <code>develop</code> protégées</li>
+<li>Toute modification doit passer par des Merge Request et Code Review</li>
+<li><a href="https://github.com/harobed/CONTRIBUTE-skeleton/blob/master/CONTRIBUTE.md#git-workflow">Commit message de qualité</a></li>
+<li>GitLab-CI de configuré</li>
+<li>Déploiement continue</li>
+<li>Pérennité : partage du savoir, chaque partie du projet doivent être maitrisé par plusieurs personnes de l’équipe</li>
+</ul>
+</li>
+</ul>
+</body></html><!-- HTML_TAG_END --></main>
+    <div class="right-sidebar"><div></div></div>
+    <div class="border-right"></div></article>
+
+
+		<script type="module" data-sveltekit-hydrate="f3vhp1">
+		import { set_public_env, start } from "../../_app/immutable/start-8f4530fe.js";
+
+		set_public_env({});
+
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="f3vhp1"]').parentNode,
+			paths: {"base":"","assets":""},
+			route: true,
+			spa: false,
+			trailing_slash: "ignore",
+			hydrate: {
+				status: 200,
+				error: null,
+				node_ids: [0, 3],
+				params: {page_slug:"014-cycle-de-vie-des-repos"},
+				routeId: "garden/[page_slug]"
+			}
+		});
+	</script>
+	<script type="application/json" sveltekit:data-type="server_data">[null,{"type":"data","data":{"frontmatter":{"title":"Cycle de vie des Repos Git","created_at":"2019-08-23"},"body":"\u003Chtml>\u003Chead>\u003C/head>\u003Cbody>\u003Ch1 id=\"cycle-de-vie-des-repos-git\" tabindex=\"-1\">\u003C/h1>\n\u003Cnav class=\"table-of-contents\">\u003Cul>\u003Cli>\u003Ca href=\"#les-repository-poc\">Les Repository « POC » \u003C/a>\u003C/li>\u003Cli>\u003Ca href=\"#les-repository-nursery-pouponniere\">Les repository « Nursery » / « Pouponnière » \u003C/a>\u003C/li>\u003Cli>\u003Ca href=\"#les-repository-team-corporate\">Les repository « Team / Corporate » \u003C/a>\u003C/li>\u003C/ul>\u003C/nav>\u003Ch2 id=\"les-repository-poc\" tabindex=\"-1\">Les Repository « POC » \u003Ca class=\"header-anchor\" href=\"#les-repository-poc\">\n                    \u003Cspan aria-hidden=\"true\">¶\u003C/span>\n                \u003C/a>\u003C/h2>\n\u003Cp>POC : \u003Ca href=\"https://fr.wikipedia.org/wiki/Preuve_de_concept\">« Preuve de concept »\u003C/a>\u003C/p>\n\u003Cp>Les développeurs peuvent créer librement des Repos POC.\u003C/p>\n\u003Cul>\n\u003Cli>Pour quel usage ? Dans quel but ?\n\u003Cul>\n\u003Cli>\u003Cstrong>Pour explorer\u003C/strong> la mise en oeuvre d’une librairie, un framework\u003C/li>\n\u003Cli>Pour explorer une architecture d’organisation\u003C/li>\n\u003Cli>…\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Nombre de participant : 1\u003C/li>\n\u003Cli>Niveau de maturité ?\n\u003Cul>\n\u003Cli>Aucun, \u003Cstrong>c’est un bac à sable\u003C/strong>\u003C/li>\n\u003Cli>Le projet peut fonctionner ou non, ce n’est pas important\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Où ?\n\u003Cul>\n\u003Cli>Dans le \u003Cstrong>GitHub perso\u003C/strong> du développeur (example: \u003Ca href=\"https://github.com/harobed/poc-swarm-sentry\">https://github.com/harobed/poc-swarm-sentry\u003C/a>)\u003C/li>\n\u003Cli>Dans GitLab, dans namespace des repos perso du développeur (example: \u003Ccode>https://gitlab.com/stephane-klein/my-poc\u003C/code>)\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Critères de qualités ?\n\u003Cul>\n\u003Cli>README : optionnel, à écrire au fur et à mesure de la progression du projet\u003C/li>\n\u003Cli>Commit message : pas important\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Issue / Roadmap ?\n\u003Cul>\n\u003Cli>Pas d’utilisation de système d’issue\u003C/li>\n\u003Cli>Une roadmap items dans le README peut être pratique pour garder un fil conducteur\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Partage ?\u003Cbr>\nMême si le projet est en Work In Progress, non exploitable, ces expérimentations peuvent être utiles à d’autre développeur.\u003C/li>\n\u003C/ul>\n\u003Ch2 id=\"les-repository-nursery-pouponniere\" tabindex=\"-1\">Les repository « Nursery » / « Pouponnière » \u003Ca class=\"header-anchor\" href=\"#les-repository-nursery-pouponniere\">\n                    \u003Cspan aria-hidden=\"true\">¶\u003C/span>\n                \u003C/a>\u003C/h2>\n\u003Cul>\n\u003Cli>Pour quel usage ? Dans quel but ?\n\u003Cul>\n\u003Cli>Pour des composants, des services en cours de préparation\u003C/li>\n\u003Cli>Le but est d’itérer du draft à un niveau de maturité qui sera accepté dans le repository « Team / Corporate »\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Nombre de participants : de 1 à 3\u003C/li>\n\u003Cli>Niveau de maturité ?\n\u003Cul>\n\u003Cli>Plus avancé que le POC mais pas encore prêt pour une mise en production\u003C/li>\n\u003Cli>Le projet peut être parfois cassé\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Où ?\n\u003Cul>\n\u003Cli>Dans GitLab, dans un namespace spécifique, \u003Ccode>POC\u003C/code> ou \u003Ccode>nursery\u003C/code>\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Critères de qualités ?\n\u003Cul>\n\u003Cli>Les commits peuvent se faire directement dans la branche \u003Ccode>master\u003C/code>\u003C/li>\n\u003Cli>Commit message : pas important\u003C/li>\n\u003Cli>Un fichier README doit être présent, même si il est au départ de faible qualité\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Issue / Roadmap ?\n\u003Cul>\n\u003Cli>Une roadmap items dans le README peut être pratique pour garder un fil conducteur\u003C/li>\n\u003Cli>Utilisation d’issue optionnel au bon vouloir des contributeurs\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Partage ?\n\u003Cul>\n\u003Cli>Public avec le reste de l’équipe, pour rendre transparent l’avancé du projet\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003C/ul>\n\u003Cp>Migration d’un projet « Nursery » vers « Team / Corporate » ? une simple copie de fichiers, l’historique Git est mis à la poubelle, création d’une Merge Request + Review Code.\u003C/p>\n\u003Ch2 id=\"les-repository-team-corporate\" tabindex=\"-1\">Les repository « Team / Corporate » \u003Ca class=\"header-anchor\" href=\"#les-repository-team-corporate\">\n                    \u003Cspan aria-hidden=\"true\">¶\u003C/span>\n                \u003C/a>\u003C/h2>\n\u003Cul>\n\u003Cli>Pour quel usage ? Dans quel but ?\n\u003Cul>\n\u003Cli>C’est le code qui est en production\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Nombre de participants : toute l’équipe, toute l’entreprise\u003C/li>\n\u003Cli>Où ?\n\u003Cul>\n\u003Cli>Dans le namespace public de la team ou de la société\u003C/li>\n\u003Cli>Et/ou dans le \u003Ca href=\"https://gomonorepo.org/\">monorepos\u003C/a> de l’équipe ou de la société\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Niveau de maturité ?\n\u003Cul>\n\u003Cli>Les branches \u003Ccode>master\u003C/code> et \u003Ccode>develop\u003C/code> doivent être stable\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Issue / Roadmap ?\n\u003Cul>\n\u003Cli>\u003Ca href=\"https://about.gitlab.com/handbook/communication/#everything-starts-with-a-merge-request\">Tout doit commencer pour une issue\u003C/a>\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Critères de qualités :\n\u003Cul>\n\u003Cli>Documenté, présence des sections :\n\u003Cul>\n\u003Cli>« Getting started »\u003C/li>\n\u003Cli>« Setup Development Kit »\u003C/li>\n\u003Cli>« Project Overview »\u003C/li>\n\u003Cli>« Deployments »\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Branche \u003Ccode>master\u003C/code> et \u003Ccode>develop\u003C/code> protégées\u003C/li>\n\u003Cli>Toute modification doit passer par des Merge Request et Code Review\u003C/li>\n\u003Cli>\u003Ca href=\"https://github.com/harobed/CONTRIBUTE-skeleton/blob/master/CONTRIBUTE.md#git-workflow\">Commit message de qualité\u003C/a>\u003C/li>\n\u003Cli>GitLab-CI de configuré\u003C/li>\n\u003Cli>Déploiement continue\u003C/li>\n\u003Cli>Pérennité : partage du savoir, chaque partie du projet doivent être maitrisé par plusieurs personnes de l’équipe\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003C/ul>\n\u003C/body>\u003C/html>"},"uses":{"params":["page_slug"]}}]</script></div>
+    </body>
+</html>

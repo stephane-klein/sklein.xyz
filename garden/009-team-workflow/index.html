@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png" />
+        <link rel="icon" type="image/png" sizes="228x228" href="../../coast-228x228.png" />
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="content-security-policy" content="">
+	<link href="../../_app/immutable/assets/+layout-2dee2d47.css" rel="stylesheet">
+	<link rel="modulepreload" href="../../_app/immutable/start-8f4530fe.js">
+	<link rel="modulepreload" href="../../_app/immutable/chunks/index-1ca892d9.js">
+	<link rel="modulepreload" href="../../_app/immutable/chunks/singletons-07a1a1ac.js">
+	<link rel="modulepreload" href="../../_app/immutable/components/pages/_layout.svelte-be3368b1.js">
+	<link rel="modulepreload" href="../../_app/immutable/components/pages/garden/_page_slug_/_page.svelte-b97ea607.js">
+    </head>
+    <body>
+        <div>
+
+
+<article><div class="border-left"></div>
+    <aside class="left-sidebar"><div><a class="avatar" href="/"><img src="/_app/immutable/assets/avatar-fd7e3a86.webp" alt="Avatar"></a>
+
+            <div><h1><a href="/">sklein.xyz</a></h1>
+
+                <p>Je suis Stéphane, <a href="https://fr.wikipedia.org/wiki/Metz">Messin</a> expatrié à Paris,
+                    <a href="https://fr.wikipedia.org/wiki/Software_craftsmanship">artisan développeur</a>
+                    et <a href="https://fr.wikipedia.org/wiki/Tennis_de_table">pongiste</a>.
+                </p>
+
+                <p>Actuellement <a href="https://fr.wikipedia.org/wiki/Directeur_de_la_technologie">CTO</a> chez
+                    <a href="https://spacefill.fr/">SpaceFill</a>, j&#39;écris du code
+                    <a href="https://news.ycombinator.com/item?id=27256867">pour le plaisir</a> et pour gagner ma vie.
+                </p>
+
+                <hr>
+
+                <nav><ul><li><a href="/">Home / Sommaire</a></li>
+                        <li><a href="https://github.com/stephane-klein/">GitHub</a></li>
+                        <li><a href="https://twitter.com/klein_stephane">Twitter</a></li></ul></nav>
+                <footer><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>Ce(tte) œuvre est mise à disposition selon les termes de la
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</a>.
+                </footer></div></div></aside>
+
+    <main><h1>Team Workflow</h1>
+
+<dl><dt>Publié le : </dt><dd>2019-01-25</dd></dl>
+
+<!-- HTML_TAG_START --><html><head></head><body><h1 id="team-workflow" tabindex="-1"></h1>
+<p>Voici un workflow d’équipe de Dev/DevOPS que j’aime utiliser. Il fonctionne aussi bien en remote, semi remote que sur site.</p>
+<p>Outils :</p>
+<ul>
+<li>logiciel de chat (Slack, Mattermost…)</li>
+<li>gestionnaire de tickets (GitLab, GitHub, Jira…)</li>
+<li>gestionnaire de versions (GitLab, GitHub…)</li>
+</ul>
+<p>Pratiques :</p>
+<ul>
+<li>en début de journée, poster un message sur le channel de l’équipe :
+<ul>
+<li>pour dire bonjour</li>
+<li>optionnellement indiquez sa position physique :
+<ul>
+<li>En mode bureau flex ou coworking cela peut être utile pour rassembler un peu l’équipe sur un même lieu</li>
+</ul>
+</li>
+<li>indiquer le ticket sur lequel on travail</li>
+</ul>
+</li>
+<li>utiliser principalement le channel le l’équipe comme un <a href="https://revelry.co/watercooler-channel/">Watercooler Channel</a>, pourquoi : les informations importantes doivent être échangées via le système de ticket (dans les descriptions ou commentaires)</li>
+<li>quelques fois, dans des situations difficiles, les commentaires des issues ne sont pas suffisants, des échanges synchrones sont nécessaires, dans ce cas :
+<ul>
+<li>si <strong>toutes</strong> les personnes concernées par le sujet sont “sur site” : passer en mode échange oral</li>
+<li>sinon : passer en mode chat privé
+<ul>
+<li>À la fin le l’échange, mettre à jour les informations dans l’issue de manière très factuelle, courte et précise :
+<ul>
+<li>les inputs utiles (des urls, pièces jointes)</li>
+<li>un “rationalize” (pourquoi ces choix)</li>
+<li>la conclusion : la prise de décision, les actions concrètes</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Quand on commence un ticket :
+<ul>
+<li>se l’assigner</li>
+<li>le passer en status « in progress »</li>
+<li>informer qu’on commence ce ticket sur le channel de l’équipe</li>
+</ul>
+</li>
+<li>si on travaille sur du code :
+<ul>
+<li>créer une Merge Request dès le début, avant de commencer la moindre ligne de code</li>
+<li>pusher régulièrement ses avancées en mode Work In Progress</li>
+<li>faire un <a href="https://git-scm.com/book/fr/v1/Utilitaires-Git-R%C3%A9%C3%A9crire-l-historique">git squash</a> à la fin ou avant de demander un code review d’étape</li>
+<li>essayer autant que possible de faire les MergeRequest/Commit atomic, c’est à dire, un commit doit résoudre une tâche dans son entièreté</li>
+</ul>
+</li>
+<li>quand on a fini une tâche :
+<ul>
+<li>mettre à jour le ticket de la tâche avec les informations suivantes :
+<ul>
+<li>ajouter en commentaire ou dans la description les liens vers la Merge Request ou le/les commits qui résolvent le ticket</li>
+<li>si le commit n’est pas suffisant pour comprendre ce qui a été fait, indiquer les informations supplémentaire en commentaire du ticket. Exemple : indiquer sur quel environnement le changement a été déployé, si il a été bien testé, par qui, quels sont les résulats du test</li>
+<li>ne pas oublier de demander une review ou de fermer le ticket</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>être précis dans ses messages :
+<ul>
+<li>utiliser au maximum les urls plutôt que “d’indiquer les choses”. Exemples :</li>
+<li>donner l’url d’un ticket plutôt que son numéro</li>
+<li>donner l’url de l’ancre au bon endroit d’une doc, plutôt que d’expliquer où dans la doc en question</li>
+<li>donner l’url d’un document, plutôt que d’expliquer où se trouve le document</li>
+<li>donner l’url de la conversation Slack, plutôt que de dire « c’est écrit plut haut »</li>
+</ul>
+</li>
+<li>donner des feed-back rapides :
+<ul>
+<li>utiliser la réaction 👀 pour indiquer que vous êtes en train de lire une url ou un message</li>
+<li>utiliser la réaction ✅ pour indiquer que vous avez pris connaissance de l’information du message</li>
+<li>utiliser la réaction 🤔 pour indiquer que vous avez pris connaissance de l’information du message mais que vous ne répondez pas parce que je vous êtes encore en phase de réflexion</li>
+<li>utiliser la réaction 👍 pour indiquer que vous êtes d’accord avec l’information du message ou pour féliciter une action</li>
+</ul>
+</li>
+<li>il est souvent difficile de suivre les notifications des systèmes de gestions de tickets, dans ce cas :
+<ul>
+<li>indiquer sur le channel quand on prend ou qu’on travaille sur un ticket</li>
+<li>ping en privé de la personne quand on a posté un message dans une issue qui demande une réponse rapide</li>
+<li>demander les codes review sur le channel</li>
+</ul>
+</li>
+<li>gestion des niveaux d’urgences (si quelque chose bloque beaucoup ou non) :
+<ul>
+<li>si ce n’est pas très bloquant ou urgent : mettre à jour uniquement l’issue</li>
+<li>si c’est moyennement urgent : poster sur le channel</li>
+<li>si c’est urgent : poster en message direct privé</li>
+</ul>
+</li>
+<li>éviter les interuptions utilisant la fonctionnalité « Mettre les notifications en pause » pendant 30 minutes :
+<ul>
+<li>cela a l’avantage d’indiquer à vos contacts (via <a href="https://get.slack.help/hc/fr-fr/articles/214908388-Diff%C3%A9rer-les-notifications-avec-le-mode-Ne-pas-d%C3%A9ranger">une icône</a>) que vous êtes en mode « ne pas déranger »</li>
+<li>les notifications sont réellement mises en attente (elles ne sont pas perdus) pendant cette période</li>
+<li>cela permet de mettre plus ou moins en pratique une <a href="https://fr.wikipedia.org/wiki/Technique_Pomodoro">Technique Pomodoro</a></li>
+</ul>
+</li>
+</ul>
+<p>Note complémentaire :</p>
+<ul>
+<li>Prochainement, j’aimerais mettre en pratique <a href="https://about.gitlab.com/handbook/leadership/1-1/">The 1-1 Agenda</a></li>
+</ul>
+</body></html><!-- HTML_TAG_END --></main>
+    <div class="right-sidebar"><div></div></div>
+    <div class="border-right"></div></article>
+
+
+		<script type="module" data-sveltekit-hydrate="1y8i35c">
+		import { set_public_env, start } from "../../_app/immutable/start-8f4530fe.js";
+
+		set_public_env({});
+
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="1y8i35c"]').parentNode,
+			paths: {"base":"","assets":""},
+			route: true,
+			spa: false,
+			trailing_slash: "ignore",
+			hydrate: {
+				status: 200,
+				error: null,
+				node_ids: [0, 3],
+				params: {page_slug:"009-team-workflow"},
+				routeId: "garden/[page_slug]"
+			}
+		});
+	</script>
+	<script type="application/json" sveltekit:data-type="server_data">[null,{"type":"data","data":{"frontmatter":{"title":"Team Workflow","created_at":"2019-01-25"},"body":"\u003Chtml>\u003Chead>\u003C/head>\u003Cbody>\u003Ch1 id=\"team-workflow\" tabindex=\"-1\">\u003C/h1>\n\u003Cp>Voici un workflow d’équipe de Dev/DevOPS que j’aime utiliser. Il fonctionne aussi bien en remote, semi remote que sur site.\u003C/p>\n\u003Cp>Outils :\u003C/p>\n\u003Cul>\n\u003Cli>logiciel de chat (Slack, Mattermost…)\u003C/li>\n\u003Cli>gestionnaire de tickets (GitLab, GitHub, Jira…)\u003C/li>\n\u003Cli>gestionnaire de versions (GitLab, GitHub…)\u003C/li>\n\u003C/ul>\n\u003Cp>Pratiques :\u003C/p>\n\u003Cul>\n\u003Cli>en début de journée, poster un message sur le channel de l’équipe :\n\u003Cul>\n\u003Cli>pour dire bonjour\u003C/li>\n\u003Cli>optionnellement indiquez sa position physique :\n\u003Cul>\n\u003Cli>En mode bureau flex ou coworking cela peut être utile pour rassembler un peu l’équipe sur un même lieu\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>indiquer le ticket sur lequel on travail\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>utiliser principalement le channel le l’équipe comme un \u003Ca href=\"https://revelry.co/watercooler-channel/\">Watercooler Channel\u003C/a>, pourquoi : les informations importantes doivent être échangées via le système de ticket (dans les descriptions ou commentaires)\u003C/li>\n\u003Cli>quelques fois, dans des situations difficiles, les commentaires des issues ne sont pas suffisants, des échanges synchrones sont nécessaires, dans ce cas :\n\u003Cul>\n\u003Cli>si \u003Cstrong>toutes\u003C/strong> les personnes concernées par le sujet sont “sur site” : passer en mode échange oral\u003C/li>\n\u003Cli>sinon : passer en mode chat privé\n\u003Cul>\n\u003Cli>À la fin le l’échange, mettre à jour les informations dans l’issue de manière très factuelle, courte et précise :\n\u003Cul>\n\u003Cli>les inputs utiles (des urls, pièces jointes)\u003C/li>\n\u003Cli>un “rationalize” (pourquoi ces choix)\u003C/li>\n\u003Cli>la conclusion : la prise de décision, les actions concrètes\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>Quand on commence un ticket :\n\u003Cul>\n\u003Cli>se l’assigner\u003C/li>\n\u003Cli>le passer en status « in progress »\u003C/li>\n\u003Cli>informer qu’on commence ce ticket sur le channel de l’équipe\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>si on travaille sur du code :\n\u003Cul>\n\u003Cli>créer une Merge Request dès le début, avant de commencer la moindre ligne de code\u003C/li>\n\u003Cli>pusher régulièrement ses avancées en mode Work In Progress\u003C/li>\n\u003Cli>faire un \u003Ca href=\"https://git-scm.com/book/fr/v1/Utilitaires-Git-R%C3%A9%C3%A9crire-l-historique\">git squash\u003C/a> à la fin ou avant de demander un code review d’étape\u003C/li>\n\u003Cli>essayer autant que possible de faire les MergeRequest/Commit atomic, c’est à dire, un commit doit résoudre une tâche dans son entièreté\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>quand on a fini une tâche :\n\u003Cul>\n\u003Cli>mettre à jour le ticket de la tâche avec les informations suivantes :\n\u003Cul>\n\u003Cli>ajouter en commentaire ou dans la description les liens vers la Merge Request ou le/les commits qui résolvent le ticket\u003C/li>\n\u003Cli>si le commit n’est pas suffisant pour comprendre ce qui a été fait, indiquer les informations supplémentaire en commentaire du ticket. Exemple : indiquer sur quel environnement le changement a été déployé, si il a été bien testé, par qui, quels sont les résulats du test\u003C/li>\n\u003Cli>ne pas oublier de demander une review ou de fermer le ticket\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>être précis dans ses messages :\n\u003Cul>\n\u003Cli>utiliser au maximum les urls plutôt que “d’indiquer les choses”. Exemples :\u003C/li>\n\u003Cli>donner l’url d’un ticket plutôt que son numéro\u003C/li>\n\u003Cli>donner l’url de l’ancre au bon endroit d’une doc, plutôt que d’expliquer où dans la doc en question\u003C/li>\n\u003Cli>donner l’url d’un document, plutôt que d’expliquer où se trouve le document\u003C/li>\n\u003Cli>donner l’url de la conversation Slack, plutôt que de dire « c’est écrit plut haut »\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>donner des feed-back rapides :\n\u003Cul>\n\u003Cli>utiliser la réaction 👀 pour indiquer que vous êtes en train de lire une url ou un message\u003C/li>\n\u003Cli>utiliser la réaction ✅ pour indiquer que vous avez pris connaissance de l’information du message\u003C/li>\n\u003Cli>utiliser la réaction 🤔 pour indiquer que vous avez pris connaissance de l’information du message mais que vous ne répondez pas parce que je vous êtes encore en phase de réflexion\u003C/li>\n\u003Cli>utiliser la réaction 👍 pour indiquer que vous êtes d’accord avec l’information du message ou pour féliciter une action\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>il est souvent difficile de suivre les notifications des systèmes de gestions de tickets, dans ce cas :\n\u003Cul>\n\u003Cli>indiquer sur le channel quand on prend ou qu’on travaille sur un ticket\u003C/li>\n\u003Cli>ping en privé de la personne quand on a posté un message dans une issue qui demande une réponse rapide\u003C/li>\n\u003Cli>demander les codes review sur le channel\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>gestion des niveaux d’urgences (si quelque chose bloque beaucoup ou non) :\n\u003Cul>\n\u003Cli>si ce n’est pas très bloquant ou urgent : mettre à jour uniquement l’issue\u003C/li>\n\u003Cli>si c’est moyennement urgent : poster sur le channel\u003C/li>\n\u003Cli>si c’est urgent : poster en message direct privé\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>éviter les interuptions utilisant la fonctionnalité « Mettre les notifications en pause » pendant 30 minutes :\n\u003Cul>\n\u003Cli>cela a l’avantage d’indiquer à vos contacts (via \u003Ca href=\"https://get.slack.help/hc/fr-fr/articles/214908388-Diff%C3%A9rer-les-notifications-avec-le-mode-Ne-pas-d%C3%A9ranger\">une icône\u003C/a>) que vous êtes en mode « ne pas déranger »\u003C/li>\n\u003Cli>les notifications sont réellement mises en attente (elles ne sont pas perdus) pendant cette période\u003C/li>\n\u003Cli>cela permet de mettre plus ou moins en pratique une \u003Ca href=\"https://fr.wikipedia.org/wiki/Technique_Pomodoro\">Technique Pomodoro\u003C/a>\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003C/ul>\n\u003Cp>Note complémentaire :\u003C/p>\n\u003Cul>\n\u003Cli>Prochainement, j’aimerais mettre en pratique \u003Ca href=\"https://about.gitlab.com/handbook/leadership/1-1/\">The 1-1 Agenda\u003C/a>\u003C/li>\n\u003C/ul>\n\u003C/body>\u003C/html>"},"uses":{"params":["page_slug"]}}]</script></div>
+    </body>
+</html>

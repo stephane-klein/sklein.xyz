@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png" />
+        <link rel="icon" type="image/png" sizes="228x228" href="../../coast-228x228.png" />
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="content-security-policy" content="">
+	<link href="../../_app/immutable/assets/+layout-2dee2d47.css" rel="stylesheet">
+	<link rel="modulepreload" href="../../_app/immutable/start-8f4530fe.js">
+	<link rel="modulepreload" href="../../_app/immutable/chunks/index-1ca892d9.js">
+	<link rel="modulepreload" href="../../_app/immutable/chunks/singletons-07a1a1ac.js">
+	<link rel="modulepreload" href="../../_app/immutable/components/pages/_layout.svelte-be3368b1.js">
+	<link rel="modulepreload" href="../../_app/immutable/components/pages/garden/_page_slug_/_page.svelte-b97ea607.js">
+    </head>
+    <body>
+        <div>
+
+
+<article><div class="border-left"></div>
+    <aside class="left-sidebar"><div><a class="avatar" href="/"><img src="/_app/immutable/assets/avatar-fd7e3a86.webp" alt="Avatar"></a>
+
+            <div><h1><a href="/">sklein.xyz</a></h1>
+
+                <p>Je suis Stéphane, <a href="https://fr.wikipedia.org/wiki/Metz">Messin</a> expatrié à Paris,
+                    <a href="https://fr.wikipedia.org/wiki/Software_craftsmanship">artisan développeur</a>
+                    et <a href="https://fr.wikipedia.org/wiki/Tennis_de_table">pongiste</a>.
+                </p>
+
+                <p>Actuellement <a href="https://fr.wikipedia.org/wiki/Directeur_de_la_technologie">CTO</a> chez
+                    <a href="https://spacefill.fr/">SpaceFill</a>, j&#39;écris du code
+                    <a href="https://news.ycombinator.com/item?id=27256867">pour le plaisir</a> et pour gagner ma vie.
+                </p>
+
+                <hr>
+
+                <nav><ul><li><a href="/">Home / Sommaire</a></li>
+                        <li><a href="https://github.com/stephane-klein/">GitHub</a></li>
+                        <li><a href="https://twitter.com/klein_stephane">Twitter</a></li></ul></nav>
+                <footer><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>Ce(tte) œuvre est mise à disposition selon les termes de la
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</a>.
+                </footer></div></div></aside>
+
+    <main><h1>Mes recommandations pour maîtriser la dette technique au quotidien</h1>
+
+<dl><dt>Publié le : </dt><dd>2019-11-23</dd></dl>
+
+<!-- HTML_TAG_START --><html><head></head><body><h1 id="mes-recommandations-pour-maitriser-la-dette-technique-au-quotidien" tabindex="-1"></h1>
+<nav class="table-of-contents"><ul><li><a href="#avant-propos">Avant propos </a></li><li><a href="#allegorie-dune-partie-de-tetris">Allégorie d’une partie de Tetris </a></li><li><a href="#regles-de-bases">Règles de bases </a></li><li><a href="#au-quotidien">Au quotidien </a></li><li><a href="#quest-ce-qui-nest-pas-pour-moi-de-la-dette-technique">Qu’est-ce qui n’est pas pour moi de la dette technique ? </a></li><li><a href="#quest-ce-que-je-considere-etre-de-la-dette-technique">Qu’est-ce que je considère être de la dette technique ? </a></li></ul></nav><h2 id="avant-propos" tabindex="-1">Avant propos <a class="header-anchor" href="#avant-propos">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<p>Ce document est le résultat de mes divers expériences, il va sans doute évoluer, sera remis en cause dans les prochaines années.</p>
+<h2 id="allegorie-dune-partie-de-tetris" tabindex="-1">Allégorie d’une partie de Tetris <a class="header-anchor" href="#allegorie-dune-partie-de-tetris">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<p>Tout d’abord, j’invite à lire cet excellent article <a href="https://damien.pobel.fr/post/dette-technique-partie-tetris/">« La dette technique est comme une partie de
+Tetris. Tout code possède de la dette technique. C’est parfaitement normal. Vous pouvez continuer à jouer
+à Tetris même avec quelques trous. »</a>.</p>
+<h2 id="regles-de-bases" tabindex="-1">Règles de bases <a class="header-anchor" href="#regles-de-bases">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<p>Voici les règles que je suis pour garder la maitrise de mes projets :</p>
+<ul>
+<li><strong>tout développeur doit à tout moment pouvoir installer, exécuter et utiliser localement un projet.</strong><br>
+Comment ?
+<ul>
+<li>documenter les instructions d’installation et d’exécution, faire tester par plusieurs personnes</li>
+<li>quand un projet dépend d’infrastructures difficiles ou impossibler à installer, essayer de créer <a href="https://en.wikipedia.org/wiki/Mock_object">des composants qui simulent ces dépendances</a></li>
+<li>faire des efforts pour avoir des données pour les tests (<a href="https://en.wikipedia.org/wiki/Test_fixture#Software">fixture</a>…) et/ou de démo (sample data)</li>
+</ul>
+</li>
+<li><strong>tout développeur (autorisé) doit pouvoir à tout moment déployer le projet (from scratch et de manière incrémentale).</strong><br>
+Comment ?
+<ul>
+<li>documenter la procédure de déploiement, faire tester par plusieurs personnes</li>
+<li>utiliser un outil d’<a href="https://fr.wikipedia.org/wiki/Infrastructure_as_Code">Infrastructure as Code</a></li>
+<li>utiliser un outil de migration de modèle de données (SQL…)</li>
+</ul>
+</li>
+<li><strong>tout développeur doit toujours pouvoir tester localement un projet (manuellement ou automatiquement).</strong><br>
+Comment ?
+<ul>
+<li>documenter les instructions de test, faire tester par plusieurs personnes</li>
+<li>mettre à disposition des <a href="https://en.wikipedia.org/wiki/Test_fixture#Software">fixture</a> et/ou des données de démo (sample data)</li>
+</ul>
+</li>
+</ul>
+<h2 id="au-quotidien" tabindex="-1">Au quotidien <a class="header-anchor" href="#au-quotidien">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<p>Au quotidien, quand j’interviens sur un projet et que :</p>
+<ul>
+<li>je vois quelque chose d’améliorable</li>
+<li>je vois quelque chose difficile à comprendre</li>
+<li>je vois du code inconsistent avec le reste du projet</li>
+<li>j’ai beaucoup de difficulté à réaliser une tâche à cause de l’architecture actuelle du projet</li>
+</ul>
+<p>alors j’ai deux possibilités :</p>
+<ol>
+<li>si l’amélioration est rapide alors je l’exécute tout de suite dans une Merge Request</li>
+<li>ou alors je crée une Issue avec le label « Technical Debt » pour ne pas <a href="https://github.com/stephane-klein/personnal-notebook/blob/draft-how-i-manage-technical-debt/003-ne-tonds-pas-de-yaks.md">tondre un Yak!</a></li>
+</ol>
+<p>Quand je tombe plusieurs fois sur quelque chose qui me fait perdre du temps, un élément de dette technique : mettre un 👍 (pour signifier « moi aussi j’ai ce problème ») et peut être un commentaire supplémentaire sur l’issue de cette dette technique.</p>
+<p>Quand je suis bloqué sur une issue, en attente d’information ou de review de code… alors c’est peut être le bon moment pour avancer un peu sur un ticket de bug ou de dette technique.</p>
+<p>Si un élément de dette technique ralenti fortement le développement, alors l’intégrer dans un sprint.</p>
+<h2 id="quest-ce-qui-nest-pas-pour-moi-de-la-dette-technique" tabindex="-1">Qu’est-ce qui n’est pas pour moi de la dette technique ? <a class="header-anchor" href="#quest-ce-qui-nest-pas-pour-moi-de-la-dette-technique">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<p>Je ne considère pas être de la dette technique les éléments suivants :</p>
+<ul>
+<li>le choix du langage de programmation</li>
+<li>le choix du framework</li>
+<li>un choix d’architecture</li>
+<li>des bugs</li>
+</ul>
+<h2 id="quest-ce-que-je-considere-etre-de-la-dette-technique" tabindex="-1">Qu’est-ce que je considère être de la dette technique ? <a class="header-anchor" href="#quest-ce-que-je-considere-etre-de-la-dette-technique">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<p>Tout ce qui m’empêche de travailler correctement sur un projet, par exemple :</p>
+<ul>
+<li>je n’arrive pas à installer l’environnement de developement du projet de manière autonome</li>
+<li>je n’arrive pas à utiliser (« jouer avec ») le projet localement</li>
+<li>je n’arrive pas à tester (manuellement ou non) une fonctionnalité du projet en dehors de son environnement de production</li>
+</ul>
+</body></html><!-- HTML_TAG_END --></main>
+    <div class="right-sidebar"><div></div></div>
+    <div class="border-right"></div></article>
+
+
+		<script type="module" data-sveltekit-hydrate="1k46c5b">
+		import { set_public_env, start } from "../../_app/immutable/start-8f4530fe.js";
+
+		set_public_env({});
+
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="1k46c5b"]').parentNode,
+			paths: {"base":"","assets":""},
+			route: true,
+			spa: false,
+			trailing_slash: "ignore",
+			hydrate: {
+				status: 200,
+				error: null,
+				node_ids: [0, 3],
+				params: {page_slug:"018-how-i-manage-technical-debt"},
+				routeId: "garden/[page_slug]"
+			}
+		});
+	</script>
+	<script type="application/json" sveltekit:data-type="server_data">[null,{"type":"data","data":{"frontmatter":{"title":"Mes recommandations pour maîtriser la dette technique au quotidien","created_at":"2019-11-23"},"body":"\u003Chtml>\u003Chead>\u003C/head>\u003Cbody>\u003Ch1 id=\"mes-recommandations-pour-maitriser-la-dette-technique-au-quotidien\" tabindex=\"-1\">\u003C/h1>\n\u003Cnav class=\"table-of-contents\">\u003Cul>\u003Cli>\u003Ca href=\"#avant-propos\">Avant propos \u003C/a>\u003C/li>\u003Cli>\u003Ca href=\"#allegorie-dune-partie-de-tetris\">Allégorie d’une partie de Tetris \u003C/a>\u003C/li>\u003Cli>\u003Ca href=\"#regles-de-bases\">Règles de bases \u003C/a>\u003C/li>\u003Cli>\u003Ca href=\"#au-quotidien\">Au quotidien \u003C/a>\u003C/li>\u003Cli>\u003Ca href=\"#quest-ce-qui-nest-pas-pour-moi-de-la-dette-technique\">Qu’est-ce qui n’est pas pour moi de la dette technique ? \u003C/a>\u003C/li>\u003Cli>\u003Ca href=\"#quest-ce-que-je-considere-etre-de-la-dette-technique\">Qu’est-ce que je considère être de la dette technique ? \u003C/a>\u003C/li>\u003C/ul>\u003C/nav>\u003Ch2 id=\"avant-propos\" tabindex=\"-1\">Avant propos \u003Ca class=\"header-anchor\" href=\"#avant-propos\">\n                    \u003Cspan aria-hidden=\"true\">¶\u003C/span>\n                \u003C/a>\u003C/h2>\n\u003Cp>Ce document est le résultat de mes divers expériences, il va sans doute évoluer, sera remis en cause dans les prochaines années.\u003C/p>\n\u003Ch2 id=\"allegorie-dune-partie-de-tetris\" tabindex=\"-1\">Allégorie d’une partie de Tetris \u003Ca class=\"header-anchor\" href=\"#allegorie-dune-partie-de-tetris\">\n                    \u003Cspan aria-hidden=\"true\">¶\u003C/span>\n                \u003C/a>\u003C/h2>\n\u003Cp>Tout d’abord, j’invite à lire cet excellent article \u003Ca href=\"https://damien.pobel.fr/post/dette-technique-partie-tetris/\">« La dette technique est comme une partie de\nTetris. Tout code possède de la dette technique. C’est parfaitement normal. Vous pouvez continuer à jouer\nà Tetris même avec quelques trous. »\u003C/a>.\u003C/p>\n\u003Ch2 id=\"regles-de-bases\" tabindex=\"-1\">Règles de bases \u003Ca class=\"header-anchor\" href=\"#regles-de-bases\">\n                    \u003Cspan aria-hidden=\"true\">¶\u003C/span>\n                \u003C/a>\u003C/h2>\n\u003Cp>Voici les règles que je suis pour garder la maitrise de mes projets :\u003C/p>\n\u003Cul>\n\u003Cli>\u003Cstrong>tout développeur doit à tout moment pouvoir installer, exécuter et utiliser localement un projet.\u003C/strong>\u003Cbr>\nComment ?\n\u003Cul>\n\u003Cli>documenter les instructions d’installation et d’exécution, faire tester par plusieurs personnes\u003C/li>\n\u003Cli>quand un projet dépend d’infrastructures difficiles ou impossibler à installer, essayer de créer \u003Ca href=\"https://en.wikipedia.org/wiki/Mock_object\">des composants qui simulent ces dépendances\u003C/a>\u003C/li>\n\u003Cli>faire des efforts pour avoir des données pour les tests (\u003Ca href=\"https://en.wikipedia.org/wiki/Test_fixture#Software\">fixture\u003C/a>…) et/ou de démo (sample data)\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>\u003Cstrong>tout développeur (autorisé) doit pouvoir à tout moment déployer le projet (from scratch et de manière incrémentale).\u003C/strong>\u003Cbr>\nComment ?\n\u003Cul>\n\u003Cli>documenter la procédure de déploiement, faire tester par plusieurs personnes\u003C/li>\n\u003Cli>utiliser un outil d’\u003Ca href=\"https://fr.wikipedia.org/wiki/Infrastructure_as_Code\">Infrastructure as Code\u003C/a>\u003C/li>\n\u003Cli>utiliser un outil de migration de modèle de données (SQL…)\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003Cli>\u003Cstrong>tout développeur doit toujours pouvoir tester localement un projet (manuellement ou automatiquement).\u003C/strong>\u003Cbr>\nComment ?\n\u003Cul>\n\u003Cli>documenter les instructions de test, faire tester par plusieurs personnes\u003C/li>\n\u003Cli>mettre à disposition des \u003Ca href=\"https://en.wikipedia.org/wiki/Test_fixture#Software\">fixture\u003C/a> et/ou des données de démo (sample data)\u003C/li>\n\u003C/ul>\n\u003C/li>\n\u003C/ul>\n\u003Ch2 id=\"au-quotidien\" tabindex=\"-1\">Au quotidien \u003Ca class=\"header-anchor\" href=\"#au-quotidien\">\n                    \u003Cspan aria-hidden=\"true\">¶\u003C/span>\n                \u003C/a>\u003C/h2>\n\u003Cp>Au quotidien, quand j’interviens sur un projet et que :\u003C/p>\n\u003Cul>\n\u003Cli>je vois quelque chose d’améliorable\u003C/li>\n\u003Cli>je vois quelque chose difficile à comprendre\u003C/li>\n\u003Cli>je vois du code inconsistent avec le reste du projet\u003C/li>\n\u003Cli>j’ai beaucoup de difficulté à réaliser une tâche à cause de l’architecture actuelle du projet\u003C/li>\n\u003C/ul>\n\u003Cp>alors j’ai deux possibilités :\u003C/p>\n\u003Col>\n\u003Cli>si l’amélioration est rapide alors je l’exécute tout de suite dans une Merge Request\u003C/li>\n\u003Cli>ou alors je crée une Issue avec le label « Technical Debt » pour ne pas \u003Ca href=\"https://github.com/stephane-klein/personnal-notebook/blob/draft-how-i-manage-technical-debt/003-ne-tonds-pas-de-yaks.md\">tondre un Yak!\u003C/a>\u003C/li>\n\u003C/ol>\n\u003Cp>Quand je tombe plusieurs fois sur quelque chose qui me fait perdre du temps, un élément de dette technique : mettre un 👍 (pour signifier « moi aussi j’ai ce problème ») et peut être un commentaire supplémentaire sur l’issue de cette dette technique.\u003C/p>\n\u003Cp>Quand je suis bloqué sur une issue, en attente d’information ou de review de code… alors c’est peut être le bon moment pour avancer un peu sur un ticket de bug ou de dette technique.\u003C/p>\n\u003Cp>Si un élément de dette technique ralenti fortement le développement, alors l’intégrer dans un sprint.\u003C/p>\n\u003Ch2 id=\"quest-ce-qui-nest-pas-pour-moi-de-la-dette-technique\" tabindex=\"-1\">Qu’est-ce qui n’est pas pour moi de la dette technique ? \u003Ca class=\"header-anchor\" href=\"#quest-ce-qui-nest-pas-pour-moi-de-la-dette-technique\">\n                    \u003Cspan aria-hidden=\"true\">¶\u003C/span>\n                \u003C/a>\u003C/h2>\n\u003Cp>Je ne considère pas être de la dette technique les éléments suivants :\u003C/p>\n\u003Cul>\n\u003Cli>le choix du langage de programmation\u003C/li>\n\u003Cli>le choix du framework\u003C/li>\n\u003Cli>un choix d’architecture\u003C/li>\n\u003Cli>des bugs\u003C/li>\n\u003C/ul>\n\u003Ch2 id=\"quest-ce-que-je-considere-etre-de-la-dette-technique\" tabindex=\"-1\">Qu’est-ce que je considère être de la dette technique ? \u003Ca class=\"header-anchor\" href=\"#quest-ce-que-je-considere-etre-de-la-dette-technique\">\n                    \u003Cspan aria-hidden=\"true\">¶\u003C/span>\n                \u003C/a>\u003C/h2>\n\u003Cp>Tout ce qui m’empêche de travailler correctement sur un projet, par exemple :\u003C/p>\n\u003Cul>\n\u003Cli>je n’arrive pas à installer l’environnement de developement du projet de manière autonome\u003C/li>\n\u003Cli>je n’arrive pas à utiliser (« jouer avec ») le projet localement\u003C/li>\n\u003Cli>je n’arrive pas à tester (manuellement ou non) une fonctionnalité du projet en dehors de son environnement de production\u003C/li>\n\u003C/ul>\n\u003C/body>\u003C/html>"},"uses":{"params":["page_slug"]}}]</script></div>
+    </body>
+</html>
