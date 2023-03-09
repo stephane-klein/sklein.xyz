@@ -41,7 +41,7 @@
     "type": "module",
     "dependencies": {
         "cheerio": "1.0.0-rc.12",
-        "glob": "8.0.3",
+        "glob": "9.2.1",
         "gray-matter": "4.0.3",
         "js-yaml": "4.1.0",
         "markdown-it": "13.0.1",
