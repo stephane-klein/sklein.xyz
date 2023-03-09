@@ -19,6 +19,6 @@ export async function load() {
                     frontmatter: matter_read(filename).data,
                 };
             })
-        ),
+        )
     };
 }
