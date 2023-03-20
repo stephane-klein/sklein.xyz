@@ -7,6 +7,8 @@
 </svelte:head>
 
 <div>
+    <p>This page in English: <a href="/en/">https://sklein.xyz/en/</a>.</p>
+
     <p>Bonjour 👋</p>
 
     <p>
