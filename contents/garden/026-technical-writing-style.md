@@ -3,7 +3,11 @@ title: Style d'écriture de mon jardin numérique
 created_at: 2021-11-06
 ---
 
+Contenu :
+
 [toc]
+
+<hr />
 
 # Style d'écriture de mon jardin numérique
 

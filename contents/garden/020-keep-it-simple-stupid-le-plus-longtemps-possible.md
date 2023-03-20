@@ -2,6 +2,7 @@
 title: Keep it simple, stupid le plus longtemps possible
 created_at: 2020-03-03
 ---
+
 # Keep it simple, stupid le plus longtemps possible
 
 [[toc]]
@@ -61,7 +62,7 @@ Mon but était-il de faire du code ou de créer un produit rapidement tout en é
 
 De 2007 à 2013 j'ai poursuivi la quête du [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), de [« la balle d'argent »](https://fr.wikipedia.org/wiki/Pas_de_balle_en_argent) !
 
-Influencé par [Ruby On Rails](https://fr.wikipedia.org/wiki/Ruby_on_Rails), [Django](https://fr.wikipedia.org/wiki/Django_(framework)),
+Influencé par [Ruby On Rails](https://fr.wikipedia.org/wiki/Ruby_on_Rails), [Django](<https://fr.wikipedia.org/wiki/Django_(framework)>),
 mon rêve pour améliorer ma productivité était de générer automatiquement les applications à partir du modèle de données et des informations de paramétrages des UX.
 
 Ce fut un échec, un [Yak!](https://github.com/stephane-klein/personnal-notebook/blob/master/003-ne-tonds-pas-de-yaks.md) perpétuel !
@@ -76,7 +77,7 @@ Je passais la majorité de mon temps à :
 Je me suis trouvé de plus en plus dans des situations où je passais par exemple plus d'une semaine pour modifier un cas particulier d'un simple champ select html,
 chose qui m'aurait pris 30min sans framework, sans toutes les couches de magies.
 
-À cela s'ajoute en équipe, les heures et les heures de [trolls](https://fr.wikipedia.org/wiki/Troll_(Internet)) de choix de framework.<br />
+À cela s'ajoute en équipe, les heures et les heures de [trolls](<https://fr.wikipedia.org/wiki/Troll_(Internet)>) de choix de framework.<br />
 Chaque développeur a ses préférences, pour tel ou tel framework et tout cela est parfaitement argumentable, car ils ont tous des forces et faiblesses.
 
 C'est suite à cette expérience que j'ai très peur de bâtir une application sur des solutions comme [React Admin](https://github.com/marmelab/react-admin), [Forest Admin](https://www.forestadmin.com/) si je sais que je vais devoir les adapter (solutions qui peuvent être très bien pour faire un [POC](https://fr.wikipedia.org/wiki/Preuve_de_concept) ou un [MVP](https://fr.wikipedia.org/wiki/Produit_minimum_viable)), j'ai très peur de tomber dans un énorme [Yak!](https://github.com/stephane-klein/personnal-notebook/blob/master/003-ne-tonds-pas-de-yaks.md).
@@ -107,7 +108,7 @@ Depuis 15 ans, je suis très influencé par [les 19 principes du Zen de Python](
 > - Mais, à la pureté, privilégie l'aspect pratique.
 > - Face à l'ambiguïté, à deviner ne te laisse pas aller.
 
-Les choix minimalistes avec peu de sophistication du langage [Go](https://en.wikipedia.org/wiki/Go_(programming_language)) a conforté la direction [KISS](https://fr.wikipedia.org/wiki/Principe_KISS).
+Les choix minimalistes avec peu de sophistication du langage [Go](<https://en.wikipedia.org/wiki/Go_(programming_language)>) a conforté la direction [KISS](https://fr.wikipedia.org/wiki/Principe_KISS).
 
 ## Partie 3 : prise de décision, le code direct, du code "stupide"
 
@@ -122,7 +123,7 @@ J'essaie de garder un code le plus flat possible ([The art of avoiding nested co
 J'essaie de découper mon code uniquement si j'ai trop de "douleur" ou si cela apporte de la valeur fonctionnelle, exemple :
 
 - je crée une fonction si j'ai besoin de la tester dans un test unitaire, ce qui fini par être le cas si j'ai trop de difficulté sur une section de code
-- je crée une fonction pour éviter de la duplication en suivant la règle [« Rule of three »](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming))
+- je crée une fonction pour éviter de la duplication en suivant la règle [« Rule of three »](<https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)>)
 
 ## Ressources
 
@@ -133,7 +134,7 @@ J'essaie de découper mon code uniquement si j'ai trop de "douleur" ou si cela a
 - [Duplicate code](https://en.wikipedia.org/wiki/Duplicate_code)
 - [Code reuse](https://en.wikipedia.org/wiki/Code_reuse)
 - [Database normalization](https://en.wikipedia.org/wiki/Database_normalization)
-- [Rule of three (computer programming)](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming))
+- [Rule of three (computer programming)](<https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)>)
 - [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
 - [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth)
 - [On Coding, Ego and Attention](https://josebrowne.com/on-coding-ego-and-attention/)

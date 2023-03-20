@@ -3,6 +3,12 @@ title: Documentation de référence interne
 created_at: 2019-02-14
 ---
 
+Contenu :
+
+[toc]
+
+<hr />
+
 # Documentation de référence interne
 
 ## Qu'est-ce qu'une documentation de référence interne ?
@@ -49,4 +55,4 @@ Il existe une grande probabilité de chance qu'une société dépourvu de docume
 
 En 2019, nous avons la chance d'avoir un exemple majeur de documentation interne de référence est librement accessible : [GitLab Handbook](https://about.gitlab.com/handbook/) ([dépôt git du projet](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/handbook))
 
-Ce type d'outil peut sembler anodin ou secondaire, mais après presque 20 ans d'expérience, dans 7 entreprises différentes, je suis persuadé que est un élément clé au bon fonctionnement d'un collectif. 
+Ce type d'outil peut sembler anodin ou secondaire, mais après presque 20 ans d'expérience, dans 7 entreprises différentes, je suis persuadé que est un élément clé au bon fonctionnement d'un collectif.

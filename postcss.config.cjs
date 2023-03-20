@@ -1,4 +1,4 @@
-module.exports = ({ env }) => ({
+module.exports = {
     map: true,
     plugins: {
         'postcss-normalize': {},
@@ -6,4 +6,4 @@ module.exports = ({ env }) => ({
         'postcss-import': {},
         'autoprefixer': {}
     }
-})
+}

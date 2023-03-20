@@ -1,59 +1,32 @@
+<!-- I wish to follow as much as possible the https://brutalist-web.design/ recommandations -->
 <script>
     import "../screen.css";
-    import Avatar from "$lib/assets/avatar.png?w=300&webp";
 </script>
 
 <article>
-    <div class="border-left" />
-    <aside class="left-sidebar">
-        <div>
-            <a class="avatar" href="/"><img src={Avatar} alt="Avatar" /></a>
-
-            <div>
-                <h1><a href="/">sklein.xyz</a></h1>
-
-                <p>
-                    Je suis Stéphane, <a href="https://fr.wikipedia.org/wiki/Metz">Messin</a> expatrié à Paris,
-                    <a href="https://fr.wikipedia.org/wiki/Software_craftsmanship">artisan développeur</a>
-                    et <a href="https://fr.wikipedia.org/wiki/Tennis_de_table">pongiste</a>.
-                </p>
-
-                <p>
-                    Actuellement <a href="https://fr.wikipedia.org/wiki/Directeur_de_la_technologie">CTO</a> chez
-                    <a href="https://spacefill.fr/">SpaceFill</a>, j'écris du code
-                    <a href="https://news.ycombinator.com/item?id=27256867">pour le plaisir</a> et pour gagner ma vie.
-                </p>
-
-                <hr />
-
-                <nav>
-                    <ul>
-                        <li><a href="/">Home / Sommaire</a></li>
-                        <li><a href="https://github.com/stephane-klein/">GitHub</a></li>
-                        <li><a href="https://twitter.com/klein_stephane">Twitter</a></li>
-                    </ul>
-                </nav>
-                <footer>
-                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
-                        ><img
-                            alt="Licence Creative Commons"
-                            style="border-width:0"
-                            src="https://i.creativecommons.org/l/by/4.0/88x31.png"
-                        /></a
-                    ><br />Ce(tte) œuvre est mise à disposition selon les termes de la
-                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
-                        >Licence Creative Commons Attribution 4.0 International</a
-                    >.
-                </footer>
-            </div>
-        </div>
-    </aside>
-
+    <nav>
+        <a href="/">Accueil</a>
+        <span>|</span>
+        <a href="https://github.com/stephane-klein?tab=repositories">Projets</a>
+        <!-- Todo, see https://github.com/stephane-klein/sklein.xyz/issues/58
+        <span>|</span>
+        <a href="/">Now</a>
+        -->
+        <span>|</span>
+        <a href="https://cv.stephane-klein.info">CV</a>
+        <!-- Todo, see https://github.com/stephane-klein/sklein.xyz/issues/59
+        <span>|</span>
+        <a href="/">RSS</a>
+        -->
+    </nav>
     <main>
         <slot />
     </main>
-    <div class="right-sidebar">
-        <div />
-    </div>
-    <div class="border-right" />
+    <footer>
+        <hr />
+        Ce(tte) œuvre est mise à disposition selon les termes de la
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+            >Licence Creative Commons Attribution 4.0 International</a
+        >.
+    </footer>
 </article>

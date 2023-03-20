@@ -1,9 +1,12 @@
+/* I wish to follow as much as possible the https://brutalist-web.design/ recommandations */
 /* https://hslpicker.com/ */
 :root {
     --background-color: hsl(204, 5%, 21%);
     --text-color: hsl(0, 0%, 70%);
     --text-color-dark: hsl(0, 0%, 50%);
-    --link-text-color: hsl(0, 0%, 100%);
+    --link-text-color: hsl(188, 100%, 50%);
+    --link-text-visited-color: hsl(188, 100%, 40%);
+    --link-text-decoration: underline;
     --heading-h1-text-color: hsl(0, 0%, 90%);
     --heading-h2-h3-h4-text-color: hsl(0, 0%, 80%);
     --header-anchor-color: hsl(0, 0%, 60%);
@@ -31,14 +34,48 @@ BODY {
     }
     line-height: 1.8em;
     background-color: var(--background-color);
-    margin: 0;
+    width: 60rem;
+    margin: auto;
     padding: 0;
     color: var(--text-color);
     scroll-behavior: smooth;
 }
 
+ARTICLE {
+    margin: 1rem;
+
+    NAV {
+        font-size: 80%;
+    }
+
+    UL {
+        padding-left: 1rem;
+    }
+
+    DL {
+        margin: 0;
+        font-size: 80%;
+        display: flex;
+        flex-direction: row;
+
+        DD {
+            margin: 0;
+        }
+    }
+
+    MAIN {
+        margin: 1rem 0;
+    }
+
+    FOOTER {
+        margin-top: 4rem;
+        font-size: 80%;
+    }
+}
+
 H1 {
     color: var(--heading-h1-text-color);
+    margin: 0;
 }
 H2, H3, H4 {
     color: var(--heading-h2-h3-h4-text-color);
@@ -55,212 +92,12 @@ H1, H2, H3, H4 {
 
 A {
     color: var(--link-text-color);
-    text-decoration: none;
+    text-decoration: var(--link-text-decoration);
 
     &:hover {
         text-decoration: underline;
     }
-}
-
-.border-left {
-    grid-area: border-left;
-    background-color: var(--sidebar-background-color);
-}
-.border-right {
-    grid-area: border-right;
-}
-
-ARTICLE {
-    /* https://ux.stackexchange.com/questions/3618/ideal-column-width-for-paragraphs-online */
-    grid-template-columns: auto;
-    grid-template-rows: 1fr auto;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "main"
-        "left-sidebar";
-    min-height: 100vh;
-
-    .border-left {
-        display: none;
-    }
-    .right-sidebar {
-        display: none;
-    }
-    .border-right {
-        display: none;
-    }
-}
-@media (min-width: 90rem) {
-    ARTICLE {
-        /* https://ux.stackexchange.com/questions/3618/ideal-column-width-for-paragraphs-online */
-        grid-template-columns: 26rem 60rem;
-        grid-template-rows: 1fr;
-        gap: 0px 0px;
-        grid-template-areas:
-            "left-sidebar main";
-        min-height: 100vh;
-    }
-}
-@media (min-width: 120rem) {
-    ARTICLE {
-        /* https://ux.stackexchange.com/questions/3618/ideal-column-width-for-paragraphs-online */
-        grid-template-columns: 1fr 26rem 60rem 24em 1fr;
-        grid-template-rows: 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "border-left left-sidebar main right-sidebar border-right";
-        min-height: 100vh;
-
-        .border-left {
-            display: block;
-        }
-        .right-sidebar {
-            display: block;
-        }
-        .border-right {
-            display: block;
-        }
-    }
-}
-
-ARTICLE {
-    box-sizing: border-box;
-    display: grid;
-    margin: auto;
-    .left-sidebar > DIV {
-        grid-area: left-sidebar;
-
-        @media (min-width: 90rem) {
-            top: 0;
-            position: sticky;
-            overflow-y: scroll;
-            height: 100vh;
-        }
-        scroll-behavior: smooth;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 2rem 2rem;
-        color: var(--sidebar-text-color);
-        background-color: var(--sidebar-background-color);
-
-        .avatar {
-            text-align: center;
-            img {
-                width: 14rem;
-            }
-        }
-
-        DIV {
-            H1 {
-                font-size: 2rem;
-                color: var(--sidebar-h1-text-color);
-            }
-
-            HR {
-                color: hsl(0, 0%, 35%);
-            }
-
-            NAV {
-                UL {
-                    padding: 0;
-                    list-style: none;
-                    display: flex;
-                    flex-direction: column;
-                    gap: 0.5rem;
-                    justify-content: space-between;
-                }
-            }
-        }
-
-        FOOTER {
-            margin-top: 2rem;
-            font-size: 1rem;
-            line-height: 1.4rem;
-            color: hsl(0, 0%, 60%);
-            A {
-                color: hsl(0, 0%, 80%);
-            }
-        }
-    }
-    MAIN {
-        grid-area: main;
-        padding: 2rem 2rem;
-        UL {
-            padding-left: 1em;
-        }
-        margin-bottom: 10rem;
-
-        H1 {
-            margin-bottom: 0;
-        }
-
-        DL {
-            display: flex;
-            font-size: 0.8em;
-            margin-top: 0;
-            color: var(--text-color-dark);
-            DT, DD {
-                margin: 0;
-            }
-        }
-        .table-of-contents {
-            display: none;
-        }
-    }
-
-    .right-sidebar > DIV {
-        grid-area: right-sidebar;
-
-        top: 0;
-        position: sticky;
-        padding-top: 2rem;
-
-        > DIV {
-            font-size: 1rem;
-            line-height: 2em;
-
-            border-left: 1px solid var(--toc-left-line-color);
-            padding: 1rem 0 1rem 2rem;
-            H2 {
-                font-size: 1rem;
-                margin: 0;
-                padding: 0;
-            }
-
-            .table-of-contents {
-                A {
-                    color: var(--toc-text-color);
-                }
-                UL {
-                    margin: 0;
-                    padding: 0;
-                    list-style: none;
-
-                    UL {
-                        padding-left: 1rem;
-                    }
-                    .active {
-                        color: var(--toc-text-active-color);
-                        border-left: 2px solid var(--toc-left-active-line-color);
-
-                        margin-left: calc(-2rem - 2px);
-                        padding-left: 2rem;
-                    }
-
-                    UL .active {
-                        margin-left: calc(-3rem - 2px);
-                        padding-left: 3rem;
-                    }
-
-                    UL UL .active {
-                        margin-left: calc(-4rem - 2px);
-                        padding-left: 4rem;
-                    }
-                }
-            }
-        }
+    &:visited {
+        color: var(--link-text-visited-color);
     }
 }
