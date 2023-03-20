@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="../../../favicon-48x48.png" />
+        <link rel="icon" type="image/png" sizes="228x228" href="../../../coast-228x228.png" />
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="content-security-policy" content="">
+		<link href="../../../_app/immutable/assets/screen.96dd00a0.css" rel="stylesheet">
+		<link rel="modulepreload" href="../../../_app/immutable/entry/start.38e438b1.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/index.75644797.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/singletons.f18a5b2b.js">
+		<link rel="modulepreload" href="../../../_app/immutable/entry/app.c0aba7c1.js">
+		<link rel="modulepreload" href="../../../_app/immutable/entry/layout.svelte.c00900c5.js">
+		<link rel="modulepreload" href="../../../_app/immutable/entry/_layout.js.d9445b3f.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/_layout.64b8465d.js">
+		<link rel="modulepreload" href="../../../_app/immutable/entry/fr-layout.svelte.e50a2d13.js">
+		<link rel="modulepreload" href="../../../_app/immutable/entry/fr-garden-_page_slug_-page.svelte.540df16a.js">
+    </head>
+    <body>
+        <div>
+
+
+
+
+
+<article><nav><a href="/fr/">Accueil</a>
+        <span>|</span>
+        <a href="/en/">English home page</a>
+        <span>|</span>
+        <a href="https://github.com/stephane-klein?tab=repositories">Projets</a>
+        
+        <span>|</span>
+        <a href="https://cv.stephane-klein.info">CV</a>
+        </nav>
+    <main><h1>Keep it simple, stupid le plus longtemps possible</h1>
+
+<dl><dt>Publié le : </dt><dd>2020-03-03</dd></dl>
+
+<!-- HTML_TAG_START --><html><head></head><body><h1 id="keep-it-simple-stupid-le-plus-longtemps-possible" tabindex="-1"></h1>
+<nav class="table-of-contents"><ul><li><a href="#partie-1-la-quete-du-code-parfait">Partie 1 : la quête du code “parfait” </a></li><li><a href="#partie-2-la-prise-de-conscience-le-trop-de-tout">Partie 2 : la prise de conscience, le “trop de tout” </a><ul><li><a href="#quest-ce-qui-ma-aide-a-prendre-ce-recul">Qu’est-ce qui m’a aidé à prendre ce recul ? </a><ul><li><a href="#des-echecs">Des échecs </a></li><li><a href="#des-personnes">Des personnes </a></li><li><a href="#linfluence-culturelle-de-technos">L’influence culturelle de technos </a></li></ul></li></ul></li><li><a href="#partie-3-prise-de-decision-le-code-direct-du-code-stupide">Partie 3 : prise de décision, le code direct, du code “stupide” </a></li><li><a href="#ressources">Ressources </a></li></ul></nav><p>Depuis quelques années, j’utilise les mots suivants pour décrire mon mindset de développement :</p>
+<blockquote>
+<p>« Je suis au maximum le principe KISS (<a href="https://fr.wikipedia.org/wiki/Principe_KISS">Keep it simple, stupid</a>), j’écris le code le plus direct possible
+et quand j’ai trop de “douleur” alors je refactor mon code et j’y ajoute le minimum de sophistication indispensable »</p>
+</blockquote>
+<div align="center">
+    <img class="center" alt="The only valid measurement of code quality : WTFs/minute" src="https://camo.githubusercontent.com/0607e034aee88cce40b832367d44265e01b42654/68747470733a2f2f7777772e6f736e6577732e636f6d2f696d616765732f636f6d6963732f7774666d2e6a7067">
+</div>
+<p>Ici j’utilise le mot “douleur” dans le sens de <a href="https://hn.algolia.com/?dateRange=all&amp;page=0&amp;prefix=false&amp;query=pain%20point&amp;sort=byPopularity&amp;type=story">“a pain point”</a> en anglais : quelque chose de casse-pieds, pénibilité, grosse difficulté…</p>
+<h2 id="partie-1-la-quete-du-code-parfait" tabindex="-1">Partie 1 : la quête du code “parfait” <a class="header-anchor" href="#partie-1-la-quete-du-code-parfait">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<p>Pendant la plus grande première partie de ma vie de développeur, j’ai essayé d’écrire le code le plus “propre” possible.</p>
+<p>Cela passait par :</p>
+<ul>
+<li>Découper le code en petites fonctions</li>
+<li>Éviter toute duplication de code (mon plus grand combat était le <a href="https://en.wikipedia.org/wiki/Copy-and-paste_programming">copy-and-paste programming</a>, j’ai embêté beaucoup de monde avec cela)</li>
+<li>Organiser le plus logiquement possible l’arborescence des dossiers</li>
+<li>Créer le maximum de classes (programmation objet) avec le maximum de niveau d’héritage (à l’époque c’était cool de faire de l’héritage)</li>
+<li>Utiliser les <a href="https://en.wikipedia.org/wiki/Design_Patterns">Design Patterns</a> (j’ai aussi creusé la <a href="https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_aspect">programmation orientée aspect</a>…)</li>
+<li><a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">Don’t repeat yourself</a></li>
+<li>Découper mon projet en de petits projets ou librairies réutilisables</li>
+<li>Multiplier le nombres de repositories (Git…)</li>
+<li>Écrire du code pérenne dans le temps</li>
+<li>J’essayais d’écrire tout de suite le code dans sa version finale, devoir intervenir à nouveau sur du code était pour moi un échec, la preuve d’un mauvais choix de design.</li>
+</ul>
+<p>En résumé, un beau code était pour moi un code “intelligent” avec beaucoup de sophistication.</p>
+<h2 id="partie-2-la-prise-de-conscience-le-trop-de-tout" tabindex="-1">Partie 2 : la prise de conscience, le “trop de tout” <a class="header-anchor" href="#partie-2-la-prise-de-conscience-le-trop-de-tout">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<p>Il y a un peu moins de dix ans, j’ai commencé à prendre le chemin inverse, quand j’ai réalisé que je passais mon temps à chercher le code “parfait”.</p>
+<ul>
+<li>je me suis rendu compte que je passais énormément de temps à découper mon code en petites fonctions, ce qui impliquait :
+<ul>
+<li>se creuser la tête pour trouver des noms à ces fonctions</li>
+<li>de savoir où les placer, dans quels fichiers, dans quels sous dossiers, trouver des noms logiques à ces fichiers et ces dossiers</li>
+<li>de réorganiser encore et encore le découpage, le naming au fur et à mesure de l’évolution de l’application</li>
+</ul>
+</li>
+<li>je me suis rendu compte qu’à force d’éviter la duplication de code :
+<ul>
+<li>que j’avais un code de plus en plus difficile à comprendre</li>
+<li>qu’il fallait énormément de temps pour une nouvelle personne pour intervenir sur mon code</li>
+</ul>
+</li>
+<li>j’ai accepté (par expérience) que le code était jetable et que ce n’était pas un échec s’il avait été utile pendant une certaine durée</li>
+</ul>
+<p>Mon but était-il de faire du code ou de créer un produit rapidement tout en étant de qualité d’un point de vue fonctionnel ?</p>
+<h3 id="quest-ce-qui-ma-aide-a-prendre-ce-recul" tabindex="-1">Qu’est-ce qui m’a aidé à prendre ce recul ? <a class="header-anchor" href="#quest-ce-qui-ma-aide-a-prendre-ce-recul">
+                    <span aria-hidden="true">¶</span>
+                </a></h3>
+<h4 id="des-echecs" tabindex="-1">Des échecs <a class="header-anchor" href="#des-echecs">
+                    <span aria-hidden="true">¶</span>
+                </a></h4>
+<p>De 2007 à 2013 j’ai poursuivi la quête du <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">Don’t repeat yourself</a>, de <a href="https://fr.wikipedia.org/wiki/Pas_de_balle_en_argent">« la balle d’argent »</a> !</p>
+<p>Influencé par <a href="https://fr.wikipedia.org/wiki/Ruby_on_Rails">Ruby On Rails</a>, <a href="https://fr.wikipedia.org/wiki/Django_(framework)">Django</a>,
+mon rêve pour améliorer ma productivité était de générer automatiquement les applications à partir du modèle de données et des informations de paramétrages des UX.</p>
+<p>Ce fut un échec, un <a href="https://github.com/stephane-klein/personnal-notebook/blob/master/003-ne-tonds-pas-de-yaks.md">Yak!</a> perpétuel !</p>
+<p>Je passais la majorité de mon temps à :</p>
+<ul>
+<li>étudier, comprendre les Framework, sélectionner le “meilleur”</li>
+<li>embrasser toujours plus de complexité en écrivant des extensions, des plugins pour traiter mes cas particuliers</li>
+<li>modifier mes projets pour suivre la monté en version des frameworks</li>
+<li>trouver des solutions pour contourner les bugs des frameworks</li>
+</ul>
+<p>Je me suis trouvé de plus en plus dans des situations où je passais par exemple plus d’une semaine pour modifier un cas particulier d’un simple champ select html,
+chose qui m’aurait pris 30min sans framework, sans toutes les couches de magies.</p>
+<p>À cela s’ajoute en équipe, les heures et les heures de <a href="https://fr.wikipedia.org/wiki/Troll_(Internet)">trolls</a> de choix de framework.<br>
+Chaque développeur a ses préférences, pour tel ou tel framework et tout cela est parfaitement argumentable, car ils ont tous des forces et faiblesses.</p>
+<p>C’est suite à cette expérience que j’ai très peur de bâtir une application sur des solutions comme <a href="https://github.com/marmelab/react-admin">React Admin</a>, <a href="https://www.forestadmin.com/">Forest Admin</a> si je sais que je vais devoir les adapter (solutions qui peuvent être très bien pour faire un <a href="https://fr.wikipedia.org/wiki/Preuve_de_concept">POC</a> ou un <a href="https://fr.wikipedia.org/wiki/Produit_minimum_viable">MVP</a>), j’ai très peur de tomber dans un énorme <a href="https://github.com/stephane-klein/personnal-notebook/blob/master/003-ne-tonds-pas-de-yaks.md">Yak!</a>.</p>
+<h4 id="des-personnes" tabindex="-1">Des personnes <a class="header-anchor" href="#des-personnes">
+                    <span aria-hidden="true">¶</span>
+                </a></h4>
+<p>Des rencontres, par exemples :</p>
+<ul>
+<li><a href="https://twitter.com/athoune">Mathieu Lecarme</a> qui m’a dit une fois « j’ai besoin d’intervenir sur …, je constate que c’est de l’horlogerie fine, j’ai besoin d’aide », je me suis dit que j’avais codé quelque chose de bien trop compliqué</li>
+<li>Je me souviens de la quête vers le minimaliste dans le code de <a href="https://larlet.fr/david/blog/">David Larlet</a>
+<ul>
+<li>Est-ce qu’il est possible d’enlever des couches dans la stack ?</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/plafoucriere">Philippe Lafoucrière</a> qui m’a poussé vers du minimalisme, de grosse remise en question en contribuant au code source de Gemnasium
+<ul>
+<li>Est-ce que mon ORM me fait vraiment gagner du temps ?</li>
+<li>Est-ce que je peux me passer de cette librairie ?</li>
+</ul>
+</li>
+</ul>
+<p>Ces deux dernières personnes m’ont poussé à réfléchir si je pouvais supprimer des couches, enlever des choses.</p>
+<blockquote>
+<p>Il semble que la perfection soit atteinte non quand il n’y a plus rien à ajouter, mais quand il n’y a plus rien à retrancher. – <a href="https://fr.wikiquote.org/wiki/Perfection">Antoine de Saint-Exupéry</a></p>
+</blockquote>
+<h4 id="linfluence-culturelle-de-technos" tabindex="-1">L’influence culturelle de technos <a class="header-anchor" href="#linfluence-culturelle-de-technos">
+                    <span aria-hidden="true">¶</span>
+                </a></h4>
+<p>Depuis 15 ans, je suis très influencé par <a href="https://fr.wikipedia.org/wiki/Zen_de_Python">les 19 principes du Zen de Python</a>, tout particulièrement :</p>
+<blockquote>
+<ul>
+<li>Préfère :
+<ul>
+<li>l’explicite à l’implicite,</li>
+<li>le déroulé à l’imbriqué,</li>
+</ul>
+</li>
+<li>Prends en compte la lisibilité.</li>
+<li>Mais, à la pureté, privilégie l’aspect pratique.</li>
+<li>Face à l’ambiguïté, à deviner ne te laisse pas aller.</li>
+</ul>
+</blockquote>
+<p>Les choix minimalistes avec peu de sophistication du langage <a href="https://en.wikipedia.org/wiki/Go_(programming_language)">Go</a> a conforté la direction <a href="https://fr.wikipedia.org/wiki/Principe_KISS">KISS</a>.</p>
+<h2 id="partie-3-prise-de-decision-le-code-direct-du-code-stupide" tabindex="-1">Partie 3 : prise de décision, le code direct, du code “stupide” <a class="header-anchor" href="#partie-3-prise-de-decision-le-code-direct-du-code-stupide">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<p>Depuis quelques années, j’essaie d’écrire un code le plus direct possible.</p>
+<p>Mon objectif : diminuer au maximum ma <a href="https://fr.wikipedia.org/wiki/Charge_cognitive">charge cognitive</a>.</p>
+<p>J’essaie d’ajouter, une librairie, un service ou une couche d’abstraction uniquement si c’est nécessaire fonctionnellement ou si j’ai beaucoup de “douleur” avec la solution actuelle.</p>
+<p>J’essaie de garder un code le plus flat possible (<a href="https://www.thepythoncorner.com/2017/12/the-art-of-avoiding-nested-code/">The art of avoiding nested code</a>, <a href="https://medium.com/@ankushchoubey/clean-code-1-flat-is-better-than-nested-leave-when-not-okay-c09ba74090ef">Flat is better than nested</a>, <a href="http://matthewrocklin.com/blog/work/2019/06/23/avoid-indirection">Avoid Indirection in Code for human readability</a>)</p>
+<p>J’essaie de découper mon code uniquement si j’ai trop de “douleur” ou si cela apporte de la valeur fonctionnelle, exemple :</p>
+<ul>
+<li>je crée une fonction si j’ai besoin de la tester dans un test unitaire, ce qui fini par être le cas si j’ai trop de difficulté sur une section de code</li>
+<li>je crée une fonction pour éviter de la duplication en suivant la règle <a href="https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)">« Rule of three »</a></li>
+</ul>
+<h2 id="ressources" tabindex="-1">Ressources <a class="header-anchor" href="#ressources">
+                    <span aria-hidden="true">¶</span>
+                </a></h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it">YAGNI</a> (You aren’t gonna need it)</li>
+<li><a href="https://en.wikipedia.org/wiki/Overengineering">Overengineering</a></li>
+<li><a href="https://en.wikipedia.org/wiki/KISS_principle">KISS principle</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">Don’t repeat yourself</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Duplicate_code">Duplicate code</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Code_reuse">Code reuse</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Database_normalization">Database normalization</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)">Rule of three (computer programming)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Separation_of_concerns">Separation of concerns</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Single_source_of_truth">Single source of truth</a></li>
+<li><a href="https://josebrowne.com/on-coding-ego-and-attention/">On Coding, Ego and Attention</a></li>
+</ul>
+</body></html><!-- HTML_TAG_END --></main>
+    <footer><hr>
+        Ce(tte) œuvre est mise à disposition selon les termes de la
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</a>.
+    </footer></article>
+
+
+			
+			<script>
+				{
+					__sveltekit_1pupdg1 = {
+						env: {},
+						base: new URL("../../..", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
+
+					const data = [null,null,{"type":"data","data":{frontmatter:{title:"Keep it simple, stupid le plus longtemps possible",created_at:"2020-03-03"},body:"\u003Chtml\u003E\u003Chead\u003E\u003C\u002Fhead\u003E\u003Cbody\u003E\u003Ch1 id=\"keep-it-simple-stupid-le-plus-longtemps-possible\" tabindex=\"-1\"\u003E\u003C\u002Fh1\u003E\n\u003Cnav class=\"table-of-contents\"\u003E\u003Cul\u003E\u003Cli\u003E\u003Ca href=\"#partie-1-la-quete-du-code-parfait\"\u003EPartie 1 : la quête du code “parfait” \u003C\u002Fa\u003E\u003C\u002Fli\u003E\u003Cli\u003E\u003Ca href=\"#partie-2-la-prise-de-conscience-le-trop-de-tout\"\u003EPartie 2 : la prise de conscience, le “trop de tout” \u003C\u002Fa\u003E\u003Cul\u003E\u003Cli\u003E\u003Ca href=\"#quest-ce-qui-ma-aide-a-prendre-ce-recul\"\u003EQu’est-ce qui m’a aidé à prendre ce recul ? \u003C\u002Fa\u003E\u003Cul\u003E\u003Cli\u003E\u003Ca href=\"#des-echecs\"\u003EDes échecs \u003C\u002Fa\u003E\u003C\u002Fli\u003E\u003Cli\u003E\u003Ca href=\"#des-personnes\"\u003EDes personnes \u003C\u002Fa\u003E\u003C\u002Fli\u003E\u003Cli\u003E\u003Ca href=\"#linfluence-culturelle-de-technos\"\u003EL’influence culturelle de technos \u003C\u002Fa\u003E\u003C\u002Fli\u003E\u003C\u002Ful\u003E\u003C\u002Fli\u003E\u003C\u002Ful\u003E\u003C\u002Fli\u003E\u003Cli\u003E\u003Ca href=\"#partie-3-prise-de-decision-le-code-direct-du-code-stupide\"\u003EPartie 3 : prise de décision, le code direct, du code “stupide” \u003C\u002Fa\u003E\u003C\u002Fli\u003E\u003Cli\u003E\u003Ca href=\"#ressources\"\u003ERessources \u003C\u002Fa\u003E\u003C\u002Fli\u003E\u003C\u002Ful\u003E\u003C\u002Fnav\u003E\u003Cp\u003EDepuis quelques années, j’utilise les mots suivants pour décrire mon mindset de développement :\u003C\u002Fp\u003E\n\u003Cblockquote\u003E\n\u003Cp\u003E« Je suis au maximum le principe KISS (\u003Ca href=\"https:\u002F\u002Ffr.wikipedia.org\u002Fwiki\u002FPrincipe_KISS\"\u003EKeep it simple, stupid\u003C\u002Fa\u003E), j’écris le code le plus direct possible\net quand j’ai trop de “douleur” alors je refactor mon code et j’y ajoute le minimum de sophistication indispensable »\u003C\u002Fp\u003E\n\u003C\u002Fblockquote\u003E\n\u003Cdiv align=\"center\"\u003E\n    \u003Cimg class=\"center\" alt=\"The only valid measurement of code quality : WTFs\u002Fminute\" src=\"https:\u002F\u002Fcamo.githubusercontent.com\u002F0607e034aee88cce40b832367d44265e01b42654\u002F68747470733a2f2f7777772e6f736e6577732e636f6d2f696d616765732f636f6d6963732f7774666d2e6a7067\"\u003E\n\u003C\u002Fdiv\u003E\n\u003Cp\u003EIci j’utilise le mot “douleur” dans le sens de \u003Ca href=\"https:\u002F\u002Fhn.algolia.com\u002F?dateRange=all&amp;page=0&amp;prefix=false&amp;query=pain%20point&amp;sort=byPopularity&amp;type=story\"\u003E“a pain point”\u003C\u002Fa\u003E en anglais : quelque chose de casse-pieds, pénibilité, grosse difficulté…\u003C\u002Fp\u003E\n\u003Ch2 id=\"partie-1-la-quete-du-code-parfait\" tabindex=\"-1\"\u003EPartie 1 : la quête du code “parfait” \u003Ca class=\"header-anchor\" href=\"#partie-1-la-quete-du-code-parfait\"\u003E\n                    \u003Cspan aria-hidden=\"true\"\u003E¶\u003C\u002Fspan\u003E\n                \u003C\u002Fa\u003E\u003C\u002Fh2\u003E\n\u003Cp\u003EPendant la plus grande première partie de ma vie de développeur, j’ai essayé d’écrire le code le plus “propre” possible.\u003C\u002Fp\u003E\n\u003Cp\u003ECela passait par :\u003C\u002Fp\u003E\n\u003Cul\u003E\n\u003Cli\u003EDécouper le code en petites fonctions\u003C\u002Fli\u003E\n\u003Cli\u003EÉviter toute duplication de code (mon plus grand combat était le \u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FCopy-and-paste_programming\"\u003Ecopy-and-paste programming\u003C\u002Fa\u003E, j’ai embêté beaucoup de monde avec cela)\u003C\u002Fli\u003E\n\u003Cli\u003EOrganiser le plus logiquement possible l’arborescence des dossiers\u003C\u002Fli\u003E\n\u003Cli\u003ECréer le maximum de classes (programmation objet) avec le maximum de niveau d’héritage (à l’époque c’était cool de faire de l’héritage)\u003C\u002Fli\u003E\n\u003Cli\u003EUtiliser les \u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FDesign_Patterns\"\u003EDesign Patterns\u003C\u002Fa\u003E (j’ai aussi creusé la \u003Ca href=\"https:\u002F\u002Ffr.wikipedia.org\u002Fwiki\u002FProgrammation_orient%C3%A9e_aspect\"\u003Eprogrammation orientée aspect\u003C\u002Fa\u003E…)\u003C\u002Fli\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FDon%27t_repeat_yourself\"\u003EDon’t repeat yourself\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n\u003Cli\u003EDécouper mon projet en de petits projets ou librairies réutilisables\u003C\u002Fli\u003E\n\u003Cli\u003EMultiplier le nombres de repositories (Git…)\u003C\u002Fli\u003E\n\u003Cli\u003EÉcrire du code pérenne dans le temps\u003C\u002Fli\u003E\n\u003Cli\u003EJ’essayais d’écrire tout de suite le code dans sa version finale, devoir intervenir à nouveau sur du code était pour moi un échec, la preuve d’un mauvais choix de design.\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003Cp\u003EEn résumé, un beau code était pour moi un code “intelligent” avec beaucoup de sophistication.\u003C\u002Fp\u003E\n\u003Ch2 id=\"partie-2-la-prise-de-conscience-le-trop-de-tout\" tabindex=\"-1\"\u003EPartie 2 : la prise de conscience, le “trop de tout” \u003Ca class=\"header-anchor\" href=\"#partie-2-la-prise-de-conscience-le-trop-de-tout\"\u003E\n                    \u003Cspan aria-hidden=\"true\"\u003E¶\u003C\u002Fspan\u003E\n                \u003C\u002Fa\u003E\u003C\u002Fh2\u003E\n\u003Cp\u003EIl y a un peu moins de dix ans, j’ai commencé à prendre le chemin inverse, quand j’ai réalisé que je passais mon temps à chercher le code “parfait”.\u003C\u002Fp\u003E\n\u003Cul\u003E\n\u003Cli\u003Eje me suis rendu compte que je passais énormément de temps à découper mon code en petites fonctions, ce qui impliquait :\n\u003Cul\u003E\n\u003Cli\u003Ese creuser la tête pour trouver des noms à ces fonctions\u003C\u002Fli\u003E\n\u003Cli\u003Ede savoir où les placer, dans quels fichiers, dans quels sous dossiers, trouver des noms logiques à ces fichiers et ces dossiers\u003C\u002Fli\u003E\n\u003Cli\u003Ede réorganiser encore et encore le découpage, le naming au fur et à mesure de l’évolution de l’application\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003C\u002Fli\u003E\n\u003Cli\u003Eje me suis rendu compte qu’à force d’éviter la duplication de code :\n\u003Cul\u003E\n\u003Cli\u003Eque j’avais un code de plus en plus difficile à comprendre\u003C\u002Fli\u003E\n\u003Cli\u003Equ’il fallait énormément de temps pour une nouvelle personne pour intervenir sur mon code\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003C\u002Fli\u003E\n\u003Cli\u003Ej’ai accepté (par expérience) que le code était jetable et que ce n’était pas un échec s’il avait été utile pendant une certaine durée\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003Cp\u003EMon but était-il de faire du code ou de créer un produit rapidement tout en étant de qualité d’un point de vue fonctionnel ?\u003C\u002Fp\u003E\n\u003Ch3 id=\"quest-ce-qui-ma-aide-a-prendre-ce-recul\" tabindex=\"-1\"\u003EQu’est-ce qui m’a aidé à prendre ce recul ? \u003Ca class=\"header-anchor\" href=\"#quest-ce-qui-ma-aide-a-prendre-ce-recul\"\u003E\n                    \u003Cspan aria-hidden=\"true\"\u003E¶\u003C\u002Fspan\u003E\n                \u003C\u002Fa\u003E\u003C\u002Fh3\u003E\n\u003Ch4 id=\"des-echecs\" tabindex=\"-1\"\u003EDes échecs \u003Ca class=\"header-anchor\" href=\"#des-echecs\"\u003E\n                    \u003Cspan aria-hidden=\"true\"\u003E¶\u003C\u002Fspan\u003E\n                \u003C\u002Fa\u003E\u003C\u002Fh4\u003E\n\u003Cp\u003EDe 2007 à 2013 j’ai poursuivi la quête du \u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FDon%27t_repeat_yourself\"\u003EDon’t repeat yourself\u003C\u002Fa\u003E, de \u003Ca href=\"https:\u002F\u002Ffr.wikipedia.org\u002Fwiki\u002FPas_de_balle_en_argent\"\u003E« la balle d’argent »\u003C\u002Fa\u003E !\u003C\u002Fp\u003E\n\u003Cp\u003EInfluencé par \u003Ca href=\"https:\u002F\u002Ffr.wikipedia.org\u002Fwiki\u002FRuby_on_Rails\"\u003ERuby On Rails\u003C\u002Fa\u003E, \u003Ca href=\"https:\u002F\u002Ffr.wikipedia.org\u002Fwiki\u002FDjango_(framework)\"\u003EDjango\u003C\u002Fa\u003E,\nmon rêve pour améliorer ma productivité était de générer automatiquement les applications à partir du modèle de données et des informations de paramétrages des UX.\u003C\u002Fp\u003E\n\u003Cp\u003ECe fut un échec, un \u003Ca href=\"https:\u002F\u002Fgithub.com\u002Fstephane-klein\u002Fpersonnal-notebook\u002Fblob\u002Fmaster\u002F003-ne-tonds-pas-de-yaks.md\"\u003EYak!\u003C\u002Fa\u003E perpétuel !\u003C\u002Fp\u003E\n\u003Cp\u003EJe passais la majorité de mon temps à :\u003C\u002Fp\u003E\n\u003Cul\u003E\n\u003Cli\u003Eétudier, comprendre les Framework, sélectionner le “meilleur”\u003C\u002Fli\u003E\n\u003Cli\u003Eembrasser toujours plus de complexité en écrivant des extensions, des plugins pour traiter mes cas particuliers\u003C\u002Fli\u003E\n\u003Cli\u003Emodifier mes projets pour suivre la monté en version des frameworks\u003C\u002Fli\u003E\n\u003Cli\u003Etrouver des solutions pour contourner les bugs des frameworks\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003Cp\u003EJe me suis trouvé de plus en plus dans des situations où je passais par exemple plus d’une semaine pour modifier un cas particulier d’un simple champ select html,\nchose qui m’aurait pris 30min sans framework, sans toutes les couches de magies.\u003C\u002Fp\u003E\n\u003Cp\u003EÀ cela s’ajoute en équipe, les heures et les heures de \u003Ca href=\"https:\u002F\u002Ffr.wikipedia.org\u002Fwiki\u002FTroll_(Internet)\"\u003Etrolls\u003C\u002Fa\u003E de choix de framework.\u003Cbr\u003E\nChaque développeur a ses préférences, pour tel ou tel framework et tout cela est parfaitement argumentable, car ils ont tous des forces et faiblesses.\u003C\u002Fp\u003E\n\u003Cp\u003EC’est suite à cette expérience que j’ai très peur de bâtir une application sur des solutions comme \u003Ca href=\"https:\u002F\u002Fgithub.com\u002Fmarmelab\u002Freact-admin\"\u003EReact Admin\u003C\u002Fa\u003E, \u003Ca href=\"https:\u002F\u002Fwww.forestadmin.com\u002F\"\u003EForest Admin\u003C\u002Fa\u003E si je sais que je vais devoir les adapter (solutions qui peuvent être très bien pour faire un \u003Ca href=\"https:\u002F\u002Ffr.wikipedia.org\u002Fwiki\u002FPreuve_de_concept\"\u003EPOC\u003C\u002Fa\u003E ou un \u003Ca href=\"https:\u002F\u002Ffr.wikipedia.org\u002Fwiki\u002FProduit_minimum_viable\"\u003EMVP\u003C\u002Fa\u003E), j’ai très peur de tomber dans un énorme \u003Ca href=\"https:\u002F\u002Fgithub.com\u002Fstephane-klein\u002Fpersonnal-notebook\u002Fblob\u002Fmaster\u002F003-ne-tonds-pas-de-yaks.md\"\u003EYak!\u003C\u002Fa\u003E.\u003C\u002Fp\u003E\n\u003Ch4 id=\"des-personnes\" tabindex=\"-1\"\u003EDes personnes \u003Ca class=\"header-anchor\" href=\"#des-personnes\"\u003E\n                    \u003Cspan aria-hidden=\"true\"\u003E¶\u003C\u002Fspan\u003E\n                \u003C\u002Fa\u003E\u003C\u002Fh4\u003E\n\u003Cp\u003EDes rencontres, par exemples :\u003C\u002Fp\u003E\n\u003Cul\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Ftwitter.com\u002Fathoune\"\u003EMathieu Lecarme\u003C\u002Fa\u003E qui m’a dit une fois « j’ai besoin d’intervenir sur …, je constate que c’est de l’horlogerie fine, j’ai besoin d’aide », je me suis dit que j’avais codé quelque chose de bien trop compliqué\u003C\u002Fli\u003E\n\u003Cli\u003EJe me souviens de la quête vers le minimaliste dans le code de \u003Ca href=\"https:\u002F\u002Flarlet.fr\u002Fdavid\u002Fblog\u002F\"\u003EDavid Larlet\u003C\u002Fa\u003E\n\u003Cul\u003E\n\u003Cli\u003EEst-ce qu’il est possible d’enlever des couches dans la stack ?\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003C\u002Fli\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Ftwitter.com\u002Fplafoucriere\"\u003EPhilippe Lafoucrière\u003C\u002Fa\u003E qui m’a poussé vers du minimalisme, de grosse remise en question en contribuant au code source de Gemnasium\n\u003Cul\u003E\n\u003Cli\u003EEst-ce que mon ORM me fait vraiment gagner du temps ?\u003C\u002Fli\u003E\n\u003Cli\u003EEst-ce que je peux me passer de cette librairie ?\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003Cp\u003ECes deux dernières personnes m’ont poussé à réfléchir si je pouvais supprimer des couches, enlever des choses.\u003C\u002Fp\u003E\n\u003Cblockquote\u003E\n\u003Cp\u003EIl semble que la perfection soit atteinte non quand il n’y a plus rien à ajouter, mais quand il n’y a plus rien à retrancher. – \u003Ca href=\"https:\u002F\u002Ffr.wikiquote.org\u002Fwiki\u002FPerfection\"\u003EAntoine de Saint-Exupéry\u003C\u002Fa\u003E\u003C\u002Fp\u003E\n\u003C\u002Fblockquote\u003E\n\u003Ch4 id=\"linfluence-culturelle-de-technos\" tabindex=\"-1\"\u003EL’influence culturelle de technos \u003Ca class=\"header-anchor\" href=\"#linfluence-culturelle-de-technos\"\u003E\n                    \u003Cspan aria-hidden=\"true\"\u003E¶\u003C\u002Fspan\u003E\n                \u003C\u002Fa\u003E\u003C\u002Fh4\u003E\n\u003Cp\u003EDepuis 15 ans, je suis très influencé par \u003Ca href=\"https:\u002F\u002Ffr.wikipedia.org\u002Fwiki\u002FZen_de_Python\"\u003Eles 19 principes du Zen de Python\u003C\u002Fa\u003E, tout particulièrement :\u003C\u002Fp\u003E\n\u003Cblockquote\u003E\n\u003Cul\u003E\n\u003Cli\u003EPréfère :\n\u003Cul\u003E\n\u003Cli\u003El’explicite à l’implicite,\u003C\u002Fli\u003E\n\u003Cli\u003Ele déroulé à l’imbriqué,\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003C\u002Fli\u003E\n\u003Cli\u003EPrends en compte la lisibilité.\u003C\u002Fli\u003E\n\u003Cli\u003EMais, à la pureté, privilégie l’aspect pratique.\u003C\u002Fli\u003E\n\u003Cli\u003EFace à l’ambiguïté, à deviner ne te laisse pas aller.\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003C\u002Fblockquote\u003E\n\u003Cp\u003ELes choix minimalistes avec peu de sophistication du langage \u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FGo_(programming_language)\"\u003EGo\u003C\u002Fa\u003E a conforté la direction \u003Ca href=\"https:\u002F\u002Ffr.wikipedia.org\u002Fwiki\u002FPrincipe_KISS\"\u003EKISS\u003C\u002Fa\u003E.\u003C\u002Fp\u003E\n\u003Ch2 id=\"partie-3-prise-de-decision-le-code-direct-du-code-stupide\" tabindex=\"-1\"\u003EPartie 3 : prise de décision, le code direct, du code “stupide” \u003Ca class=\"header-anchor\" href=\"#partie-3-prise-de-decision-le-code-direct-du-code-stupide\"\u003E\n                    \u003Cspan aria-hidden=\"true\"\u003E¶\u003C\u002Fspan\u003E\n                \u003C\u002Fa\u003E\u003C\u002Fh2\u003E\n\u003Cp\u003EDepuis quelques années, j’essaie d’écrire un code le plus direct possible.\u003C\u002Fp\u003E\n\u003Cp\u003EMon objectif : diminuer au maximum ma \u003Ca href=\"https:\u002F\u002Ffr.wikipedia.org\u002Fwiki\u002FCharge_cognitive\"\u003Echarge cognitive\u003C\u002Fa\u003E.\u003C\u002Fp\u003E\n\u003Cp\u003EJ’essaie d’ajouter, une librairie, un service ou une couche d’abstraction uniquement si c’est nécessaire fonctionnellement ou si j’ai beaucoup de “douleur” avec la solution actuelle.\u003C\u002Fp\u003E\n\u003Cp\u003EJ’essaie de garder un code le plus flat possible (\u003Ca href=\"https:\u002F\u002Fwww.thepythoncorner.com\u002F2017\u002F12\u002Fthe-art-of-avoiding-nested-code\u002F\"\u003EThe art of avoiding nested code\u003C\u002Fa\u003E, \u003Ca href=\"https:\u002F\u002Fmedium.com\u002F@ankushchoubey\u002Fclean-code-1-flat-is-better-than-nested-leave-when-not-okay-c09ba74090ef\"\u003EFlat is better than nested\u003C\u002Fa\u003E, \u003Ca href=\"http:\u002F\u002Fmatthewrocklin.com\u002Fblog\u002Fwork\u002F2019\u002F06\u002F23\u002Favoid-indirection\"\u003EAvoid Indirection in Code for human readability\u003C\u002Fa\u003E)\u003C\u002Fp\u003E\n\u003Cp\u003EJ’essaie de découper mon code uniquement si j’ai trop de “douleur” ou si cela apporte de la valeur fonctionnelle, exemple :\u003C\u002Fp\u003E\n\u003Cul\u003E\n\u003Cli\u003Eje crée une fonction si j’ai besoin de la tester dans un test unitaire, ce qui fini par être le cas si j’ai trop de difficulté sur une section de code\u003C\u002Fli\u003E\n\u003Cli\u003Eje crée une fonction pour éviter de la duplication en suivant la règle \u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FRule_of_three_(computer_programming)\"\u003E« Rule of three »\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003Ch2 id=\"ressources\" tabindex=\"-1\"\u003ERessources \u003Ca class=\"header-anchor\" href=\"#ressources\"\u003E\n                    \u003Cspan aria-hidden=\"true\"\u003E¶\u003C\u002Fspan\u003E\n                \u003C\u002Fa\u003E\u003C\u002Fh2\u003E\n\u003Cul\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FYou_aren%27t_gonna_need_it\"\u003EYAGNI\u003C\u002Fa\u003E (You aren’t gonna need it)\u003C\u002Fli\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FOverengineering\"\u003EOverengineering\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FKISS_principle\"\u003EKISS principle\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FDon%27t_repeat_yourself\"\u003EDon’t repeat yourself\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FDuplicate_code\"\u003EDuplicate code\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FCode_reuse\"\u003ECode reuse\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FDatabase_normalization\"\u003EDatabase normalization\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FRule_of_three_(computer_programming)\"\u003ERule of three (computer programming)\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FSeparation_of_concerns\"\u003ESeparation of concerns\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FSingle_source_of_truth\"\u003ESingle source of truth\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n\u003Cli\u003E\u003Ca href=\"https:\u002F\u002Fjosebrowne.com\u002Fon-coding-ego-and-attention\u002F\"\u003EOn Coding, Ego and Attention\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003C\u002Fbody\u003E\u003C\u002Fhtml\u003E"},"uses":{"params":["page_slug"]}}];
+
+					Promise.all([
+						import("../../../_app/immutable/entry/start.38e438b1.js"),
+						import("../../../_app/immutable/entry/app.c0aba7c1.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_1pupdg1.element, {
+							node_ids: [0, 3, 7],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+    </body>
+</html>
