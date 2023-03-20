@@ -1,11 +1,11 @@
 <!-- I wish to follow as much as possible the https://brutalist-web.design/ recommandations -->
 <script>
-    import "../screen.css";
+    import "../../screen.css";
 </script>
 
 <article>
     <nav>
-        <a href="/">Accueil</a>
+        <a href="/fr/">Accueil</a>
         <span>|</span>
         <a href="https://github.com/stephane-klein?tab=repositories">Projets</a>
         <!-- Todo, see https://github.com/stephane-klein/sklein.xyz/issues/58

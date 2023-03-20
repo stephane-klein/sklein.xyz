@@ -1,24 +1,5 @@
-import { globSync } from "glob";
-import matter_read from "$lib/utils";
+import { redirect } from '@sveltejs/kit';
 
-export async function load() {
-    const re = new RegExp(/^contents\/(?<path>.*)\.md$/);
-    return {
-        posts: await Promise.all(
-            Object.values(globSync("contents/blog/*.md")).map(async (filename) => {
-                return {
-                    path: `${filename.match(re).groups.path}/`,
-                    frontmatter: matter_read(filename).data,
-                };
-            })
-        ),
-        pages: await Promise.all(
-            Object.values(globSync("contents/garden/*.md")).map(async (filename) => {
-                return {
-                    path: `/${filename.match(re).groups.path}/`,
-                    frontmatter: matter_read(filename).data,
-                };
-            })
-        )
-    };
+export function load() {
+	throw redirect(307, '/fr/');
 }

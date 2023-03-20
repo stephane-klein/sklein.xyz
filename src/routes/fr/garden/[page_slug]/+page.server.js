@@ -27,7 +27,7 @@ const markdownIt = new MarkdownIt({
     });
 
 export async function load({ params }) {
-    const filename = path.join("./contents/garden", path.normalize(`${params.page_slug}.md`).replace(/^[./]*/, ""));
+    const filename = path.join("./contents/fr/garden", path.normalize(`${params.page_slug}.md`).replace(/^[./]*/, ""));
 
     const parsedFrontmatter = matter_read(filename);
     const $ = cheerio.load(markdownIt.render(parsedFrontmatter?.content));
