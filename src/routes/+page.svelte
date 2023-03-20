@@ -24,12 +24,29 @@
 
     <p>
         Vous pouvez me retrouver sur
-        <a href="https://social.stephane-klein.info/stephane-klein">Fediverse</a>,
-        <a href="https://twitter.com/klein_stephane">Twitter</a>,
+        <a href="https://social.stephane-klein.info/stephane-klein">Fediverse (mon compte Mastodon)</a>,
+        <a href="https://twitter.com/klein_stephane">Twitter</a> (que je n'utilise plus trop depuis novembre 2022),
         <a href="https://www.linkedin.com/in/stephanekleinfrommetz/">LinkedIn</a>,
         <a href="https://www.reddit.com/user/sklein">Reddit</a>,
         <a href="https://stackoverflow.com/users/261061/st%c3%a9phane-klein">StackOverflow</a>
         et <a href="https://github.com/stephane-klein">GitHub</a>.
+    </p>
+
+    <p>
+        J'essaie de mettre en pratique les concepts <a href="https://www.swyx.io/learn-in-public/">#LearnInPublic</a>
+        et <code>#WorkInPublic</code>, par exemple :
+        <a href="https://github.com/stephane-klein/backlog/issues"
+            >mon
+            <em>backlog public</em></a
+        >, plusieurs
+        <a href="https://github.com/stephane-klein?tab=repositories&q=playground&type=&language=&sort=">playgrounds</a>…
+    </p>
+
+    <p>
+        Le <em>repository</em> GitHub <a href="https://github.com/stephane-klein/dotfiles">dotfiles</a> contient la
+        configuration de mes
+        <em>desktops</em> gérés par <a href="https://www.chezmoi.io/">ChezMoi</a> (<em>dotfile configuration manager</em
+        >).
     </p>
 
     <p>Sommaire de mon <a href="https://joelhooks.com/digital-garden">jardin numérique</a> 🌱 :</p>
