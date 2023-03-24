@@ -1,0 +1,4 @@
+# Use directly build/ content, don't rebuild website in docker build step
+FROM nginx:1.23.3
+COPY build/ /usr/share/nginx/html/
+COPY nginx-config/default.conf /etc/nginx/conf.d/default.conf
