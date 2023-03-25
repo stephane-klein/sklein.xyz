@@ -10,7 +10,8 @@
         "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
         "prettier-check": "prettier --check --plugin-search-dir=.",
         "lint": "prettier --check --plugin-search-dir=. . && eslint .",
-        "format": "prettier --write --plugin-search-dir=. ."
+        "format": "prettier --write --plugin-search-dir=. .",
+        "lighthouse": "mkdir -p reports; lighthouse https://sklein.xyz/fr/ --output=html --output-path=./reports/report.html --chrome-flags='--headless'"
     },
     "devDependencies": {
         "@sveltejs/adapter-static": "2.0.1",
@@ -36,7 +37,8 @@
         "tslib": "2.5.0",
         "typescript": "4.9.5",
         "vite": "4.1.4",
-        "vite-imagetools": "4.0.18"
+        "vite-imagetools": "4.0.18",
+        "lighthouse": "10.1.0"
     },
     "type": "module",
     "dependencies": {
