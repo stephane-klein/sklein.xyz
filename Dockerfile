@@ -12,4 +12,5 @@ RUN pnpm run build
 FROM nginx:1.23.3
 
 COPY --from=0 /src/build/ /usr/share/nginx/html/
+COPY reports /usr/share/nginx/html/reports/
 COPY nginx-config/default.conf /etc/nginx/conf.d/default.conf

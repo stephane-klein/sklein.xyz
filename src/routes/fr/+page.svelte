@@ -58,4 +58,8 @@
             <li><a href={page.path}>{page?.frontmatter?.title ?? page.path}</a></li>
         {/each}
     </ul>
+
+    <hr />
+
+    <p><a href="https://sklein.xyz/reports/report.html">Voir le Lighthouse score de cette page</a></p>
 </div>
