@@ -44,7 +44,14 @@ BODY {
 ARTICLE {
     margin: 1rem;
 
+    HEADER {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
     NAV {
+        margin-left: 1rem;
         font-size: 80%;
         display: flex;
         flex-direction: row;
