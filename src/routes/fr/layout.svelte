@@ -6,7 +6,7 @@
 
 <article>
     <header>
-        <a href="/"><img src={Avatar} /></a>
+        <a href="/"><img src={Avatar} alt="Avatar" /></a>
         <nav>
             <a href="/fr/">Accueil</a>
             <span>|</span>
