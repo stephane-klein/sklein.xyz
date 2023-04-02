@@ -9,7 +9,7 @@ COPY ./ /src/
 RUN pnpm install
 RUN pnpm run build
 
-FROM nginx:1.23.3
+FROM stephaneklein/nginx-brotli:1.23.4
 
 COPY --from=0 /src/build/ /usr/share/nginx/html/
 COPY reports /usr/share/nginx/html/reports/
