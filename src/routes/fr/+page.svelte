@@ -4,6 +4,7 @@
 
 <svelte:head>
     <title>Jardin numérique de Stéphane Klein</title>
+    <meta name="description" content="Jardin numérique de Stéphane Klein" />
 </svelte:head>
 
 <div>
