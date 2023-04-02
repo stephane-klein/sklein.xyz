@@ -1,7 +1,9 @@
 ---
 title: Mes recommandations pour maîtriser la dette technique au quotidien
 created_at: 2019-11-23
+github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/018-how-i-manage-technical-debt.md
 ---
+
 # Mes recommandations pour maîtriser la dette technique au quotidien
 
 [toc]
@@ -35,7 +37,6 @@ Voici les règles que je suis pour garder la maitrise de mes projets :
   - documenter les instructions de test, faire tester par plusieurs personnes
   - mettre à disposition des [fixture](https://en.wikipedia.org/wiki/Test_fixture#Software) et/ou des données de démo (sample data)
 
-
 ## Au quotidien
 
 Au quotidien, quand j'interviens sur un projet et que :
@@ -64,7 +65,6 @@ Je ne considère pas être de la dette technique les éléments suivants :
 - le choix du framework
 - un choix d'architecture
 - des bugs
-
 
 ## Qu'est-ce que je considère être de la dette technique ?
 

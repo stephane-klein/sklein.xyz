@@ -52,15 +52,11 @@ ARTICLE {
         padding-left: 1rem;
     }
 
-    DL {
+    .article-metadata {
         margin: 0;
         font-size: 80%;
         display: flex;
         flex-direction: row;
-
-        DD {
-            margin: 0;
-        }
     }
 
     MAIN {

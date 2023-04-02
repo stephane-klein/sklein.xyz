@@ -1,6 +1,7 @@
 ---
 title: Équipement
 created_at: 2019-09-04
+github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/017-equipement.md
 ---
 
 # Équipement
@@ -18,7 +19,7 @@ created_at: 2019-09-04
   - [Logitech MX Master 3](https://www.logitech.fr/fr-fr/products/mice/mx-master-3.910-005694.html)
   - [Jabra Evolve2 65](https://www.jabra.fr/business/office-headsets/jabra-evolve/jabra-evolve2-65) (avril 2021, 166 €)
   - [Ergotron LX Desk Monitor Arm](https://www.ergotron.com/fr-fr/produits/d%C3%A9tails-du-produit/productid/182#?couleur=blanc&buynow=0&attachment%20option=2-Piece%20Clamp) (avril 2021, 151 €)
-  - Fauteuil/siège : [HÅG Capisco](https://store.flokk.com/france/fr-fr/products/hag-capisco?model=8106-STD&code=00AKC6) 
+  - Fauteuil/siège : [HÅG Capisco](https://store.flokk.com/france/fr-fr/products/hag-capisco?model=8106-STD&code=00AKC6)
 - Laptop :
   - [MacBookPro15,1](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i7-2.2-15-mid-2018-true-tone-display-touch-bar-specs.html)
   - [Étiquettes Bépo pour clavier](https://beaujoie.com/boutique/01183/)

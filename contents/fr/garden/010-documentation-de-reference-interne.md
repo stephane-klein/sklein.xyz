@@ -1,6 +1,7 @@
 ---
 title: Documentation de référence interne
 created_at: 2019-02-14
+github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/010-documentation-de-reference-interne.md
 ---
 
 Contenu :

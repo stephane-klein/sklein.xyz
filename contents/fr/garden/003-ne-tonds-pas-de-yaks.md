@@ -1,6 +1,7 @@
 ---
 title: Ne tonds pas de Yaks !
 created_at: 2018-02-25
+github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/003-ne-tonds-pas-de-yaks.md
 ---
 
 # Ne tonds pas de Yaks !
@@ -13,7 +14,6 @@ découvrir le concept "aller tondre le Yak !", expression apparemment entrée da
 Il existe un article [Yak shaving dans Wiktionary](https://en.wiktionary.org/wiki/yak_shaving) Anglophone mais rien dans Wikipedia Français.<br />
 Et comme je n'ai pas envie de tondre de Yak pour le moment, je préfère poster ici la traduction [de la définition non technique de « Tondre le Yak »](https://seths.blog/2005/03/dont_shave_that/) de [Seth's Godin](https://fr.wikipedia.org/wiki/Seth_Godin) plutôt que de me lancer dans la rédaction de son article Wikipedia.<br />
 Bien que je sais que je suis déjà en train de tondre le Yak au moment où j'écris ces lignes 😀.
-
 
 > La tonte de Yaks est la dernière étape d'un enchaînement de tâches nécessaires pour réaliser un tout petit truc qui devait au départ prendre « juste 2 minutes » 😧
 
@@ -46,7 +46,6 @@ Alors, que faire ?
 À la minute où vous commencez à prendre la route de la fête de la tonte de Yaks, c'est le moment de faire un compromis.
 
 > Faire quelque chose correctement tout de suite est une bien meilleure décision que de le faire parfaitement plus tard.
-
 
 ---
 

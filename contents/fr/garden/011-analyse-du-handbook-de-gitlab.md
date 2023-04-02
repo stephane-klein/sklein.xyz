@@ -1,7 +1,9 @@
 ---
 title: Analyse du Handbook de GitLab
 created_at: 2019-02-14
+github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/011-analyse-du-handbook-de-gitlab.md
 ---
+
 # Analyse du Handbook de GitLab
 
 [toc]
@@ -20,8 +22,8 @@ Liste des types d'informations présents dans le Handbook de GitLab (cette liste
   - [notes de frais, dépenses d'argent](https://about.gitlab.com/handbook/spending-company-money/)
 - Règle de fonctionnement, ressources… de chaque équipe ([liste des équipes du département Engineering](https://about.gitlab.com/handbook/engineering/#engineering-departments--teams))
 - La description précise de tous les jobs (role) (examples : [
-Staff Backend Engineer](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/job-families/engineering/backend-engineer/index.html.md#staff-backend-engineer), [
-Engineering Manager](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/job-families/engineering/backend-engineer/index.html.md#engineering-manager), [CTO](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/job-families/engineering/chief-technology-officer/index.html.md), [database engineer](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/job-families/engineering/database-engineer/index.html.md)...), chaque job contient les informations suivantes :
+  Staff Backend Engineer](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/job-families/engineering/backend-engineer/index.html.md#staff-backend-engineer), [
+  Engineering Manager](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/job-families/engineering/backend-engineer/index.html.md#engineering-manager), [CTO](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/job-families/engineering/chief-technology-officer/index.html.md), [database engineer](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/job-families/engineering/database-engineer/index.html.md)...), chaque job contient les informations suivantes :
   - [Responsibilities](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/job-families/engineering/database-engineer/index.html.md#responsibilities)
   - [Example Projects](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/job-families/engineering/database-engineer/index.html.md#example-projects)
   - [Requirements](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/job-families/engineering/database-engineer/index.html.md#requirements)

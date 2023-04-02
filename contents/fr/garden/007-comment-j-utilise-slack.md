@@ -1,7 +1,9 @@
 ---
 title: Comment j'utilise Slack ?
 created_at: 2019-01-18
+github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/007-comment-j-utilise-slack.md
 ---
+
 # Comment j'utilise Slack ?
 
 - j'utilise la réaction 👀 pour indiquer que je suis en train de lire une url ou un message

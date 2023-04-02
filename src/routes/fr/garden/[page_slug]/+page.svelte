@@ -4,9 +4,12 @@
 
 <h1>{data.frontmatter?.title ?? "No title"}</h1>
 
-<dl>
-    <dt>Publié le :&nbsp;</dt>
-    <dd>{data.frontmatter?.created_at ?? "-"}</dd>
-</dl>
+<div class="article-metadata">
+    Première publication :&nbsp;<time datetime="">{data.frontmatter?.created_at}</time>
+
+    {#if data.frontmatter?.github_history}
+        &nbsp;|&nbsp;<a href={data.frontmatter.github_history}>Historique git de l'article</a>
+    {/if}
+</div>
 
 {@html data.body}

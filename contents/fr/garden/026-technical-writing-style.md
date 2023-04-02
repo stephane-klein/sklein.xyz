@@ -1,6 +1,7 @@
 ---
 title: Style d'écriture de mon jardin numérique
 created_at: 2021-11-06
+github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/026-technical-writing-style.md
 ---
 
 Contenu :

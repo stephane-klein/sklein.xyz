@@ -1,6 +1,7 @@
 ---
 title: Cycle de vie des Repos Git
 created_at: 2019-08-23
+github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/014-cycle-de-vie-des-repos.md
 ---
 
 # Cycle de vie des Repos Git
@@ -33,7 +34,6 @@ Les développeurs peuvent créer librement des Repos POC.
 - Partage ?<br />
   Même si le projet est en Work In Progress, non exploitable, ces expérimentations peuvent être utiles à d'autre développeur.
 
-
 ## Les repository « Nursery » / « Pouponnière »
 
 - Pour quel usage ? Dans quel but ?
@@ -56,7 +56,6 @@ Les développeurs peuvent créer librement des Repos POC.
   - Public avec le reste de l'équipe, pour rendre transparent l'avancé du projet
 
 Migration d'un projet « Nursery » vers « Team / Corporate » ? une simple copie de fichiers, l'historique Git est mis à la poubelle, création d'une Merge Request + Review Code.
-
 
 ## Les repository « Team / Corporate »
 

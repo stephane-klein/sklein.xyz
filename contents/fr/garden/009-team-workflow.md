@@ -1,7 +1,9 @@
 ---
 title: Team Workflow
 created_at: 2019-01-25
+github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/009-team-workflow.md
 ---
+
 # Team Workflow
 
 Voici un workflow d'équipe de Dev/DevOPS que j'aime utiliser. Il fonctionne aussi bien en remote, semi remote que sur site.
