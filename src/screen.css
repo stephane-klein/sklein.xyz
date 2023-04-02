@@ -46,6 +46,9 @@ ARTICLE {
 
     NAV {
         font-size: 80%;
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
     }
 
     UL {
