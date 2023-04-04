@@ -44,3 +44,7 @@ ou deux exemples sont plus simples à comprendre qu'une définition formelle.
 
 J'essaie autant que possible de placer [des marqueurs de modestie
 épistémique](https://www.youtube.com/watch?v=qRfDboU1gs4) dans mes textes.
+
+## Utilisation du vouvoiement ou du tutoiement ?
+
+J'ai décidé arbitrairement d'utiliser le vouvoiement dans tous les articles de <https://sklein.xyz>.
