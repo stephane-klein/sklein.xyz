@@ -33,9 +33,12 @@
 
         <slot name="footer" />
 
-        Ce(tte) œuvre est mise à disposition selon les termes de la
-        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
-            >Licence Creative Commons Attribution 4.0 International</a
-        >.
+        <p>
+            Ce(tte) œuvre est mise à disposition selon les termes de la
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+                >Licence Creative Commons Attribution 4.0 International</a
+            >.
+        </p>
+        <p>Je précise que toutes mes certitudes et pratiques sont temporaires.</p>
     </footer>
 </article>
