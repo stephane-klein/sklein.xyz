@@ -1,13 +1,10 @@
 ---
 title: Comment j'utilise le mail ?
 created_at: 2023-04-04
+github_history: https://github.com/stephane-klein/sklein.xyz/blob/main/contents/fr/garden/027-how-i-mail.md
 ---
 
-<!--
-
-Brouillon présent dans mon Joplin privé
-
--->
+[toc]
 
 Cet article contient quelques règles que j'essaie de suivre quand je dois communiquer par mail.
 Ces règles sont pour la plupart issues de la [Netiquette](https://fr.wikipedia.org/wiki/N%C3%A9tiquette), un ensemble de règles informelles, souvent regroupées en charte, datant de [1995](https://www.rfc-editor.org/rfc/rfc1855). La Netiquette vise à formaliser un certain contrat social pour Internet. Si vous ne l'avez pas encore lu, [je vous encourage à le faire](https://fr.wikipedia.org/wiki/N%C3%A9tiquette) 😉.
@@ -48,6 +45,13 @@ J'assigne dans le champ [`CC`](https://fr.wikipedia.org/wiki/Copie_carbone#Courr
 Pour ces personnes, mon mail est uniquement envoyé à titre d'information.
 
 Quand j'envoie un mail purement informatif alors, je n'indique personne dans le champ `To`.
+
+## Envoie d'un message « Je commence la lecture » et « J'ai lu »
+
+À partir d'avril 2023, je vais réintroduire une pratique que j'avais abandonnée : répondre aux e-mails par "Je commence la lecture" ou "J'ai lu".  
+Je pratiquais cela dans les années 2000, mais j'ai perdu cette habitude avec l'usage croissant des logiciels de messagerie.
+
+Voir aussi [Notification « J'ai lu »](../028-notificaton-acknowledge/).
 
 ---
 
