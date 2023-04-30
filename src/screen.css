@@ -2,6 +2,7 @@
 /* https://hslpicker.com/ */
 :root {
     --background-color: hsl(204, 5%, 21%);
+    --quoted-background-color: hsl(204, 5%, 25%);
     --text-color: hsl(0, 0%, 70%);
     --text-color-dark: hsl(0, 0%, 50%);
     --link-text-color: hsl(188, 100%, 50%);
@@ -106,4 +107,14 @@ A {
     &:visited {
         color: var(--link-text-visited-color);
     }
+}
+
+BLOCKQUOTE {
+    margin: 0;
+    padding: 1em 2em;
+    background-color: var(--quoted-background-color);
+}
+
+PRE {
+    line-height: 1.4em;
 }

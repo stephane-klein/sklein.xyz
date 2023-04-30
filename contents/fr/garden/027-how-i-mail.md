@@ -53,6 +53,26 @@ Je pratiquais cela dans les années 2000, mais j'ai perdu cette habitude avec l'
 
 Voir aussi [Notification « J'ai lu »](../028-notificaton-acknowledge/).
 
+## Lorsque je réponds, je pratique autant que possible le "bottom-posting"
+
+Je pratique la lecture à l'occidentale, c'est-à-dire que je lis les textes en français ou anglais de haut en bas. Je suppose que
+c'est aussi ce que vous pratiquez 🙂.  
+C'est pour cela que j'évite de pratiquer ce que la culture Internet nomme [TOFU](<https://fr.wikipedia.org/wiki/TOFU_(Usenet_et_Internet)>) :
+
+> TOFU (text over, fullquote under), littéralement texte au-dessus, citation complète en dessous, également appelé top-posting, signifie répondre au-dessus du message d'origine, ce dernier étant cité dans son intégralité (ce peut être un message dans un forum Internet, un courrier électronique ou un article Usenet). Cette pratique est considérée comme mauvaise par la Netiquette, car elle rend les discussions impossibles à suivre dans l'ordre logique et usuel de la lecture « à l'occidentale ». L'échange fictif suivant est une critique humoristique de cette pratique (une variante limitée à quatre lignes est souvent présente dans les signatures des articles Usenet):
+>
+> Parce que sinon ça rend la discussion incompréhensible.
+>
+> ```
+> > Pourquoi ça ?
+> > > Je préfère répondre en dessous.
+> > > > Que faites-vous à la place ?
+> > > > > Non.
+> > > > > > Vous n'aimez pas répondre au-dessus ?
+> ```
+
+En 2020, j'ai publié une vidéo de mise en pratique de "bottom-posting" : [Netiquette mail - Gmail - Répondre à une question](https://youtu.be/WjlPsgiy5x0).
+
 ---
 
 J'ai décidé de placer cet article dans mon [jardin numérique](https://joelhooks.com/digital-garden) afin de pouvoir l'enrichir, le modifier et le corriger au fil du temps, tel un arbre de mon jardin 😉.
