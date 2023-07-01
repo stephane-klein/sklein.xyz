@@ -3,7 +3,7 @@
     import "../../screen.css";
 </script>
 
-<article>
+<article data-sveltekit-reload={true}>
     <nav>
         <a href="/en/">Home</a>
         <span>|</span>

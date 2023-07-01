@@ -6,3 +6,15 @@ services:
     - 80:80
     volumes:
     - ../nginx-config/default.conf:/etc/nginx/conf.d/default.conf
+
+  goatcounter:
+    # Builder from https://github.com/tigattack/docker-goatcounter
+    image: stephaneklein/goatcounter:latest
+    ports:
+    - 8080:8080
+    environment:
+      GOATCOUNTER_DOMAIN: "127.0.0.1"
+      GOATCOUNTER_EMAIL: contact@stephane-klein.info
+      GOATCOUNTER_PASSWORD: password
+    volumes:
+    - ./volumes/goatcounter/:/goatcounter/db/

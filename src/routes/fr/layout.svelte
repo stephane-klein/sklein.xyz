@@ -4,7 +4,7 @@
     import Avatar from "$lib/assets/avatar.png?w=50&webp";
 </script>
 
-<article>
+<article data-sveltekit-reload={true}>
     <header>
         <a href="/"><img src={Avatar} alt="Avatar" /></a>
         <nav>

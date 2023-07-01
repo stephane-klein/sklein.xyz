@@ -1,5 +1,9 @@
 # sklein.xyz
 
+https://sklein.xyz source code.
+
+## Local development
+
 ```sh
 $ pnpm install
 ```
@@ -29,3 +33,7 @@ Next see [`docker-playground/`](docker-playground/).
 ## Guideline
 
 I wish to follow as much as possible the https://brutalist-web.design/ recommandations.
+
+## Web analytics
+
+https://sklein.xyz is analyzed by https://www.goatcounter.com/ at https://gc.sklein.xyz

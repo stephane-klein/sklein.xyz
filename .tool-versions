@@ -1,2 +1,4 @@
 nodejs 16.15.1
 pnpm 8.6.5
+gomplate v3.11.5
+direnv 2.32.3
