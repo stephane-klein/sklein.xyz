@@ -10,9 +10,9 @@
     </p>
 
     <p>
-        I'm <a href="https://fr.wikipedia.org/wiki/Directeur_de_la_technologie">CTO</a> at
-        <a href="https://spacefill.fr/">SpaceFill</a>
-        and I write code <a href="https://news.ycombinator.com/item?id=27256867">for fun</a> and profit.
+        Former <a href="https://fr.wikipedia.org/wiki/Directeur_de_la_technologie">CTO</a> at
+        <a href="https://spacefill.fr/">SpaceFill</a> (2019-2023) and I write code
+        <a href="https://news.ycombinator.com/item?id=27256867">for fun</a> and profit.
     </p>
 
     <p>

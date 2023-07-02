@@ -22,8 +22,8 @@
         </p>
 
         <p>
-            Actuellement <a href="https://fr.wikipedia.org/wiki/Directeur_de_la_technologie">CTO</a> chez
-            <a href="https://spacefill.fr/">SpaceFill</a>, j'écris du code
+            Ancien <a href="https://fr.wikipedia.org/wiki/Directeur_de_la_technologie">CTO</a> chez
+            <a href="https://spacefill.fr/">SpaceFill</a> (2019-2023), j'écris du code
             <a href="https://news.ycombinator.com/item?id=27256867">pour le plaisir</a> et pour gagner ma vie.
         </p>
 
