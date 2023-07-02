@@ -40,4 +40,6 @@
     </p>
 
     <p>For the moment all my content is written in French: <a href="/fr/">https://sklein/fr/</a>.</p>
+
+    <p>Web analytics: <a href="https://stats.sklein.xyz">stats.sklein.xyz</a></p>
 </div>

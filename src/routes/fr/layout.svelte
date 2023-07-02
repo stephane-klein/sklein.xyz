@@ -40,5 +40,7 @@
             >.
         </p>
         <p>Je précise que toutes mes certitudes et pratiques sont temporaires.</p>
+
+        <p>Analyse d'audience de ce site : <a href="https://stats.sklein.xyz">stats.sklein.xyz</a></p>
     </footer>
 </article>
