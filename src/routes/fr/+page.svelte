@@ -29,7 +29,7 @@
 
         <p>
             Vous pouvez me retrouver sur
-            <a href="https://mamot.fr/@stephane_klein">mamot.fr/@stephane_klein</a> (mon compte Mastodon),
+            <a rel="me" href="https://mamot.fr/@stephane_klein">mamot.fr/@stephane_klein</a> (mon compte Mastodon),
             <a href="https://twitter.com/klein_stephane">Twitter</a> (que je n'utilise plus trop depuis novembre 2022),
             <a href="https://www.linkedin.com/in/stephanekleinfrommetz/">LinkedIn</a>,
             <a href="https://www.reddit.com/user/sklein">Reddit</a>,

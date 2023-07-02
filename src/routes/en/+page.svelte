@@ -16,7 +16,7 @@
     </p>
 
     <p>
-        I'm on <a href="https://mamot.fr/@stephane_klein">mamot.fr/@stephane_klein</a> (Mastodon account),
+        I'm on <a rel="me" href="https://mamot.fr/@stephane_klein">mamot.fr/@stephane_klein</a> (Mastodon account),
         <a href="https://twitter.com/klein_stephane">Twitter</a>
         (I do not use it much since November 2022),
         <a href="https://www.linkedin.com/in/stephanekleinfrommetz/">LinkedIn</a>,
