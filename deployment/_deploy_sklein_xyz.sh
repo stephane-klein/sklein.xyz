@@ -18,9 +18,9 @@ services:
     # Builder from https://github.com/tigattack/docker-goatcounter
     image: stephaneklein/goatcounter:latest
     environment:
-      VIRTUAL_HOST: "gc.sklein.xyz"
-      LETSENCRYPT_HOST: "gc.sklein.xyz"
-      GOATCOUNTER_DOMAIN: gc.sklein.xyz
+      VIRTUAL_HOST: "stats.sklein.xyz"
+      LETSENCRYPT_HOST: "stats.sklein.xyz"
+      GOATCOUNTER_DOMAIN: stats.sklein.xyz
       GOATCOUNTER_EMAIL: contact@stephane-klein.info
       GOATCOUNTER_PASSWORD: {{ .Env.GOATCOUNTER_PASSWORD }}
     volumes:

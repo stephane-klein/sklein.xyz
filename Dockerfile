@@ -6,6 +6,7 @@ WORKDIR /src/
 
 COPY ./ /src/
 
+ENV PUBLIC_GOATCOUNTER_URL https://stats.sklein.xyz
 RUN pnpm install
 RUN pnpm run build
 
