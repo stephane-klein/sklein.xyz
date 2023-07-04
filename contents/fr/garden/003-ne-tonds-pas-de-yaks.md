@@ -17,6 +17,8 @@ Bien que je sais que je suis déjà en train de tondre le Yak au moment où j'é
 
 > La tonte de Yaks est la dernière étape d'un enchaînement de tâches nécessaires pour réaliser un tout petit truc qui devait au départ prendre « juste 2 minutes » 😧
 
+Voici une vidéo qui illustre très bien ce qu'est la tonte de Yaks : [Hal fixing a light bulb (from Malcolm in the Middle S03E06 - Health Scare)](https://youtu.be/AbSehcT19u0).
+
 ---
 
 ## 👉 Exemple « Je veux nettoyer la voiture aujourd'hui »
@@ -62,3 +64,12 @@ Je pense que le timeboxing peut être une bonne solution, un cadre qui permet de
 ![](https://cdn-images-1.medium.com/max/1600/1*QQgOA3gDghj578EpIQ_UJw.jpeg)
 
 Illustration du yak shaving dans le monde de l'informatique
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/AbSehcT19u0"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
