@@ -30,6 +30,12 @@ $ ./scripts/build-docker-image.sh
 
 Next see [`docker-playground/`](docker-playground/).
 
+## Fast deployment
+
+```sh
+$ ./scripts/fast-deploy.sh
+```
+
 ## Guideline
 
 I wish to follow as much as possible the https://brutalist-web.design/ recommandations.
