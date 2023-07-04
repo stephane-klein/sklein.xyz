@@ -1,6 +1,7 @@
 <!-- I wish to follow as much as possible the https://brutalist-web.design/ recommandations -->
 <script>
     import Layout from "../../layout.svelte";
+    import ReactionInset from "../../../../lib/reaction_inset.svelte";
     export let data;
 </script>
 
@@ -21,4 +22,6 @@
     </div>
 
     {@html data.body}
+
+    <ReactionInset />
 </Layout>

@@ -17,6 +17,8 @@
     --toc-text-active-color: hsl(0, 0%, 80%);
     --toc-left-line-color: hsl(0, 0%, 40%);
     --toc-left-active-line-color: hsl(0, 0%, 70%);
+
+    --reaction-inset-background-color: hsl(204, 5%, 25%);
 }
 
 
@@ -113,4 +115,10 @@ BLOCKQUOTE {
 
 PRE {
     line-height: 1.4em;
+}
+
+.reaction-inset {
+    margin: 0;
+    padding: 1em 2em;
+    background-color: var(--reaction-inset-background-color);
 }
