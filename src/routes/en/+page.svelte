@@ -12,7 +12,10 @@
     <p>
         Former <a href="https://fr.wikipedia.org/wiki/Directeur_de_la_technologie">CTO</a> at
         <a href="https://spacefill.fr/">SpaceFill</a> (2019-2023) and I write code
-        <a href="https://news.ycombinator.com/item?id=27256867">for fun</a> and profit.
+        <a href="https://web.archive.org/web/20210624114811/https://web.eecs.utk.edu/~azh/blog/makinguselessstuff.html"
+            >for fun</a
+        >
+        (<a href="https://news.ycombinator.com/item?id=27256867">comments HN</a>) and profit.
     </p>
 
     <p>

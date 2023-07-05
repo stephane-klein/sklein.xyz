@@ -24,7 +24,11 @@
         <p>
             Ancien <a href="https://fr.wikipedia.org/wiki/Directeur_de_la_technologie">CTO</a> chez
             <a href="https://spacefill.fr/">SpaceFill</a> (2019-2023), j'écris du code
-            <a href="https://news.ycombinator.com/item?id=27256867">pour le plaisir</a> et pour gagner ma vie.
+            <a
+                href="https://web.archive.org/web/20210624114811/https://web.eecs.utk.edu/~azh/blog/makinguselessstuff.html"
+                >pour le plaisir</a
+            >
+            (<a href="https://news.ycombinator.com/item?id=27256867">comments HN</a>) et pour gagner ma vie.
         </p>
 
         <p>
