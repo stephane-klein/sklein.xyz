@@ -210,7 +210,6 @@ Comme cet article fait partie de la section “digital garden”, j’espère qu
     <li class="facebook"><a href="https://fr.wikipedia.org/wiki/Facebook_Messenger">Facebook Messenger</a></li>
     <li class="twitter"><a href="https://fr.wikipedia.org/wiki/Twitter">Twitter private messages</a></li>
     <li class="slack"><a href="https://fr.wikipedia.org/wiki/Slack_(plateforme)">Slack</a></li>
-    <li class="flowdock"><a href="https://alternativeto.net/software/flowdock/about/">Flowdock</a></li>
     <li class="linkedin"><a href="https://fr.wikipedia.org/wiki/LinkedIn">LinkedIn message</a></li>
     <li class="mattermost"><a href="https://fr.wikipedia.org/wiki/Mattermost">Mattermost</a></li>
     <li class="signal"><a href="https://fr.wikipedia.org/wiki/Signal_(application)">Signal</a></li>
@@ -224,7 +223,6 @@ Comme cet article fait partie de la section “digital garden”, j’espère qu
     <li class="facebook"><a href="https://fr.wikipedia.org/wiki/Facebook_Messenger">Facebook Messenger</a></li>
     <li class="twitter"><a href="https://fr.wikipedia.org/wiki/Twitter">Twitter private messages</a></li>
     <li class="slack"><a href="https://fr.wikipedia.org/wiki/Slack_(plateforme)">Slack</a></li>
-    <li class="flowdock"><a href="https://alternativeto.net/software/flowdock/about/">Flowdock</a></li>
     <li class="linkedin"><a href="https://fr.wikipedia.org/wiki/LinkedIn">LinkedIn message</a></li>
     <li class="mattermost"><a href="https://fr.wikipedia.org/wiki/Mattermost">Mattermost</a></li>
     <li class="signal"><a href="https://fr.wikipedia.org/wiki/Signal_(application)">Signal</a></li>
@@ -240,7 +238,6 @@ Comme cet article fait partie de la section “digital garden”, j’espère qu
     <li class="facebook"><a href="https://fr.wikipedia.org/wiki/Facebook_Messenger">Facebook Messenger</a></li>
     <li class="twitter"><a href="https://fr.wikipedia.org/wiki/Twitter">Twitter private messages</a></li>
     <li class="slack"><a href="https://fr.wikipedia.org/wiki/Slack_(plateforme)">Slack</a></li>
-    <li class="flowdock"><a href="https://alternativeto.net/software/flowdock/about/">Flowdock</a></li>
     <li class="linkedin"><a href="https://fr.wikipedia.org/wiki/LinkedIn">LinkedIn message</a></li>
     <li class="mattermost"><a href="https://fr.wikipedia.org/wiki/Mattermost">Mattermost</a></li>
     <li class="signal"><a href="https://fr.wikipedia.org/wiki/Signal_(application)">Signal</a></li>
