@@ -113,6 +113,10 @@ BLOCKQUOTE {
     background-color: var(--quoted-background-color);
 }
 
+CODE {
+    background-color: var(--quoted-background-color);
+}
+
 PRE {
     line-height: 1.4em;
 }
