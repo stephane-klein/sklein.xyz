@@ -62,6 +62,14 @@
             >).
         </p>
 
+        <p>Billets de blog :</p>
+
+        <ul>
+            {#each data.posts as post}
+                <li><a href={post.path}>{post?.frontmatter?.date} : {post?.frontmatter?.title ?? post.path}</a></li>
+            {/each}
+        </ul>
+
         <p>Sommaire de mon <a href="https://joelhooks.com/digital-garden">jardin numérique</a> 🌱 :</p>
 
         <ul>

@@ -10,7 +10,7 @@
     --link-text-decoration: underline;
     --heading-h1-text-color: hsl(0, 0%, 90%);
     --heading-h2-h3-h4-text-color: hsl(0, 0%, 80%);
-    --header-anchor-color: hsl(0, 0%, 60%);
+    --header-anchor-color: hsl(0, 0%, 40%);
     --header-anchor-color-hover: hsl(0, 0%, 80%);
 
     --toc-text-color: hsl(0, 0%, 60%);
@@ -47,18 +47,18 @@ ARTICLE {
         display: flex;
         flex-direction: row;
         align-items: center;
-    }
 
-    NAV {
-        margin-left: 1rem;
-        font-size: 80%;
-        display: flex;
-        flex-direction: row;
-        gap: 0.5em;
+        NAV {
+            margin-left: 1rem;
+            font-size: 80%;
+            display: flex;
+            flex-direction: row;
+            gap: 0.5em;
+        }
     }
 
     UL {
-        padding-left: 1rem;
+        padding-left: 2rem;
     }
 
     .article-metadata {
