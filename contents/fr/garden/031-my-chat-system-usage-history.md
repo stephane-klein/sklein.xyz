@@ -169,6 +169,8 @@ Toutefois, de ce que j'ai pu observer, son usage était exclusivement orienté c
     <li class="phpbb"><a href="https://fr.wikipedia.org/wiki/PhpBB">phpBB</a></li>
 </ul>
 
+<p>J'ai pu constater une nouvelle migration, cette fois de <a href="https://fr.wikipedia.org/wiki/AOL_Instant_Messenger">AIM</a> vers <a href="https://fr.wikipedia.org/wiki/Windows_Live_Messenger">MSN Messenger</a>, peut-être à cause de l'intégration par défaut de MSN à Windows XP.</p>
+
 <p>Pour les échanges publics, je me souviens d'avoir observé une forte augmentation de forums thématiques propulsés par le
 moteur libre <a href="https://fr.wikipedia.org/wiki/PhpBB">phpBB</a>. J'avais même installé une instance sur <a
   href="https://web.archive.org/web/20040908050611/http://forum.thionville-tt.net:80/">forum.thionville-tt.net</a> qui
