@@ -112,7 +112,7 @@ Comme cet article fait partie de la section “digital garden”, j’espère qu
   background-color: #d8f5a3;
 }
 
-.foobar {
+.phpbb {
   background-color: #cbffa9;
 }
 </style>
@@ -155,13 +155,25 @@ fonctionnalités des logiciels de messageries modernes (mis à part le chiffreme
     <li class="aol"><a href="https://fr.wikipedia.org/wiki/AOL_Instant_Messenger">AOL Instant Messenger</a></li>
 </ul>
 
+<p>Je ne sais pas pour quelle raison, en 2002, pratiquement tous mes contacts ont migré de ICQ vers <a href="https://fr.wikipedia.org/wiki/AOL_Instant_Messenger">AIM</a> (AOL Instant Messenger).<br />
+Ce service a touché le grand public, quasiment tous mes amis du Tennis de Table de Thionville étaient présents sur AIM.
+Toutefois, de ce que j'ai pu observer, son usage était exclusivement orienté conversation à deux, je n'ai jamais vu
+  d'utilisation de room, je ne sais même pas si la fonctionnalité était disponible à cette époque.</p>
+
 ## 2003
 
 <ul class="block">
     <li class="sms"><a href="https://fr.wikipedia.org/wiki/Short_Message_Service">SMS</a></li>
     <li class="irc"><a href="https://fr.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a></li>
     <li class="msn"><a href="https://fr.wikipedia.org/wiki/Windows_Live_Messenger">MSN Messenger</a></li>
+    <li class="phpbb"><a href="https://fr.wikipedia.org/wiki/PhpBB">phpBB</a></li>
 </ul>
+
+<p>Pour les échanges publics, je me souviens d'avoir observé une forte augmentation de forums thématiques propulsés par le
+moteur libre <a href="https://fr.wikipedia.org/wiki/PhpBB">phpBB</a>. J'avais même installé une instance sur <a
+  href="https://web.archive.org/web/20040908050611/http://forum.thionville-tt.net:80/">forum.thionville-tt.net</a> qui
+  était très populaire, pratiquement toutes les personnes impliqués du club y étaient présents. <a href="https://web.archive.org/web/20070228174102/http://forum.thionville-tt.net/">Dans cette capture de
+  2007</a> ce forum comptait 12471 messages et 90 membres.</p>
 
 ## 2006
 
@@ -170,6 +182,7 @@ fonctionnalités des logiciels de messageries modernes (mis à part le chiffreme
     <li class="irc"><a href="https://fr.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a></li>
     <li class="msn"><a href="https://fr.wikipedia.org/wiki/Windows_Live_Messenger">MSN Messenger</a></li>
     <li class="xmpp"><a href="https://fr.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol">XMPP</a></li>
+    <li class="phpbb"><a href="https://fr.wikipedia.org/wiki/PhpBB">phpBB</a></li>
 </ul>
 
 ## 2010
@@ -180,6 +193,7 @@ fonctionnalités des logiciels de messageries modernes (mis à part le chiffreme
     <li class="msn"><a href="https://fr.wikipedia.org/wiki/Windows_Live_Messenger">MSN Messenger</a></li>
     <li class="xmpp"><a href="https://fr.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol">XMPP</a></li>
     <li class="whatsapp"><a href="https://fr.wikipedia.org/wiki/WhatsApp">WhatsApps</a></li>
+    <li class="phpbb"><a href="https://fr.wikipedia.org/wiki/PhpBB">phpBB</a></li>
 </ul>
 
 ## 2012
@@ -191,6 +205,7 @@ fonctionnalités des logiciels de messageries modernes (mis à part le chiffreme
     <li class="whatsapp"><a href="https://fr.wikipedia.org/wiki/WhatsApp">WhatsApps</a></li>
     <li class="facebook"><a href="https://fr.wikipedia.org/wiki/Facebook_Messenger">Facebook Messenger</a></li>
     <li class="twitter"><a href="https://fr.wikipedia.org/wiki/Twitter">Twitter private messages</a></li>
+    <li class="phpbb"><a href="https://fr.wikipedia.org/wiki/PhpBB">phpBB</a></li>
 </ul>
 
 ## 2014
