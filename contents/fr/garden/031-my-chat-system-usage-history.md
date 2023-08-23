@@ -141,7 +141,7 @@ Mes camarades de classe de faculté étaient rassemblés dans quelques canaux pr
 <p><a href="https://fr.wikipedia.org/wiki/ICQ">ICQ</a> un peu plus tard dans l'année 2000, des camarades classes m'ont
 invité sur ICQ, un service propriétaire. Alors que IRC était principalement orienté autour des canaux, ICQ était principalement utilisé pour
 des échanges entre deux utilisateurs, comme les SMS, WhatApps,… De mémoire, ICQ proposait déjà toutes les
-fonctionnalités des logiciels de messageries modernes (mis à part le chiffrement). Vingt temps plus tard, j'ai encore
+fonctionnalités des logiciels de messageries modernes (mis à part le chiffrement). Vingt ans plus tard, j'ai encore
   beaucoup d'émotion quand j'entends le son de notification ICQ <a href="https://www.youtube.com/watch?v=RhGHerssyk4">"Uh Oh!"</a>.</p>
 
 <p>À cette époque, je me souviens que les choses étaient simples : utilisation du SMS sur téléphone mobile, les équipes
