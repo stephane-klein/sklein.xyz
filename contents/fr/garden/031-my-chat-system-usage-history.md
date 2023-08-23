@@ -187,6 +187,27 @@ moteur libre <a href="https://fr.wikipedia.org/wiki/PhpBB">phpBB</a>. J'avais m�
     <li class="phpbb"><a href="https://fr.wikipedia.org/wiki/PhpBB">phpBB</a></li>
 </ul>
 
+<p>2006 est l'année pendant laquelle je me souviens avoir commencé à étudier et utiliser <a href="https://fr.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol">XMPP</a>.<br />
+Alors que je continuais à utiliser IRC, un réseau libre, pour des canaux entre geeks, le protocole ouvert XMPP et son
+réseau ouvert, interconnectable et décentralisé <a href="https://fr.wikipedia.org/wiki/Jabber">Jabber</a>, me semblait parfait pour remplacer les protocoles fermés AIM et
+MSN. J'espérais ainsi éviter de nouvelles vagues de migrations, comme celles que j'avais connues les trois années précédentes.</p>
+
+<p>Je pense que c'est en 2006 ou 2007 que j'ai déployé une instance du serveur <a href="https://en.wikipedia.org/wiki/Ejabberd">ejabberd</a> pour
+  un usage professionnel. Je pouvais échanger avec mes collègues, avec les adresses Jabber du style
+<code>stephane@is-webdegin.com</code>, ce qui avait l'avantage d'être identique aux adresses mails. Je trouvais cela très
+  propre.</p>
+
+<p>XMPP avait tout pour plaire : un protocole ouvert basé sur des <a href="https://fr.wikipedia.org/wiki/Request_for_comments">RFC</a> et évolutif via les XEP…</p>
+
+<p>De plus, entre 2005 et 2008, les bonnes nouvelles pour XMPP s'enchainaient, avec par exemple l'adoption de XMPP par Apple et
+  Google en 2005, et par Facebook en 2008.</p>
+
+<p>Quinze ans plus tard, avec le recul, je m'aperçois que j'étais trop optimiste.</p>
+
+<p>Avec le temps, je me suis bien rendu compte que la communauté XMPP rencontrait des difficultés, par exemple, je n'ai jamais
+réussi à me connecter à des canaux avec un client XMPP. Globalement, je trouvais les clients de mauvaise qualité
+alors que le protocole et les serveurs progressaient de plus en plus.</p>
+
 ## 2010
 
 <ul class="block">
