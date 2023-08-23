@@ -127,9 +127,25 @@ Comme cet article fait partie de la section “digital garden”, j’espère qu
 
 <ul class="block">
     <li class="sms"><a href="https://fr.wikipedia.org/wiki/Short_Message_Service">SMS</a></li>
-    <li class="icq"><a href="https://fr.wikipedia.org/wiki/ICQ">ICQ</a></li>
     <li class="irc"><a href="https://fr.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a></li>
+    <li class="icq"><a href="https://fr.wikipedia.org/wiki/ICQ">ICQ</a></li>
 </ul>
+
+<p><a href="https://fr.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a> est le premier système de chat que j'ai utilisé
+sur Internet. Globalement, c'était comme Slack, Microshot Teams… mais 20 ans avant. Principalement orienté autour de canaux (canal, channel, room), publié sous licences libres, construit sur un protocole et un réseau ouvert.<br />
+Principalement utilisé par des geeks, des hackers, j'étais connecté sur les canaux du style <code>#france</code>,
+  <code>#linux</code>, <code>#warez</code>, <code>#php</code>, <code>#mp3</code>, <code>#metz</code>,
+  <code>#moselle</code>…<br />
+Mes camarades de classe de faculté étaient rassemblés dans quelques canaux privés.</p>
+
+<p><a href="https://fr.wikipedia.org/wiki/ICQ">ICQ</a> un peu plus tard dans l'année 2000, des camarades classes m'ont
+invité sur ICQ, un service propriétaire. Alors que IRC était principalement orienté autour des canaux, ICQ était principalement utilisé pour
+des échanges entre deux utilisateurs, comme les SMS, WhatApps,… De mémoire, ICQ proposait déjà toutes les
+fonctionnalités des logiciels de messageries modernes (mis à part le chiffrement). Vingt temps plus tard, j'ai encore
+  beaucoup d'émotion quand j'entends le son de notification ICQ <a href="https://www.youtube.com/watch?v=RhGHerssyk4">"Uh Oh!"</a>.</p>
+
+<p>À cette époque, je me souviens que les choses étaient simples : utilisation du SMS sur téléphone mobile, les équipes
+étaient rassemblés autour de canaux sur IRC, et les échanges en duo sur desktop étaient effectués sur ICQ.</p>
 
 ## 2002
 
