@@ -12,4 +12,27 @@ Règles que je suis :
 
 ---
 
+Le 15 septembre 2023, j'ai découvert que GitLab a ajouté dans leur Handbook une section [Acknowledgement Receipts (ACK)](https://handbook.gitlab.com/handbook/communication/#acknowledgement-receipts-ack).
+
+Voici son contenu au moment où j'écris ces lignes :
+
+> ## Acknowledgement Receipts (ACK)
+>
+> ### Informal ACKs
+>
+> In informal acknowledgement scenarios, such as on Slack or on issue comments, it is common practice to use the following:
+>
+> - Slack emoji reaction of `:ack:` or an `ACK` response => Acknowledged, or message received
+> - Eyes 👀 => I’ll check this out or seen and will do
+> - Thumbs up 👍 => good idea
+> - White checkmark ✅ => task is complete or done
+> - Heart ❤ ️= expression of gratitude or appreciation
+> - cc @mentions => if someone needs to see a message
+
+J'aime bien l'idée de l'émoji `ACK` de Slack, qui est plus explicite ✅ . Problème : cet émoji n'est pas disponible
+partout. En attendant de trouver une solution pour généraliser son usage, je continue à utiliser ✅ pour signifier
+`ACK`.
+
+---
+
 J'ai décidé de placer cet article dans mon [jardin numérique](https://joelhooks.com/digital-garden) afin de pouvoir l'enrichir, le modifier et le corriger au fil du temps, tel un arbre de mon jardin 😉.
