@@ -29,7 +29,7 @@ Voici son contenu au moment où j'écris ces lignes :
 > - Heart ❤ ️= expression of gratitude or appreciation
 > - cc @mentions => if someone needs to see a message
 
-J'aime bien l'idée de l'émoji `ACK` de Slack, qui est plus explicite ✅ . Problème : cet émoji n'est pas disponible
+J'aime bien l'idée de l'émoji `ACK` de Slack, qui est plus explicite que ✅ . Problème : cet émoji n'est pas disponible
 partout. En attendant de trouver une solution pour généraliser son usage, je continue à utiliser ✅ pour signifier
 `ACK`.
 
