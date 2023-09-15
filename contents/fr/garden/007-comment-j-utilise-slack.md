@@ -12,3 +12,5 @@ github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/conten
 - j'utilise la réaction 👍 pour indiquer que je suis d'accord avec l'information du message ou pour féliciter une action
 
 J'aime utiliser les threads afin de garder le contexte des discussions.
+
+Voir aussi : [Notification « J'ai lu »](../028-notificaton-acknowledge/)
