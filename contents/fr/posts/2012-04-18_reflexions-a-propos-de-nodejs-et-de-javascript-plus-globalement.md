@@ -5,7 +5,7 @@ date: 2012-04-12
 
 # {frontmatter.title}
 
-Billet posté sur [linuxfr.org](https://linuxfr.org/users/harobed/journaux/reflexions-a-propos-de-nodejs-et-de-javascript-plus-globalement) le billet suivant :
+Billet posté sur [linuxfr.org](https://linuxfr.org/users/harobed/journaux/reflexions-a-propos-de-nodejs-et-de-javascript-plus-globalement) :
 
 > Bonjour,
 >
