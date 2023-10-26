@@ -3,7 +3,7 @@ title: Mettre une location d'un T1 en meublé ou non-meublé ?
 date: 2023-10-26
 ---
 
-J'ai posté ce billet sur Lemmy [France](https://lemmy.world/post/7364035) :
+J'ai posté ce billet sur Lemmy [France](https://lemmy.world/post/7364035) et le Subreddit [France](https://old.reddit.com/r/france/comments/17h8959/mettre_une_location_dun_t1_en_meubl%C3%A9_ou_nonmeubl%C3%A9/?) :
 
 > ## TL;DR (too long; didn’t read)
 >
@@ -91,4 +91,4 @@ J'ai posté ce billet sur Lemmy [France](https://lemmy.world/post/7364035) :
 >
 > ## Je vous pose la question
 >
-> Et vous ? Quelle est votre préférence pour ce type de logement ? Meublé ou non meublé ? Est-ce qu'il y a trop ou pas assez de meublé sur Paris ?
+> Et vous ? Quelle est votre préférence pour ce type de logement ? Meublé ou non meublé ? Est-ce qu'il y a trop ou pas assez de meublés sur Paris ?
