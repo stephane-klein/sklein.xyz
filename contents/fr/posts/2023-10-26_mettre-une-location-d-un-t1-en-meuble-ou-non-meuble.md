@@ -38,7 +38,7 @@ J'ai posté ce billet sur Lemmy [France](https://lemmy.world/post/7364035), le S
 >
 > - Déménagement plus rapide ;
 > - Au final, moins de frais ;
-> - Moins de meubles finissait à la déchèterie ou un stock dans un garage, grenier…
+> - Moins de meubles finissent à la déchèterie ou un stock dans un garage, grenier…
 > - Je n'embêtais plus personne avec mes déménagements ;
 > - Si le meublé était bien fait, les meubles étaient parfaitement adaptés au logement ;
 > - Si je dois déménager pour réduire mes temps de transport, un déménagement minimaliste me permettait de prendre la décision plus facilement.
