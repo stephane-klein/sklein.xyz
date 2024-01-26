@@ -1,12 +1,11 @@
 <!-- See https://github.com/sveltejs/kit/issues/627 to understand why +layout.svelte isn't used -->
 <script>
     import "../../screen.css";
-    import Avatar from "$lib/assets/avatar.png?w=50&webp";
 </script>
 
 <article data-sveltekit-reload={true}>
     <header>
-        <a href="/"><img src={Avatar} alt="Avatar" /></a>
+        <a href="/"><enhanced:img src="$lib/assets/avatar.png?w=50" alt="An alt text" /></a>
         <nav>
             <a href="/fr/">Accueil</a>
             <span>|</span>

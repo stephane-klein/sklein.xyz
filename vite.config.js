@@ -1,10 +1,9 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import { imagetools } from 'vite-imagetools'
+import { enhancedImages } from '@sveltejs/enhanced-img';
 
-/** @type {import('vite').UserConfig} */
 const config = {
 	plugins: [
-        imagetools(),
+		enhancedImages(),
         sveltekit()
     ]
 };
