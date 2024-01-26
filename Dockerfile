@@ -1,6 +1,6 @@
-FROM node:18.17.0
+FROM node:20.11.0
 
-RUN npm install -g pnpm@8.6.12
+RUN npm install -g pnpm@8.14.3
 
 WORKDIR /src/
 
