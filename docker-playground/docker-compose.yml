@@ -1,11 +1,16 @@
 version: '3.8'
 services:
-  sklein_xyz:
-    image: stephaneklein/sklein.xyz:latest
-    ports:
-    - 80:80
+  nginx:
+    image: stephaneklein/nginx-sklein.xyz:latest
     volumes:
     - ../nginx-config/default.conf:/etc/nginx/conf.d/default.conf
+    ports:
+    - 80:80
+    depends_on:
+      - sklein_xyz
+
+  sklein_xyz:
+    image: stephaneklein/sklein.xyz:latest
 
   goatcounter:
     # Builder from https://github.com/tigattack/docker-goatcounter

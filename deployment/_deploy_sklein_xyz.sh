@@ -8,11 +8,16 @@ mkdir -p /srv/sklein_xyz/
 cat <<EOF > /srv/sklein_xyz/docker-compose.yml
 version: '3.8'
 services:
-  sklein_xyz:
-    image: stephaneklein/sklein.xyz:latest
+  nginx:
+    image: stephaneklein/nginx-sklein.xyz:latest
     environment:
       VIRTUAL_HOST: "sklein.xyz,stephane-klein.info,garden.stephane-klein.info"
       LETSENCRYPT_HOST: "sklein.xyz,stephane-klein.info,garden.stephane-klein.info"
+    depends_on:
+      - sklein_xyz
+
+  sklein_xyz:
+    image: stephaneklein/sklein.xyz:latest
 
   goatcounter:
     # Builder from https://github.com/tigattack/docker-goatcounter
@@ -29,4 +34,4 @@ EOF
 
 cd /srv/sklein_xyz/
 docker-compose pull
-# docker-compose up -d
+docker-compose up -d

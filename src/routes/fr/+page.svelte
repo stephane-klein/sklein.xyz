@@ -82,5 +82,5 @@
         Le contenu des billets de blog ne sont pas modifiés (corrigés, améliorés…) après publication.<br />
         Les "feuilles" du jardin numérique sont continuellement actualisées.</p>
     </div>
-    <p slot="footer"><a href="https://sklein.xyz/reports/report.html">Voir le Lighthouse score de cette page</a></p>
+    <p slot="footer"><a rel="external" href="/reports/report.html">Voir le Lighthouse score de cette page</a></p>
 </Layout>
