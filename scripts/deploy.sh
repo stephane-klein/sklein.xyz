@@ -3,7 +3,7 @@ set -e
 
 cd "$(dirname "$0")/../"
 
-./scripts/fast-build-docker-image.sh
+./scripts/build-docker-image.sh
 
 docker push stephaneklein/sklein.xyz:latest
 

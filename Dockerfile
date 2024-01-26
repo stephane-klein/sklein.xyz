@@ -1,19 +1,15 @@
-FROM node:20.11.0
-
-RUN npm install -g pnpm@8.14.3
+FROM oven/bun:1.0-slim
 
 WORKDIR /src/
-
 COPY ./ /src/
 
 ENV PUBLIC_GOATCOUNTER_URL https://stats.sklein.xyz
-RUN pnpm install
-RUN pnpm run build
+RUN bun install
+RUN bun --bun run build
 
-FROM node:20.11.0
-RUN npm install -g pnpm@8.14.3
+FROM oven/bun:1.0-slim
 COPY --from=0 /src/package.json /src/
 COPY --from=0 /src/build/ /src/build/
 EXPOSE 3000
 WORKDIR /src/
-CMD ["node", "build/index.js"]
+CMD ["bun", "build/index.js"]

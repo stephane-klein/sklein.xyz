@@ -5,11 +5,12 @@ https://sklein.xyz source code.
 ## Local development
 
 ```sh
-$ pnpm install
+$ rtx install
+$ bun install
 ```
 
 ```sh
-$ pnpm run dev
+$ bun --bun run dev
 ```
 
 Go to http://127.0.0.1:5173/
@@ -19,7 +20,7 @@ Go to http://127.0.0.1:5173/
 Prerequisite: install Chrome
 
 ```sh
-$ pnpm run lighthouse
+$ bun run lighthouse
 ```
 
 ## Build Docker image
@@ -30,10 +31,10 @@ $ ./scripts/build-docker-image.sh
 
 Next see [`docker-playground/`](docker-playground/).
 
-## Fast deployment
+## Deployment
 
 ```sh
-$ ./scripts/fast-deploy.sh
+$ ./scripts/deploy.sh
 ```
 
 ## Guideline
