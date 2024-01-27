@@ -2,6 +2,9 @@
 
 https://sklein.xyz source code.
 
+`sklein.xyz` domain name registrar: [Gandi](https://gandi.net) ([I would like transfer it](https://github.com/stephane-klein/sklein.xyz/issues/102))  
+`sklein.xyz` DNS server: Gandi, managed manually.
+
 ## Local development
 
 ```sh
