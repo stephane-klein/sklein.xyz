@@ -59,6 +59,10 @@ ARTICLE {
 
     UL {
         padding-left: 2rem;
+
+        LI {
+            margin-bottom: 0.5em;
+        }
     }
 
     .article-metadata {
