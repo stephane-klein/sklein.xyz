@@ -1,5 +1,6 @@
 .github
 .svelte-kit
 node_modules
+build/
 docker-playground
 deployment
