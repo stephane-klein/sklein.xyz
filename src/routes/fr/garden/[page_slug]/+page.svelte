@@ -16,6 +16,9 @@
     <div class="article-metadata">
         Première publication :&nbsp;<time datetime="">{data.frontmatter?.created_at}</time>
 
+        {#if data.frontmatter?.last_updated_at}
+            &nbsp;|&nbsp; Dernière mise à jour :&nbsp;<time datetime="">{data.frontmatter.last_updated_at}</time>
+        {/if}
         {#if data.frontmatter?.github_history}
             &nbsp;|&nbsp;<a href={data.frontmatter.github_history}>Historique git de l'article</a>
         {/if}

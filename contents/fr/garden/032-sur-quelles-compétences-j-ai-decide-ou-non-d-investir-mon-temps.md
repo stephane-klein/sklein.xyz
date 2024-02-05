@@ -1,6 +1,8 @@
 ---
 title: Sur quelles compétences j'ai décidé ou non d'investir mon temps ?
 created_at: 2022-02-09
+last_updated_at: 2024-02-05
+github_history: https://github.com/stephane-klein/sklein.xyz/blob/main/contents/fr/garden/032-sur-quelles-comp%C3%A9tences-j-ai-decide-ou-non-d-investir-mon-temps.md
 ---
 
 # Sur quelles compétences j'ai décidé ou non d'investir mon temps ?
@@ -68,6 +70,8 @@ J'ai décidé (fait le pari) d'investir du temps, sur du long terme (liste non e
     <li>sur <a href="https://fr.wikipedia.org/wiki/Scrum_(d%C3%A9veloppement)">Scrum</a> <span class="right">(à partir de 2018)</span></li>
     <li>sur <a href="https://www.graphile.org/postgraphile/">PostGraphile</a> <span class="right">(à partir de 2019)</span></li>
     <li>sur <a href="https://fr.wikipedia.org/wiki/Neovim">Neovim</a> <span class="right">(à partir de 2021)</span></li>
+    <li>sur <a href="https://svelte.dev/">Svelte</a> et <a href="https://kit.svelte.dev/">SvelteKit</a> (à partir de 2022)</li>
+    <li>sur <a href="https://tailwindcss.com/">Tailwind CSS</a> (à partir de 2023)</li>
 </ul>
 
 Sur mon chemin, j'ai croisé ou alors on a essayé de me faire utiliser des outils surlesquels j'ai décidé volontairement de ne pas investir de temps :
@@ -91,21 +95,14 @@ Sur mon chemin, j'ai croisé ou alors on a essayé de me faire utiliser des outi
     <li>sur <a href="https://fr.wikipedia.org/wiki/Drupal">Drupal</a></li>
 </ul>
 
-<!-- J'essaie autant que possible de ne pas investir du temps sur les composants propriétaires ou spécifiques des cloud providers, -->
-<!-- par exemple, je ne souhaite pas creuser trop profond dans des composants comme [RDS](https://en.wikipedia.org/wiki/Amazon_Relational_Database_Service). -->
-
-J'utilise, j'ai envesti du temps, tout en sachant que je vais à un moment ou un autre abandonner :
-
-- [MacOS](https://fr.wikipedia.org/wiki/MacOS)
-
 À l'avenir, je souhaite investir du temps :
 
-- sur [Svelte](https://fr.wikipedia.org/wiki/Svelte) (déjà commencé)
 - sur [Rust](<https://fr.wikipedia.org/wiki/Rust_(langage)>)
+- sur [Zig](https://ziglang.org)
+- sur [Lua](https://fr.wikipedia.org/wiki/Lua)
 - sur [TypeScript](https://fr.wikipedia.org/wiki/TypeScript)
 - sur [ClickHouse](https://fr.wikipedia.org/wiki/ClickHouse)
 - sur [Kafka](https://fr.wikipedia.org/wiki/Apache_Kafka)
 - sur [WebAssembly](https://fr.wikipedia.org/wiki/WebAssembly)
 - sur un langage fonctionnelle ([Lisp](https://fr.wikipedia.org/wiki/Lisp) ou [Haskell](https://fr.wikipedia.org/wiki/Haskell))
-- sur [Elixir](<https://fr.wikipedia.org/wiki/Elixir_(langage)>)
 - sur une stack de machine learing, du style [TensorFlow](https://fr.wikipedia.org/wiki/TensorFlow) ou [Scikit-learn](https://fr.wikipedia.org/wiki/Scikit-learn)
