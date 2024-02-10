@@ -1,7 +1,7 @@
 ---
 title: Comment j'utilise le mail ?
-created_at: 2023-04-04
-github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/027-how-i-mail.md
+published_at: 2023-04-04
+github_history_url: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/027-how-i-mail.md
 ---
 
 [toc]

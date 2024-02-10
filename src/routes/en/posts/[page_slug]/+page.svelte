@@ -14,10 +14,10 @@
     <h1>{data.frontmatter?.title ?? "No title"}</h1>
 
     <div class="article-metadata">
-        Published at&nbsp;<time datetime="">{data.frontmatter?.date}</time>
+        Published at&nbsp;<time datetime="">{data.frontmatter?.published_at}</time>
 
-        {#if data.frontmatter?.github_history}
-            &nbsp;|&nbsp;<a href={data.frontmatter.github_history}>GitHub post history</a>
+        {#if data.frontmatter?.github_history_url}
+            &nbsp;|&nbsp;<a href={data.frontmatter.github_history_url}>GitHub post history</a>
         {/if}
         {#if data.frontmatter?.french_url}
             &nbsp;|&nbsp;<a href={data.frontmatter.french_url}>Cet article en Français</a>

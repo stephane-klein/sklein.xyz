@@ -1,8 +1,8 @@
 ---
 title: Sur quelles compétences j'ai décidé ou non d'investir mon temps ?
-created_at: 2022-02-09
+published_at: 2022-02-09
 last_updated_at: 2024-02-05
-github_history: https://github.com/stephane-klein/sklein.xyz/blob/main/contents/fr/garden/032-sur-quelles-comp%C3%A9tences-j-ai-decide-ou-non-d-investir-mon-temps.md
+github_history_url: https://github.com/stephane-klein/sklein.xyz/blob/main/contents/fr/garden/032-sur-quelles-comp%C3%A9tences-j-ai-decide-ou-non-d-investir-mon-temps.md
 ---
 
 # Sur quelles compétences j'ai décidé ou non d'investir mon temps ?

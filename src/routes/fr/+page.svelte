@@ -66,7 +66,7 @@
 
         <ul>
             {#each data.posts as post}
-                <li><a href={post.path}>{post?.frontmatter?.date} : {post?.frontmatter?.title ?? post.path}</a></li>
+                <li><a href={post.slug}>{post.published_at} : {post.title}</a></li>
             {/each}
         </ul>
 
@@ -74,7 +74,7 @@
 
         <ul>
             {#each data.pages as page}
-                <li><a href={page.path}>{page?.frontmatter?.title ?? page.path}</a></li>
+                <li><a href={page.slug}>{page.title}</a></li>
             {/each}
         </ul>
 

@@ -13,6 +13,15 @@ $ bun install
 ```
 
 ```sh
+$ docker compose up -d --wait
+```
+
+```
+$ ./init-or-upgrade-db.js
+$ ./load-contents-to-db.js
+```
+
+```sh
 $ bun --bun run dev
 ```
 

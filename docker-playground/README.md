@@ -8,6 +8,18 @@ $ ../scripts/build-docker-image.sh
 $ docker compose up -d --wait
 ```
 
+Create playground database schema:
+
+```sh
+$ ../init-or-upgrade-db.js
+```
+
+Load [`../contents/`](../contents/) to playground database:
+
+```
+$ ../load-contents-to-db.js
+```
+
 Go to http://127.0.0.1
 
 To test virtualhost, add this lines in your `/etc/hosts`
@@ -38,3 +50,7 @@ Location: https://sklein.xyz/fr/garden/003-ne-tonds-pas-de-yaks/
 </body>
 </html>
 ```
+
+Here is how to connect to Gotify:
+
+http://127.0.0.1:9000 (`admin`, `admin`)

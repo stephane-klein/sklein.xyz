@@ -1,7 +1,7 @@
 ---
 title: Keep it simple, stupid le plus longtemps possible
-created_at: 2020-03-03
-github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/020-keep-it-simple-stupid-le-plus-longtemps-possible.md
+published_at: 2020-03-03
+github_history_url: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/020-keep-it-simple-stupid-le-plus-longtemps-possible.md
 ---
 
 # Keep it simple, stupid le plus longtemps possible

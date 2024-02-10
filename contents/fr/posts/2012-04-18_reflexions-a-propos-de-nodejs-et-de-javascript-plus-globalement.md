@@ -1,6 +1,6 @@
 ---
 title: Réflexions à propos de NodeJS et de Javascript plus globalement
-date: 2012-04-12
+published_at: 2012-04-12
 ---
 
 # {frontmatter.title}

@@ -1,7 +1,7 @@
 ---
 title: Cycle de vie des Repos Git
-created_at: 2019-08-23
-github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/014-cycle-de-vie-des-repos.md
+published_at: 2019-08-23
+github_history_url: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/014-cycle-de-vie-des-repos.md
 ---
 
 # Cycle de vie des Repos Git

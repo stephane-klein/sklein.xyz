@@ -1,7 +1,7 @@
 ---
 title: Analyse du Handbook de GitLab
-created_at: 2019-02-14
-github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/011-analyse-du-handbook-de-gitlab.md
+published_at: 2019-02-14
+github_history_url: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/011-analyse-du-handbook-de-gitlab.md
 ---
 
 # Analyse du Handbook de GitLab

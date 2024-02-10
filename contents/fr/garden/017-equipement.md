@@ -1,7 +1,7 @@
 ---
 title: Équipement
-created_at: 2019-09-04
-github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/017-equipement.md
+published_at: 2019-09-04
+github_history_url: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/017-equipement.md
 ---
 
 # Équipement

@@ -1,10 +1,8 @@
-import * as path from "path";
 import * as cheerio from "cheerio";
 import MarkdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItTocDoneRight from "markdown-it-toc-done-right";
 import slug from "slug";
-import matter_read from "$lib/utils";
 import SendNotification from "$lib/server/gotify";
 
 const markdownIt = new MarkdownIt({
@@ -27,27 +25,40 @@ const markdownIt = new MarkdownIt({
         slugify: slug
     });
 
-export async function load({ request, params }) {
-    const filename = path.join("./contents/fr/garden", path.normalize(`${params.page_slug}.md`).replace(/^[./]*/, ""));
+export async function load({ request, params, locals }) {
+    const slug = `/fr/garden/${params.page_slug}/`;
+    const data = (await locals.sql`
+        SELECT
+            title,
+            TO_DATE(published_at::TEXT, 'YYYY-MM-DD')::TEXT AS published_at,
+            TO_DATE(last_updated_at::TEXT, 'YYYY-MM-DD')::TEXT AS last_updated_at,
+            github_history_url,
+            french_url,
+            english_url,
+            content
+        FROM
+            public.pages
+        WHERE
+            slug=${slug}
+    `)[0];
 
-    const parsedFrontmatter = matter_read(filename);
-    const $ = cheerio.load(markdownIt.render(parsedFrontmatter?.content));
+    const $ = cheerio.load(markdownIt.render(data.content));
 
-    const frontmatter = parsedFrontmatter.data;
-    if (!frontmatter.title) {
-        frontmatter.title = $("h1").text();
+    if (!data.title) {
+        data.title = $("h1").text();
     }
     $("h1").text("");
+
     SendNotification(
         request,
         {
             title: `sklein.xyz french garden page visited`,
-            message: `${frontmatter.title} visited`
+            message: `${data.title} visited`
         }
     );
 
     return {
-        frontmatter: frontmatter,
+        frontmatter: data,
         body: $.html()
     };
 }

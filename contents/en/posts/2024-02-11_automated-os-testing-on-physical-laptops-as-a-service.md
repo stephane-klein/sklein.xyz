@@ -1,6 +1,6 @@
 ---
 title: Automated OS testing on physical laptops as a service?
-date: 2024-02-11
+published_at: 2024-02-11
 french_url: /fr/posts/2024-02-11_un-service-en-ligne-pour-automatiser-des-os-sur-des-ordinateurs-portables-physiques/
 ---
 

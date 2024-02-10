@@ -1,7 +1,7 @@
 ---
 title: Ne tonds pas de Yaks !
-created_at: 2018-02-25
-github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/003-ne-tonds-pas-de-yaks.md
+published_at: 2018-02-25
+github_history_url: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/003-ne-tonds-pas-de-yaks.md
 ---
 
 # Ne tonds pas de Yaks !

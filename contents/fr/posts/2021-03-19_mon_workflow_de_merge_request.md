@@ -1,6 +1,6 @@
 ---
 title: Mon workflow de merge request
-date: 2021-03-19
+published_at: 2021-03-19
 ---
 
 # {frontmatter.title}

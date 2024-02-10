@@ -1,6 +1,6 @@
 ---
 title: Notification « J'ai lu »
-created_at: 2023-04-06
+published_at: 2023-04-06
 ---
 
 Règles que je suis :

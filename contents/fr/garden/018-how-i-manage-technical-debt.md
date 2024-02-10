@@ -1,7 +1,7 @@
 ---
 title: Mes recommandations pour maîtriser la dette technique au quotidien
-created_at: 2019-11-23
-github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/018-how-i-manage-technical-debt.md
+published_at: 2019-11-23
+github_history_url: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/018-how-i-manage-technical-debt.md
 ---
 
 # Mes recommandations pour maîtriser la dette technique au quotidien

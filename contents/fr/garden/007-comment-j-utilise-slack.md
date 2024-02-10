@@ -1,7 +1,7 @@
 ---
 title: Comment j'utilise Slack ?
-created_at: 2019-01-18
-github_history: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/007-comment-j-utilise-slack.md
+published_at: 2019-01-18
+github_history_url: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/garden/007-comment-j-utilise-slack.md
 ---
 
 # Comment j'utilise Slack ?
