@@ -1,6 +1,7 @@
 ---
 title: Un service en ligne pour automatiser des OS sur des ordinateurs portables physiques ?
 date: 2024-02-11
+english_url: /en/posts/2024-02-11_automated-os-testing-on-physical-laptops-as-a-service/
 ---
 
 Bonjour,
@@ -14,7 +15,7 @@ Pour faciliter le travail des développeurs kernel, des distributions et des env
   - contrôle du clavier et de la souris à distance
   - contrôle les ports USB à distance
   - contrôle des paramètres du BIOS
-- Possibilité de mise en place de CI pour automatiser des tests
+- Possibilité de mise en place des système d'[intégration continues](https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue) pour automatiser des tests
 
 Je pense à cette idée en ce moment, parce que je me demande comment les développeurs kernel auraient pu plus facilement identifier les bugs suivants :
 
