@@ -52,3 +52,9 @@ Je pense que ce service pourrait être utile à d'autres communautés logicielle
 
 Cordialement,  
 Stéphane
+
+---
+
+Crossposting:
+
+- On [Fedora Discussion](https://discussion.fedoraproject.org/t/automated-os-testing-on-physical-laptops-as-a-service/105051)
