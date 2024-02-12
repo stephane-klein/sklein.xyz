@@ -5,6 +5,7 @@ import markdownItAnchor from "markdown-it-anchor";
 import markdownItTocDoneRight from "markdown-it-toc-done-right";
 import slug from "slug";
 import matter_read from "$lib/utils";
+import SendNotification from "$lib/server/gotify";
 
 const markdownIt = new MarkdownIt({
     html: true,
@@ -37,6 +38,12 @@ export async function load({ params }) {
         frontmatter.title = $("h1").text();
     }
     $("h1").text("");
+    await SendNotification(
+        {
+            title: `sklein.xyz english blog post visited`,
+            message: `${frontmatter.title} visited`
+        }
+    );
 
     return {
         frontmatter: frontmatter,
