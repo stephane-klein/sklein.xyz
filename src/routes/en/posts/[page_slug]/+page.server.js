@@ -38,7 +38,7 @@ export async function load({ params }) {
         frontmatter.title = $("h1").text();
     }
     $("h1").text("");
-    await SendNotification(
+    SendNotification(
         {
             title: `sklein.xyz english blog post visited`,
             message: `${frontmatter.title} visited`
