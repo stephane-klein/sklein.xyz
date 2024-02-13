@@ -47,3 +47,13 @@ I wish to follow as much as possible the https://brutalist-web.design/ recommand
 ## Web analytics
 
 https://sklein.xyz is analyzed by https://www.goatcounter.com/ at https://gc.sklein.xyz
+
+## How can I filter and ignore visits to my own website?
+
+Install [HTTP Header Mangler](https://addons.mozilla.org/fr/firefox/addon/http-header-mangler/) on my Firefox Desktop
+and Android devices and setup this configuration:
+
+```
+sklein.xyz
+User-Agent = stephane-klein
+```
