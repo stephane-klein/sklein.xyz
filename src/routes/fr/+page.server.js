@@ -2,10 +2,11 @@ import { globSync } from "glob";
 import matter_read from "$lib/utils";
 import SendNotification from "$lib/server/gotify";
 
-export async function load() {
+export async function load({request}) {
     const re = new RegExp(/^contents\/(?<path>.*)\.md$/);
 
     SendNotification(
+        request,
         {
             title: "sklein.xyz french home page visited",
             message: "sklein.xyz french home page visited"

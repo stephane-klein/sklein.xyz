@@ -27,7 +27,7 @@ const markdownIt = new MarkdownIt({
         slugify: slug
     });
 
-export async function load({ params }) {
+export async function load({ request, params }) {
     const filename = path.join("./contents/fr/posts", path.normalize(`${params.page_slug}.md`).replace(/^[./]*/, ""));
 
     const parsedFrontmatter = matter_read(filename);
@@ -40,6 +40,7 @@ export async function load({ params }) {
     $("h1").text("");
 
     SendNotification(
+        request,
         {
             title: `sklein.xyz french blog post visited`,
             message: `${frontmatter.title} visited`
