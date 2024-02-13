@@ -1,1 +1,2 @@
 export GOATCOUNT_PASSWORD=secret
+export GOTIFY_KEY=secret

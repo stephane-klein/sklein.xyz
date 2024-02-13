@@ -18,6 +18,11 @@ services:
 
   sklein_xyz:
     image: stephaneklein/sklein.xyz:latest
+    environment
+      PUBLIC_GOATCOUNTER_URL https://stats.sklein.xyz
+      GOTIFY_KEY: {{ .Env.GOTIFY_KEY }}
+    extra_hosts:
+    - gotify.sklein.xyz:51.158.146.33
 
   goatcounter:
     # Builder from https://github.com/tigattack/docker-goatcounter

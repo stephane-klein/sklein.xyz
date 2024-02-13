@@ -3,7 +3,6 @@ FROM oven/bun:1.0-slim
 WORKDIR /src/
 COPY ./ /src/
 
-ENV PUBLIC_GOATCOUNTER_URL https://stats.sklein.xyz
 RUN bun install
 RUN bun --bun run build
 
