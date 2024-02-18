@@ -46,7 +46,8 @@
     "svelte-preprocess-import-assets": "1.1.0",
     "vite": "5.0.12",
     "@sveltejs/enhanced-img": "0.1.8",
-    "postgres": "https://github.com/porsager/postgres/archive/2b85ea7fb8b50f7c69232bd8074aa11c8cbe9d3a.tar.gz"
+    "postgres": "https://github.com/porsager/postgres/archive/2b85ea7fb8b50f7c69232bd8074aa11c8cbe9d3a.tar.gz",
+    "yargs": "17.7.2"
   },
   "type": "module",
   "dependencies": {

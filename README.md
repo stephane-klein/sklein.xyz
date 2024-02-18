@@ -45,6 +45,34 @@ $ bun --bun run dev
 
 Go to http://127.0.0.1:5173/
 
+## Git clone private contents
+
+```
+$ git clone git@github.com:stephane-klein/sklein.xyz-private.git private
+```
+
+## Upload public content in production
+
+```
+$ cd deployment
+$ ./scripts/open_ssh_tunnel.sh
+```
+
+```
+$ ../load-contents-to-db.js
+```
+
+## Upload private content in production
+
+```
+$ cd deployment
+$ ./scripts/open_ssh_tunnel.sh
+```
+
+```
+$ ../load-file-to-db.js ../private/foobar.md
+```
+
 ## Generate lighthouse report
 
 Prerequisite: install Chrome

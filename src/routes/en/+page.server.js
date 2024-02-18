@@ -13,14 +13,15 @@ export async function load({request, locals}) {
         ...(await locals.sql`
             WITH _posts AS (
                 SELECT
-                    slug,
+                    instance_path,
                     title,
                     TO_DATE(published_at::TEXT, 'YYYY-MM-DD') AS published_at
                 FROM
                     public.pages
                 WHERE
                     (lang='en') AND
-                    (page_type='blog')
+                    (page_type='blog') AND
+                    (private=false)
             )
             SELECT
                 (

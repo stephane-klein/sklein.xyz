@@ -14,7 +14,9 @@
     <h1>{data.frontmatter?.title ?? "No title"}</h1>
 
     <div class="article-metadata">
+        {#if data.frontmatter?.published_at}
         Publié le&nbsp;<time datetime="">{data.frontmatter?.published_at}</time>
+        {/if}
 
         {#if data.frontmatter?.github_history_url}
             &nbsp;|&nbsp;<a href={data.frontmatter.github_history_url}>Historique git de l'article</a>

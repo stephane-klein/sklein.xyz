@@ -26,7 +26,7 @@ const markdownIt = new MarkdownIt({
     });
 
 export async function load({ request, params, locals }) {
-    const slug = `/fr/garden/${params.page_slug}/`;
+    const instance_path = `/fr/garden/${params.page_slug}/`;
     const data = (await locals.sql`
         SELECT
             title,
@@ -39,7 +39,7 @@ export async function load({ request, params, locals }) {
         FROM
             public.pages
         WHERE
-            slug=${slug}
+            instance_path=${instance_path}
     `)[0];
 
     const $ = cheerio.load(markdownIt.render(data.content));
@@ -53,7 +53,7 @@ export async function load({ request, params, locals }) {
         request,
         {
             title: `sklein.xyz french garden page visited`,
-            message: `${data.title} visited`
+            message: `${data.title} visited by ${data.instance_name || "unknown"}`
         }
     );
 

@@ -66,7 +66,7 @@
 
         <ul>
             {#each data.posts as post}
-                <li><a href={post.slug}>{post.published_at} : {post.title}</a></li>
+                <li><a href={post.instance_path}>{post.published_at} : {post.title}</a></li>
             {/each}
         </ul>
 
@@ -74,7 +74,7 @@
 
         <ul>
             {#each data.pages as page}
-                <li><a href={page.slug}>{page.title}</a></li>
+                <li><a href={page.instance_path}>{page.title}</a></li>
             {/each}
         </ul>
 
