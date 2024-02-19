@@ -4,6 +4,10 @@
 </script>
 <svelte:head>
     <title>Stéphane Klein, Software Craftsman, Table Tennis player</title>
+    <script
+        data-goatcounter="%sveltekit.env.PUBLIC_GOATCOUNTER_URL%/count"
+        data-goatcounter-settings={`{'allow_local': false}`}
+        async src="%sveltekit.env.PUBLIC_GOATCOUNTER_URL%/count.js"></script>
 </svelte:head>
 
 <Layout>
