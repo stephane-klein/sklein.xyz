@@ -8,11 +8,11 @@
 <svelte:head>
     <title>{data.frontmatter?.title ?? "No title"} - Jardin numérique de Stéphane Klein</title>
     <meta name="description" content={data.frontmatter?.title} />
-    {#if (data.frontmatter?.private || true) === false}
+    {#if (data.public_goatcounter_url) && ((data.frontmatter?.private || true) === false)}
         <script
-            data-goatcounter="%sveltekit.env.PUBLIC_GOATCOUNTER_URL%/count"
+            data-goatcounter={`${data.public_goatcounter_url}/count`}
             data-goatcounter-settings={`{'allow_local': false}`}
-            async src="%sveltekit.env.PUBLIC_GOATCOUNTER_URL%/count.js"></script>
+            async src={`${data.public_goatcounter_url}/count.js`}></script>
     {/if}
 </svelte:head>
 

@@ -6,10 +6,12 @@
 <svelte:head>
     <title>Jardin numérique de Stéphane Klein</title>
     <meta name="description" content="Jardin numérique de Stéphane Klein" />
-    <script
-        data-goatcounter="%sveltekit.env.PUBLIC_GOATCOUNTER_URL%/count"
-        data-goatcounter-settings={`{'allow_local': false}`}
-        async src="%sveltekit.env.PUBLIC_GOATCOUNTER_URL%/count.js"></script>
+    {#if data.public_goatcounter_url}
+        <script
+            data-goatcounter={`${data.public_goatcounter_url}/count`}
+            data-goatcounter-settings={`{'allow_local': false}`}
+        async src={`${data.public_goatcounter_url}/count.js`}></script>
+    {/if}
 </svelte:head>
 
 <Layout>
