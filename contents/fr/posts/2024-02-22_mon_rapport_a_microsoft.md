@@ -2,6 +2,7 @@
 title: Mon rapport à Microsoft
 page_type: blog
 lang: fr
+github_history_url: https://github.com/stephane-klein/sklein.xyz/commits/main/contents/fr/posts/2024-02-22_mon_rapport_a_microsoft.md
 published_at: 2024-02-22
 tags:
   - Analyse
