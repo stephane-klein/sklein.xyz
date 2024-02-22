@@ -22,6 +22,7 @@ export async function load({request, locals}) {
                     (lang='fr') AND
                     (page_type='blog') AND
                     (private=false)
+                ORDER BY published_at DESC
             ),
             _pages AS (
                 SELECT
@@ -34,6 +35,7 @@ export async function load({request, locals}) {
                     (lang='fr') AND
                     (page_type='garden') AND
                     (private=false)
+                ORDER BY published_at DESC
             )
             SELECT
                 (
