@@ -156,17 +156,6 @@ Microsoft utilisait régulièrement la technique rhétorique du [FUD](https://fr
 
 Comme beaucoup d'autres personnes, je pense que Microsoft a dominé le marché non pas en proposant les meilleurs produits (je pense que certains étaient les meilleurs, exemple Excel 1995), mais en verrouillant au maximum le marché.
 
-<!--
-En 2004, Mark Shuttleworth, créé le bug numéro [1 du projet Ubuntu](https://wiki.ubuntu.com/Bug1) :
-
-> Les systèmes d'exploitation qui sont, en tout ou en partie, composés de logiciels propriétaires détiennent une part de marché majoritaire sur le marché des nouveaux ordinateurs de bureau. Il s'agit d'un bogue qu'Ubuntu est censé corriger.
->
-> Ce bogue est largement répandu dans l'industrie du PC.
-> Marche à suivre :
-> - Rendez-vous dans un magasin d'ordinateurs local.
-> - Essayez d'acheter une machine sans logiciel propriétaire.
--->
-
 Alors que les hackers proposaient des protocoles, des formats de fichiers et des API ouvertes sur des plateformes ouvertes comme l'[IETF](https://fr.wikipedia.org/wiki/Internet_Engineering_Task_Force), [W3C](https://fr.wikipedia.org/wiki/Internet_Engineering_Task_Force), [OASIS](https://fr.wikipedia.org/wiki/Organization_for_the_Advancement_of_Structured_Information_Standards), [Unicode](https://fr.wikipedia.org/wiki/Organization_for_the_Advancement_of_Structured_Information_Standards), [Xiph.org](https://fr.wikipedia.org/wiki/Xiph.org)…  
 Microsoft pouvait utiliser [le mécanisme économique de l'effet réseau](https://fr.wikipedia.org/wiki/Effet_de_r%C3%A9seau) pour imposer ses normes fermées, des technologies [ininteropérables](https://fr.wikipedia.org/wiki/Interop%C3%A9rabilit%C3%A9_en_informatique) ce qui avait pour conséquence de renforcer encore plus sa position dominante.
 
