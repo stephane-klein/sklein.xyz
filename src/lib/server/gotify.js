@@ -4,6 +4,7 @@ const userAgentRegex = /feedspot|tiny|slackbot-linkexpanding|python-requests|rev
 export default function SendNotification(request, body) {
     if (!userAgentRegex.test(request.headers.get("user-agent"))) {
         if (process.env?.GOTIFY_KEY) {
+            const url = new URL(request.url);
             fetch(
                 process.env.GOTIFY_URL || "https://gotify.sklein.xyz/message",
                 {
@@ -20,6 +21,7 @@ export default function SendNotification(request, body) {
     User-Agent: ${request.headers.get("user-agent")}
     Accept-Language: ${request.headers.get("accept-language")}
     Remote-IP: ${request.headers.get("x-forwarded-for")}
+    utm_source: ${url.searchParams.get("utm_source")}
                         `
                     })
                 }
