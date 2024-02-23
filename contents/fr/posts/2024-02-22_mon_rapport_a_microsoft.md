@@ -282,3 +282,10 @@ Merci [Olivier](https://www.linkedin.com/in/olivier-k3z/), [Stanley](https://www
 [^compte-utilisateur]:
     On m'a posé la question suivante « Comment est-ce possible qu’a 14 ans tu puisses réparer des PC et à 16 ans tu ne savais pas ce qu’était un login et un password. ».  
     Voici ma réponse à cette remarque : ni MS Dos, ni Windows 3.11, ni Windows 95 n'avait de support [multi-utilisateur](https://en.wikipedia.org/wiki/Multi-user_software), ce fonctionnalité est arrivé dans le monde Windows seulement dans [Windows NT](https://fr.wikipedia.org/wiki/Windows_NT), système que j'ai seulement utilisé en 2000, avec [Windows 2000](https://fr.wikipedia.org/wiki/Windows_2000).
+
+<hr/>
+
+Posté sur :
+
+- [Fediverse](https://mamot.fr/@stephane_klein/111979713646587232)
+- [Twitter (X)](https://twitter.com/klein_stephane/status/1760937633910276100)
