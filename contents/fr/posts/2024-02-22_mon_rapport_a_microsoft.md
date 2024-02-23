@@ -204,7 +204,7 @@ Après réflexion, j'ai la conviction qu'il est préférable que je consacre du 
 Par exemple, quand un utilisateur de Microsoft Windows me demande si je peux l'aider à le dépanner, je lui dis en toute honnêteté que je ne connais rien à Windows et qu'il est préférable qu'il demande de l'aide à quelqu'un d'autre.
 Certains peuvent trouver cela extrême, mais je n'ai vraiment pas envie de perdre une minute à faire du support à la place de Microsoft, j'y ai déjà consacré trop de temps et de frustration dans les années 1990.  
 D'autre part, je pense que plus, j'aide ces personnes à "écoper leur OS", moins elles seront curieuses d'essayer de trouver une autre solution.  
-Et si une personne me demande de lui conseiller une solution alternative, je leur suggère Mac OS.
+Et si une personne me demande de lui conseiller une solution alternative, je leur suggère Mac OS.[^suggere-mac-os]
 Je lui partage des informations concernant des logiciels libres, seulement si la personne me pose des questions précises et si je vois des signes de curiosité. Dans ce cas, quelques jours après, je me permets de lui envoyer quelques liens vers des ressources et je réponds à ses questions. Mon but n'était pas le "faire à la place", mais de guider.
 
 Ma doctrine d'utilisation de logiciels propriétaires est la suivante :
@@ -269,8 +269,12 @@ Pour aller plus loin sur ce sujet, je vous conseille :
 Merci [Olivier](https://www.linkedin.com/in/olivier-k3z/), [Stanley](https://www.linkedin.com/in/stanleyserbin/), [Alexandre](https://www.linkedin.com/in/its-alex/) et d'autres pour leur travail de relecture et leurs retours 🤗.
 
 [^compte-utilisateur]:
-    On m'a posé la question suivante « Comment est-ce possible qu’a 14 ans tu puisses réparer des PC et à 16 ans tu ne savais pas ce qu’était un login et un password. ».  
+    On m'a posé la question suivante : « Comment est-ce possible qu’a 14 ans tu puisses réparer des PC et à 16 ans tu ne savais pas ce qu’était un login et un password. ».  
     Voici ma réponse à cette remarque : ni MS Dos, ni Windows 3.11, ni Windows 95 n'avait de support [multi-utilisateur](https://en.wikipedia.org/wiki/Multi-user_software), ce fonctionnalité est arrivé dans le monde Windows seulement dans [Windows NT](https://fr.wikipedia.org/wiki/Windows_NT), système que j'ai seulement utilisé en 2000, avec [Windows 2000](https://fr.wikipedia.org/wiki/Windows_2000).
+
+[^suggere-mac-os]:
+    On m'a posé la question suivante : « Pourquoi tu suggères une migration à MacOS alors que c'est un système fermé ? »  
+    Voici ma réponse à cette remarque : parce que d'après mon expérience, le couple matériel Apple + OS Apple (MacOS) contient beaucoup moins de bug que Windows, j'observe que cet OS est très stable.
 
 <hr/>
 
