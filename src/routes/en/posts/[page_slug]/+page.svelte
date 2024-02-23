@@ -8,7 +8,7 @@
 <svelte:head>
     <title>{data.frontmatter?.title ?? "No title"} - Stéphane Klein posts</title>
     <meta name="description" content={data.frontmatter?.title} />
-    {#if (data.public_goatcounter_url) && ((data.frontmatter?.private || true) === false)}
+    {#if (data.public_goatcounter_url) && ((data.frontmatter?.private || true) === false) && (data.browser_user_agent != "stephane-klein")}
         <script
             data-goatcounter={`${data.public_goatcounter_url}/count`}
             data-goatcounter-settings={`{'allow_local': false}`}

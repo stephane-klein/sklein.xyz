@@ -4,7 +4,7 @@
 </script>
 <svelte:head>
     <title>Stéphane Klein, Software Craftsman, Table Tennis player</title>
-    {#if data.public_goatcounter_url}
+    {#if (data.public_goatcounter_url) && (data.browser_user_agent != "stephane-klein")}
         <script
             data-goatcounter={`${data.public_goatcounter_url}/count`}
             data-goatcounter-settings={`{'allow_local': false}`}
