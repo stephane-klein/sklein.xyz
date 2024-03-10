@@ -3,6 +3,7 @@
 :root {
     --background-color: hsl(204, 5%, 21%);
     --quoted-background-color: hsl(204, 5%, 25%);
+    --code-in-quoted-background-color: hsl(204, 5%, 35%);
     --text-color: hsl(0, 0%, 70%);
     --text-color-dark: hsl(0, 0%, 50%);
     --link-text-color: hsl(188, 100%, 50%);
@@ -119,6 +120,14 @@ BLOCKQUOTE {
 
 CODE {
     background-color: var(--quoted-background-color);
+}
+
+BLOCKQUOTE PRE, BLOCKQUOTE CODE {
+    background-color: var(--code-in-quoted-background-color);
+}
+
+BLOCKQUOTE PRE {
+    padding: 1em;
 }
 
 PRE {
