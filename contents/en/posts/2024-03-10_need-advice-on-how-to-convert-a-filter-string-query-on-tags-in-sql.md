@@ -4,7 +4,7 @@ published_at: 2024-03-10
 french_url: /fr/posts/2024-03-10_demande-de-conseils-pour-convertir-une-query-filter-string-sur-des-tags-en-sql/
 ---
 
-Blog post posted on [PostgreSQL subreddit](https://old.reddit.com/r/PostgreSQL/comments/1bb6qvj/need_advice_on_how_to_convert_a_filter_string/?) and [Javascript subreddit](https://old.reddit.com/r/javascript/comments/1bb7952/need_advice_on_how_to_convert_a_filter_string/?):
+Blog post posted on [PostgreSQL subreddit](https://old.reddit.com/r/PostgreSQL/comments/1bb6qvj/need_advice_on_how_to_convert_a_filter_string/), [Javascript subreddit](https://old.reddit.com/r/javascript/comments/1bb8rr3/askjs_need_advice_on_how_to_convert_a_filter/) and [AskProgramming Subreddit](https://old.reddit.com/r/AskProgramming/comments/1bb8wja/need_advice_on_how_to_convert_a_filter_string/?):
 
 > In a closed source project I'm currently working on, I've implemented a system that lets you associate `tags` with resources.
 >
