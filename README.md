@@ -26,7 +26,7 @@ Par conséquent, ce projet ne doit pas vous servir d'exemple !
 ## Local development
 
 ```sh
-$ rtx install
+$ mise install
 $ bun install
 ```
 
