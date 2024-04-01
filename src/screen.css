@@ -82,7 +82,7 @@ button#theme-toggle {
 }
 
 BODY {
-    font-family: Open Sans,Helvetica,Arial,sans-serif;
+    font-family: serif;
     min-height: 100vh;
 
     /* https://ux.stackexchange.com/questions/211/is-there-an-optimal-font-size */
