@@ -15,13 +15,15 @@ J'ai posté ce billet [PostgreSQL subreddit](https://old.reddit.com/r/PostgreSQL
 > a.
 >
 > ```
->     SELECT *
->     FROM main.contacts_with_tag_names
->     WHERE (
->         tags && (
->             SELECT ARRAY_AGG(id) FROM main.contact_tags WHERE name = ANY(ARRAY['tag2'])
->         )
->     );
+> SELECT *
+> FROM main.contacts_with_tag_names
+> WHERE (
+>     tags && (
+>         SELECT ARRAY_AGG(id)
+>           FROM main.contact_tags
+>          WHERE name = ANY(ARRAY['tag2'])
+>     )
+> );
 > ```
 >
 > ou
@@ -34,11 +36,15 @@ J'ai posté ce billet [PostgreSQL subreddit](https://old.reddit.com/r/PostgreSQL
 > WHERE (
 >   (
 >     tags <@ (
->       SELECT ARRAY_AGG(id) FROM main.contact_tags WHERE name = ANY(ARRAY['tag2', 'tag3'])
+>       SELECT ARRAY_AGG(id)
+>         FROM main.contact_tags
+>        WHERE name = ANY(ARRAY['tag2', 'tag3'])
 >     )
 >   ) OR (
 >     tags && (
->       SELECT ARRAY_AGG(id) FROM main.contact_tags WHERE name = ANY(ARRAY['tag1'])
+>       SELECT ARRAY_AGG(id)
+>         FROM main.contact_tags
+>        WHERE name = ANY(ARRAY['tag1'])
 >     )
 > );
 > ```
