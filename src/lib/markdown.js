@@ -11,9 +11,11 @@ const markdownIt = new MarkdownIt({
 })
     .use(markdownItAnchor, {
         slugify: slug,
+        tabIndex: -1,
         permalink: markdownItAnchor.permalink.linkInsideHeader({
+            ariaHidden: true,
             symbol: `
-                    <span aria-hidden="true">¶</span>
+                    <span title="Direct link to this position in page">¶</span>
                 `,
             placement: "after"
         })
