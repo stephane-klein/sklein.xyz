@@ -11,7 +11,8 @@
     "prettier-check": "prettier --check --plugin-search-dir=.",
     "lint": "prettier --check --plugin-search-dir=. . && eslint .",
     "format": "prettier --write --plugin-search-dir=. .",
-    "lighthouse": "mkdir -p reports; lighthouse https://sklein.xyz/fr/ --output=html --output-path=./reports/report.html --chrome-flags='--headless'"
+    "lighthouse": "mkdir -p reports; lighthouse https://sklein.xyz/fr/ --output=html --output-path=./reports/report.html --chrome-flags='--headless'",
+    "lighthouse-custom": "mkdir -p reports; lighthouse --output=html --output-path=./reports/report.html --chrome-flags='--headless'"
   },
   "devDependencies": {
     "@sveltejs/adapter-node": "4.0.1",
