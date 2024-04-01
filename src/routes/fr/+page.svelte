@@ -15,7 +15,6 @@
 </svelte:head>
 
 <Layout>
-    { data.browser_user_agent }
     <div>
         <p>This page in English: <a href="/en/">https://sklein.xyz/en/</a>.</p>
 
