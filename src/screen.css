@@ -1,14 +1,52 @@
 /* I wish to follow as much as possible the https://brutalist-web.design/ recommandations */
 /* https://hslpicker.com/ */
 :root {
-    --background-color: hsl(204, 5%, 21%);
-    --quoted-background-color: hsl(204, 5%, 25%);
-    --code-in-quoted-background-color: hsl(204, 5%, 35%);
-    --text-color: hsl(0, 0%, 70%);
-    --text-color-dark: hsl(0, 0%, 50%);
-    --link-text-color: hsl(188, 100%, 50%);
-    --link-text-visited-color: hsl(188, 100%, 40%);
+    /* Sizes */
+    --type-base: calc(1.1em + 0.4vw);
+    --page-width: 70rem;
+}
+
+.theme-light {
+    /* Colors */
+    --background-color: white;
+    --text-color: hsl(200, 29%, 16%);
+    --link-text-color: hsl(200, 29%, 16%);
+    --link-text-visited-color: hsl(200, 29%, 16%);
     --link-text-decoration: underline;
+
+    --heading-h1-text-color: hsl(200, 0%, 20%);
+    --heading-h2-h3-h4-text-color: hsl(200, 0%, 40%);
+
+    --header-anchor-color: hsl(0, 0%, 40%);
+    --header-anchor-color-hover: hsl(0, 0%, 80%);
+
+    --toc-text-color: hsl(0, 0%, 60%);
+    --toc-text-active-color: hsl(0, 0%, 80%);
+    --toc-left-line-color: hsl(0, 0%, 40%);
+    --toc-left-active-line-color: hsl(0, 0%, 70%);
+
+    --reaction-inset-background-color: hsl(200, 10%, 70%);
+    --quoted-background-color: hsl(204, 0%, 80%);
+    --code-in-quoted-background-color: hsl(204, 5%, 90%);
+    #sun {
+        display: none;
+    }
+    #moon {
+        display: block;
+    }
+}
+
+.theme-dark {
+    /* Colors */
+    --background-color: hsl(204, 20%, 10%);
+    --quoted-background-color: hsl(204, 10%, 15%);
+    --code-in-quoted-background-color: hsl(204, 10%, 20%);
+
+    --text-color: hsl(200, 20%, 70%);
+    --link-text-color: hsl(200, 10%, 70%);
+    --link-text-visited-color: hsl(200, 10%, 70%);
+    --link-text-decoration: underline;
+
     --heading-h1-text-color: hsl(0, 0%, 90%);
     --heading-h2-h3-h4-text-color: hsl(0, 0%, 80%);
     --header-anchor-color: hsl(0, 0%, 40%);
@@ -19,9 +57,29 @@
     --toc-left-line-color: hsl(0, 0%, 40%);
     --toc-left-active-line-color: hsl(0, 0%, 70%);
 
-    --reaction-inset-background-color: hsl(204, 5%, 25%);
+    --reaction-inset-background-color: hsl(200, 10%, 15%);
+    --reaction-inset-heading-h2-h3-h4-text-color: hsl(200, 0%, 20%);;
+
+
+    #moon {
+        display: none;
+    }
+    #sun {
+        color: var(--text-color);
+        display: block;
+    }
 }
 
+#theme-toggle svg {
+    height:24px
+}
+button#theme-toggle {
+    font-size:26px;
+    margin:auto 4px;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
 
 BODY {
     font-family: Open Sans,Helvetica,Arial,sans-serif;
@@ -29,12 +87,15 @@ BODY {
 
     /* https://ux.stackexchange.com/questions/211/is-there-an-optimal-font-size */
     /* https://kyleschaeffer.com/css-font-size-em-vs-px-vs-pt-vs-percent */
+    /*
     @media (min-width: 60rem) {
         font-size: 120%;
     }
-    line-height: 1.8em;
+    */
+    font-size: var(--type-base);
+    line-height: 1.5em;
     background-color: var(--background-color);
-    max-width: 60rem;
+    max-width: var(--page-width);
     margin: auto;
     padding: 0;
     color: var(--text-color);
@@ -50,11 +111,16 @@ ARTICLE {
         align-items: center;
 
         NAV {
+            width: 100%;
             margin-left: 1rem;
             font-size: 80%;
             display: flex;
             flex-direction: row;
             gap: 0.5em;
+            > *:last-child {
+                flex-grow: 1;
+                text-align: right;
+            }
         }
     }
 
@@ -113,7 +179,7 @@ A {
 }
 
 BLOCKQUOTE {
-    margin: 0;
+    margin: 0 -2em;
     padding: 1em 2em;
     background-color: var(--quoted-background-color);
 }
@@ -131,12 +197,19 @@ BLOCKQUOTE PRE {
 }
 
 PRE {
+    overflow: scroll;
     line-height: 1.4em;
+    font-family: monospace;
+    font-size: 0.8em;
 }
 
 .reaction-inset {
-    margin: 0;
+    margin: 0 -2em;
     margin-top: 2em;
     padding: 1em 2em;
     background-color: var(--reaction-inset-background-color);
+
+    H3 {
+        color: var(--reaction-inset-heading-h2-h3-h4-text-color);
+    }
 }
