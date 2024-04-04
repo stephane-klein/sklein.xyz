@@ -2,7 +2,7 @@
 /* https://hslpicker.com/ */
 :root {
     /* Sizes */
-    --type-base: calc(1.1em + 0.4vw);
+    --type-base: calc(0.8em + 0.5vw);
     --page-width: 70rem;
 }
 
