@@ -15,7 +15,7 @@
             <span>|</span>
             <a href="/">Now</a>
             -->
-            <a href="https://cv.stephane-klein.info">CV</a>
+            <a href="/fr/cv/">CV</a>
             <span>|</span>
             <a href="/en/">English_home_page</a>
             <!-- Todo, see https://github.com/stephane-klein/sklein.xyz/issues/59
