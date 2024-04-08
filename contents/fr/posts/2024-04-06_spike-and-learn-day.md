@@ -46,7 +46,7 @@ D'après ce que j'ai pu observer ou ce qui m'a été dit, je pense que cette ini
 J'ai pu noter que la plupart des développeurs avaient leurs préférences :
 
 - Certains privilégiaient fortement des activités de dette technique
-- D'autres préfèrent terminer une issue en retard du sprint
+- D'autres préfèraient terminer une issue en retard du sprint
 - Et d'autres préféraient explorer de nouvelles choses, tester des fonctionnalités
 
 Les développeurs m'ont remonté une frustration concernant le défi que représente la réalisation d'un projet nécessitant plusieurs jours
@@ -55,4 +55,4 @@ de travail avec seulement deux jours alloués par mois. De plus, le délai de qu
 J'ai été agréablement surpris de voir que ce rituel ait été respecté sans difficulté majeure pendant plusieurs années.
 Je n'ai pas souvenir de suppression exceptionnelle de cette journée par l'équipe produit ou de management.
 
-Si j'en ai un jour, je suis à nouveau en responsabilité, je pense que c'est une initiative que je proposerai à nouveau de mettre en place.
+Si j'en ai un jour la possibilité, si je suis à nouveau en responsabilité, je pense que c'est une initiative que je proposerai à nouveau de mettre en place.
