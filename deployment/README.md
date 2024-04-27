@@ -1,4 +1,4 @@
-# Deployment to sklein.xyz on perier server
+# Deployment to sklein.xyz on `triton` server
 
 ```sh
 $ cp .envrc.skel .envrc
