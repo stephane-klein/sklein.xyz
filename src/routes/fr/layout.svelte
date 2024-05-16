@@ -10,14 +10,17 @@
             <a href="/fr/">Accueil</a>
             <span>|</span>
             <a href="https://github.com/stephane-klein?tab=repositories">Projets</a>
-            <span>|</span>
             <!-- Todo, see https://github.com/stephane-klein/sklein.xyz/issues/58
             <span>|</span>
             <a href="/">Now</a>
             -->
+            <span>|</span>
             <a href="/fr/cv/">CV</a>
             <span>|</span>
+            <a href="/fr/services-freelance/" title="Service que je propose en freelance">Mes services</a>
+            <span>|</span>
             <a href="/en/">English_home_page</a>
+
             <!-- Todo, see https://github.com/stephane-klein/sklein.xyz/issues/59
             <span>|</span>
             <a href="/">RSS</a>
