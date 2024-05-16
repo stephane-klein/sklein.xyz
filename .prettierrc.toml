@@ -2,5 +2,5 @@
 trailingComma = "none"
 svelteSortOrder = "options-scripts-markup-styles"
 svelteAllowShorthand = true
-bracketSameLine = false
+bracketSameLine = true
 svelteIndentScriptAndStyle = true
