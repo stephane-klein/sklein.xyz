@@ -11,8 +11,8 @@ services:
   nginx:
     image: stephaneklein/nginx-sklein.xyz:latest
     environment:
-      VIRTUAL_HOST: "sklein.xyz,stephane-klein.info,garden.stephane-klein.info"
-      LETSENCRYPT_HOST: "sklein.xyz,stephane-klein.info,garden.stephane-klein.info"
+      VIRTUAL_HOST: "sklein.xyz,stephane-klein.info,garden.stephane-klein.info,cv.stephane-klein.info"
+      LETSENCRYPT_HOST: "sklein.xyz,stephane-klein.info,garden.stephane-klein.info,cv.stephane-klein.info"
     depends_on:
       - sklein_xyz
 
