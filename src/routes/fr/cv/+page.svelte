@@ -9,14 +9,14 @@
 <h2>Qui suis-je ?</h2>
 
     <p>Stéphane Klein, artisan développeur de plus de 20 ans d'expérience, basé à <a
-        href="https://fr.wikipedia.org/wiki/Montrouge">Montrouge</a>, au sud de Paris.</p>
+    href="https://fr.wikipedia.org/wiki/Montrouge">Montrouge</a>, au sud de Paris.</p>
 
     <p>De 2019 à 2023, j'ai occupé le poste de CTO dans une startup parisienne, que j'ai rejointe juste après son financement initial.
     Avec mes collègues, nous avons élargi l'équipe <em>tech</em> de 1 à 16 personnes au cours de deux levées de fonds successives d'environ
     5 et ensuite 20 millions d'euros.</p>
 
     <p>Depuis septembre 2023, je travaille sur le développement d'une application du type <a
-    href="https://en.wikipedia.org/wiki/Personal_knowledge_base">"knowledge management"</a> que j'ai lancée avec trois
+    href="https://en.wikipedia.org/wiki/Personal_knowledge_base">"knowledge management"</a> que j'ai lancée avec trois
     co-fondateurs.</p>
 
 <h2>Contact</h2>
@@ -65,13 +65,15 @@
     </h3>
 
         <p>Je travaille depuis septembre 2023, en mode « solo dev » sur une application du type
-        « <a href="https://en.wikipedia.org/wiki/Personal_knowledge_base">knowledge management</a> » que nous avons lancée avec trois co-fondateurs.</p>
+        « <a href="https://en.wikipedia.org/wiki/Personal_knowledge_base">knowledge management</a> » que nous avons lancée avec trois co-fondateurs.</p>
 
-        <p>L'objectif de cette solution est de permettre aux entreprises de présenter leur produit via tous types de supports — page web, discours,
+        <p>L'objectif de cette solution est de permettre aux entreprises de présenter leur produit via tous types de supports — page web, discours,
         fiches produits… —, toujours à jour, qui ont été créés et mis à jour via une webapp qui organise et présente de manière dynamique toutes les
-        données marketing ou autrement dit, « la proposition de valeur ».</p>
+        données marketing ou autrement dit, « la proposition de valeur ».</p>
 
-        <p>Pour en savoir plus vous pouvez consulter mon article « <a href="https://sklein.xyz/fr/posts/2024-04-07_stack-projet-value-props/">Liste des choix technologiques du projet Value Props</a> ».</p>
+        <p>Pour en savoir plus vous pouvez consulter mon article « <a
+        href="https://sklein.xyz/fr/posts/2024-04-07_stack-projet-value-props/">Liste des choix technologiques du projet
+        Value Props</a> ».</p>
 
     <h3 class="professional-experience-section" style="margin-top: 2em;">
         <span class="left">CTO — Spacefill</span>
@@ -79,13 +81,13 @@
     </h3>
 
         <p>J'ai rejoint Spacefill parmi les tout premiers employés. En tant que CTO, j'étais responsable des choix techniques,
-        du recrutement et du management des développeurs, le tout en étroite collaboration avec le CPO — cofondateur.</p>
+        du recrutement et du management des développeurs, le tout en étroite collaboration avec le CPO — cofondateur.</p>
 
         <p>J'ai commencé par développer une <a href="https://en.wikipedia.org/wiki/Online_marketplace">marketplace</a> de
         stockage en entrepôt, ensuite une web application de type <a
         href="https://en.wikipedia.org/wiki/Order_management_system">OMS (Order Management System)</a> et une web API publique.</p>
 
-        <p>Cette web API publique permettait de communiquer avec des applications de l'univers logistique, du type <a href="https://en.wikipedia.org/wiki/Warehouse_management_system">WMS</a>,
+        <p>Cette web API publique permettait de communiquer avec des applications de l'univers logistique, du type <a href="https://en.wikipedia.org/wiki/Warehouse_management_system">WMS</a>,
         <a href="https://en.wikipedia.org/wiki/Order_management_system">OMS</a>, <a
         href="https://en.wikipedia.org/wiki/Transportation_management_system">TMS</a>, <a
                 href="https://en.wikipedia.org/wiki/Enterprise_resource_planning">ERP</a>.</p>
