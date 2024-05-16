@@ -3,6 +3,9 @@
 </script>
 
 <Layout><div>
+
+    <p style="text-align: right; font-size: 0.8em;">Dernière mise à jour : 16 mai 2024</p>
+
 <h2>Qui suis-je ?</h2>
 
     <p>Stéphane Klein, artisan développeur de plus de 20 ans d'expérience, basé à <a
@@ -18,13 +21,15 @@
 
 <h2>Contact</h2>
 
-    <p>Vous pouvez me contacter par mail <a href="mailto:contact@stephane-klein.info">contact@stephane-klein.info</a> ou
+    <p>Vous pouvez me contacter par mail à <a href="mailto:contact@stephane-klein.info">contact@stephane-klein.info</a> ou
         au <a href="tel:+33661487604">06 61 48 76 04</a>, il est préférable de m'envoyer un SMS avant de me téléphoner.</p>
 
 <h2>Mes objectifs professionnels</h2>
 
-    <p>Depuis avril 2024, je suis à la recherche de missions freelance de 4 à 8 jours par mois.<br />
+    <p>Depuis mai 2024, je suis à la recherche de missions freelance de 4 à 8 jours par mois.<br />
     À partir de septembre 2024, il est possible que je sois à la recherche de missions de 16 jours par mois, en freelance ou en tant que salarié.</p>
+
+    <p>Vous pouvez consulter la liste de <a href="/fr/services-freelance/">mes prestations en freelance</a>.</p>
 
 <h2>Projets susceptibles de m'intéresser</h2>
 
