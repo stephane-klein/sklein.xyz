@@ -1,7 +1,7 @@
 Prerequisite:
 
 ```sh
-$ ../scripts/build-docker-image.sh
+$ docker compose build
 ```
 
 ```sh
