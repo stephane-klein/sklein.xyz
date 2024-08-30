@@ -9,6 +9,7 @@ cat <<EOF > /srv/sklein_xyz/docker-compose.yml
 services:
   nginx:
     image: stephaneklein/nginx-sklein.xyz:latest
+    restart: unless-stopped
     environment:
       VIRTUAL_HOST: "sklein.xyz,stephane-klein.info,garden.stephane-klein.info,cv.stephane-klein.info"
       LETSENCRYPT_HOST: "sklein.xyz,stephane-klein.info,garden.stephane-klein.info,cv.stephane-klein.info"
@@ -18,6 +19,7 @@ services:
 
   sklein_xyz:
     image: stephaneklein/sklein.xyz:latest
+    restart: unless-stopped
     environment:
       PUBLIC_GOATCOUNTER_URL: "https://stats.sklein.xyz"
       GOTIFY_KEY: "{{ .Env.GOTIFY_KEY }}"
@@ -30,6 +32,7 @@ services:
 
   postgres:
     image: postgres:16
+    restart: unless-stopped
     environment:
       POSTGRES_USER: postgres
       POSTGRES_DB: postgres
@@ -46,6 +49,7 @@ services:
   goatcounter:
     # Builder from https://github.com/tigattack/docker-goatcounter
     image: stephaneklein/goatcounter:latest
+    restart: unless-stopped
     environment:
       VIRTUAL_HOST: "stats.sklein.xyz"
       LETSENCRYPT_HOST: "stats.sklein.xyz"
