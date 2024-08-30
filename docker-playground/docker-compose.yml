@@ -6,7 +6,8 @@ services:
     ports:
     - 80:80
     depends_on:
-      - sklein_xyz
+      sklein_xyz:
+        condition: service_healthy
 
   sklein_xyz:
     image: stephaneklein/sklein.xyz:latest

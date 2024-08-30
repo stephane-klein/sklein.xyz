@@ -13,7 +13,8 @@ services:
       VIRTUAL_HOST: "sklein.xyz,stephane-klein.info,garden.stephane-klein.info,cv.stephane-klein.info"
       LETSENCRYPT_HOST: "sklein.xyz,stephane-klein.info,garden.stephane-klein.info,cv.stephane-klein.info"
     depends_on:
-      - sklein_xyz
+      sklein_xyz:
+        condition: service_healthy
 
   sklein_xyz:
     image: stephaneklein/sklein.xyz:latest
