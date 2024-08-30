@@ -37,7 +37,7 @@ services:
     ports:
       - 127.0.0.1:5490:5432
     volumes:
-      - /var/lib/sklein_xyz/postgres/:/var/lib/postgresql/
+      - /var/lib/sklein_xyz/postgres/:/var/lib/postgresql/data/
     healthcheck:
       test: ['CMD', 'pg_isready']
       interval: 10s
