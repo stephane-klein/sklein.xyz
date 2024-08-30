@@ -8,8 +8,6 @@
         <a href="/"><enhanced:img src="$lib/assets/avatar.png?w=50;25" alt="An alt text" /></a>
         <nav>
             <a href="/fr/">Accueil</a>
-            <span>|</span>
-            <a href="https://github.com/stephane-klein?tab=repositories">Projets</a>
             <!-- Todo, see https://github.com/stephane-klein/sklein.xyz/issues/58
             <span>|</span>
             <a href="/">Now</a>

@@ -10,8 +10,6 @@
             <a href="/en/">Home</a>
             <span>|</span>
             <a href="/fr/">French home page (most of my content is written in French)</a>
-            <span>|</span>
-            <a href="https://github.com/stephane-klein?tab=repositories">Projects</a>
             <span>
                 <button
                     id="theme-toggle"
