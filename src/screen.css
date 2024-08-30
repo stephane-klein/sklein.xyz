@@ -5,6 +5,9 @@
     --type-base: calc(0.8em + 0.5vw);
     --page-width: 70rem;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .theme-light {
     /* Colors */
@@ -178,6 +181,10 @@ A {
     &:visited {
         color: var(--link-text-visited-color);
     }
+}
+
+SMALL {
+    font-size: 0.8em;
 }
 
 BLOCKQUOTE {

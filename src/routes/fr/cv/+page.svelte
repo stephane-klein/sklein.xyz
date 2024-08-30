@@ -14,17 +14,23 @@
             >, au sud de Paris.
         </p>
 
+        <p>Depuis juillet 2024, je propose <a href="../services-freelance/">des services de software engineering en
+            freelance</a> (<small>SIREN <a href="https://data.inpi.fr/entreprises/478587512">478 587 512</a></small>).</p>
+
         <p>
-            De 2019 à 2023, j'ai occupé le poste de CTO dans une startup parisienne, que j'ai rejointe juste après son
-            financement initial. Avec mes collègues, nous avons élargi l'équipe <em>tech</em> de 1 à 16 personnes au cours
-            de deux levées de fonds successives d'environ 5 et ensuite 20 millions d'euros.
+            De septembre 2023 à juin 2024, j'ai travaillé sur le développement d'une application du type <a
+                href="https://en.wikipedia.org/wiki/Personal_knowledge_base">"knowledge management"</a> avec
+            trois co-fondateurs.
         </p>
 
         <p>
-            Depuis septembre 2023, je travaille sur le développement d'une application du type <a
-                href="https://en.wikipedia.org/wiki/Personal_knowledge_base">"knowledge management"</a> que j'ai lancée avec
-            trois co-fondateurs.
+            De 2019 à 2023, j'ai occupé le poste de CTO dans une startup parisienne, que j'ai rejointe juste après
+            son financement initial. Avec mes collègues, nous avons élargi l'équipe <em>tech</em> de 1 à 16 personnes au cours
+            de deux levées de fonds successives d'environ 5 et ensuite 20 millions d'euros.
         </p>
+
+        <p>Cliquez <a href="#suite-de-mon-parcours">ici</a> pour consulter la suite de mon parcours
+        un peu plus bas sur cette page.</p>
 
         <h2>Contact</h2>
 
@@ -464,6 +470,7 @@
 
         <p>Ce projet était développé en Go et utilisait PostgreSQL.</p>
 
+        <div id="suite-de-mon-parcours"></div>
         <h3 class="professional-experience-section" style="margin-top: 2em;">
             <span class="left">Développeur fullstack — Gemnasium</span>
             <span class="right">Juin 2017 - Décembre 2018</span>
