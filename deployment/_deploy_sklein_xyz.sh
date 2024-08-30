@@ -6,7 +6,6 @@ cd $(dirname "$0")
 mkdir -p /srv/sklein_xyz/
 
 cat <<EOF > /srv/sklein_xyz/docker-compose.yml
-version: '3.8'
 services:
   nginx:
     image: stephaneklein/nginx-sklein.xyz:latest

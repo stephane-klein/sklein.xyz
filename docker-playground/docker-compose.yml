@@ -1,4 +1,3 @@
-version: '3.8'
 services:
   nginx:
     image: stephaneklein/nginx-sklein.xyz:latest
@@ -11,6 +10,7 @@ services:
 
   sklein_xyz:
     image: stephaneklein/sklein.xyz:latest
+    build: ../
     environment:
         POSTGRES_URL: postgres://postgres:password@localhost:5432/postgres
         GOTIFY_URL: "http://gotify"
@@ -29,7 +29,7 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - ./volumes/postgres/:/var/lib/postgresql/
+      - ./volumes/postgres/:/var/lib/postgresql/data/
     healthcheck:
       test: ['CMD', 'pg_isready']
       interval: 10s
