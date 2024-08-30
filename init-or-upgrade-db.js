@@ -1,4 +1,3 @@
-import { readFileSync } from "fs"
 #!/usr/bin/env node
 import { fileURLToPath } from "url";
 import postgres from "postgres";
@@ -14,8 +13,6 @@ const sql = postgres(
     }
 );
 
-// const string_output = readFileSync(path.resolve(__dirname, "./sqls/init.sql"), "utf8");
-// console.log(string_output);
 await sql.file(path.resolve(__dirname, "./sqls/init.sql")).simple();
 
 await sql.end();
