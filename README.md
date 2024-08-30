@@ -27,7 +27,7 @@ Par conséquent, ce projet ne doit pas vous servir d'exemple !
 
 ```sh
 $ mise install
-$ bun install
+$ pnpm install
 ```
 
 ```sh
@@ -40,7 +40,7 @@ $ ./load-contents-to-db.js
 ```
 
 ```sh
-$ bun --bun run dev
+$ pnpm run dev
 ```
 
 Go to http://127.0.0.1:5173/
@@ -78,7 +78,7 @@ $ ../load-file-to-db.js ../private/foobar.md
 Prerequisite: install Chrome
 
 ```sh
-$ bun run lighthouse
+$ pnpm run lighthouse
 ```
 
 ## Build Docker image

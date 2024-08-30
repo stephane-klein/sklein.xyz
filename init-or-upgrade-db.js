@@ -1,5 +1,5 @@
-#!/usr/bin/env bun
 import { readFileSync } from "fs"
+#!/usr/bin/env node
 import { fileURLToPath } from "url";
 import postgres from "postgres";
 import path from "path";

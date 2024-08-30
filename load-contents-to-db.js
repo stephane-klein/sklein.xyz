@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 import { globSync } from "glob";
 import { fileURLToPath } from "url";
 import matter_read from "./src/lib/utils";

@@ -1,15 +1,21 @@
-FROM oven/bun:1.0-slim
+FROM node:20-slim AS base
+RUN npm install -g pnpm@9.8.0
 
 WORKDIR /src/
 COPY ./ /src/
 
-RUN bun install
-RUN bun --bun run build
+RUN pnpm install -P --frozen-lockfile
+RUN pnpm run build
 
-FROM oven/bun:1.0-slim
+FROM node:20-slim
+RUN apt update -y; apt install -y curl
+RUN npm install -g pnpm@9.8.0
+
 COPY --from=0 /src/package.json /src/
 COPY --from=0 /src/build/ /src/build/
 COPY --from=0 /src/contents/ /src/contents/
+
 EXPOSE 3000
 WORKDIR /src/
-CMD ["bun", "build/index.js"]
+
+CMD ["node", "./index.js"]
