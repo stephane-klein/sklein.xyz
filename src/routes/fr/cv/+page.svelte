@@ -4,7 +4,7 @@
 
 <Layout
     ><div>
-        <p style="text-align: right; font-size: 0.8em;">Dernière mise à jour : 16 mai 2024</p>
+        <p style="text-align: right; font-size: 0.8em;">Dernière mise à jour : 30 août 2024</p>
 
         <h2>Qui suis-je ?</h2>
 
@@ -41,13 +41,24 @@
             téléphoner.
         </p>
 
+        <div style="text-align: center">
+            <a href="https://www.linkedin.com/in/stephanekleinfrommetz" target="_blank" style="text-decoration:none;">
+                <button style="background-color:#0077B5; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;">
+                    Me Contacter sur LinkedIn
+                </button>
+            </a>
+        </div>
+
+        <p>J'ai activé les notifications LinkedIn sur mon smartphone, je devrais donc pouvoir vous répondre rapidement.</p>
+
         <h2>Mes objectifs professionnels</h2>
 
         <p>
-            Depuis mai 2024, je suis à la recherche de missions freelance de 4 à 8 jours par mois.<br />
-            À partir de septembre 2024, il est possible que je sois à la recherche de missions de 16 jours par mois, en freelance
-            ou en tant que salarié.
+            Depuis juillet 2024, je propose mes services en software engineering freelance.<br />
+            Depuis cette date, je travaille déjà en régie pour deux clients, leur apportant mon expertise en développement d'applications web et en DevOps.
         </p>
+
+        <p>Mon objectif pour ces six prochains mois est d'essayer de développer cette activité.</p>
 
         <p>Vous pouvez consulter la liste de <a href="/fr/services-freelance/">mes prestations en freelance</a>.</p>
 
@@ -91,12 +102,12 @@
 
         <h3 class="professional-experience-section">
             <span class="left">Cofondateur — Value Props</span>
-            <span class="right">Depuis septembre 2024</span>
+            <span class="right">Septembre 2023 - Juin 2024</span>
         </h3>
 
         <p>
-            Je travaille depuis septembre 2023, en mode « solo dev » sur une application du type « <a
-                href="https://en.wikipedia.org/wiki/Personal_knowledge_base">knowledge management</a> » que nous avons lancée
+            J'ai travaillé de septembre 2023 à juin 2024, en mode « solo dev » sur une application du type « <a
+                href="https://en.wikipedia.org/wiki/Personal_knowledge_base">knowledge management</a> » lancée
             avec trois co-fondateurs.
         </p>
 
@@ -108,7 +119,7 @@
         </p>
 
         <p>
-            Pour en savoir plus vous pouvez consulter mon article « <a
+            Pour en savoir plus, vous pouvez consulter mon article « <a
                 href="https://sklein.xyz/fr/posts/2024-04-07_stack-projet-value-props/"
                 >Liste des choix technologiques du projet Value Props</a> ».
         </p>
