@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { globSync } from "glob";
 import { fileURLToPath } from "url";
-import matter_read from "./src/lib/utils";
+import matter_read from "./src/lib/utils.js";
 import path from "path";
 import postgres from "postgres";
 import * as cheerio from "cheerio";
