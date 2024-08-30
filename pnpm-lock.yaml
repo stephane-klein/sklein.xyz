@@ -7,7 +7,7 @@ settings:
 importers:
 
   .:
-    devDependencies:
+    dependencies:
       '@sveltejs/adapter-node':
         specifier: 4.0.1
         version: 4.0.1(@sveltejs/kit@2.5.0(@sveltejs/vite-plugin-svelte@3.0.1(svelte@4.2.9)(vite@5.0.12(@types/node@18.6.3)))(svelte@4.2.9)(vite@5.0.12(@types/node@18.6.3)))
@@ -20,12 +20,6 @@ importers:
       '@sveltejs/vite-plugin-svelte':
         specifier: 3.0.1
         version: 3.0.1(svelte@4.2.9)(vite@5.0.12(@types/node@18.6.3))
-      '@typescript-eslint/eslint-plugin':
-        specifier: 6.19.1
-        version: 6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.1.6))(eslint@8.56.0)(typescript@5.1.6)
-      '@typescript-eslint/parser':
-        specifier: 6.19.1
-        version: 6.19.1(eslint@8.56.0)(typescript@5.1.6)
       autoprefixer:
         specifier: 10.4.17
         version: 10.4.17(postcss@8.4.33)
@@ -35,27 +29,12 @@ importers:
       cheerio:
         specifier: 1.0.0-rc.12
         version: 1.0.0-rc.12
-      eslint:
-        specifier: 8.56.0
-        version: 8.56.0
-      eslint-config-prettier:
-        specifier: 9.1.0
-        version: 9.1.0(eslint@8.56.0)
-      eslint-plugin-svelte3:
-        specifier: 4.0.0
-        version: 4.0.0(eslint@8.56.0)(svelte@4.2.9)
-      glob:
-        specifier: 10.3.10
-        version: 10.3.10
       gray-matter:
         specifier: 4.0.3
         version: 4.0.3
       js-yaml:
         specifier: 4.1.0
         version: 4.1.0
-      lighthouse:
-        specifier: 11.5.0
-        version: 11.5.0
       markdown-it:
         specifier: 14.0.0
         version: 14.0.0
@@ -84,14 +63,8 @@ importers:
         specifier: 10.0.1
         version: 10.0.1(browserslist@4.22.2)(postcss@8.4.33)
       postgres:
-        specifier: https://github.com/porsager/postgres/archive/2b85ea7fb8b50f7c69232bd8074aa11c8cbe9d3a.tar.gz
-        version: https://github.com/porsager/postgres/archive/2b85ea7fb8b50f7c69232bd8074aa11c8cbe9d3a.tar.gz
-      prettier:
-        specifier: 3.2.4
-        version: 3.2.4
-      prettier-plugin-svelte:
-        specifier: 3.1.2
-        version: 3.1.2(prettier@3.2.4)(svelte@4.2.9)
+        specifier: 3.4.4
+        version: 3.4.4
       scrollama:
         specifier: 3.2.0
         version: 3.2.0
@@ -113,6 +86,34 @@ importers:
       yargs:
         specifier: 17.7.2
         version: 17.7.2
+    devDependencies:
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.1.6))(eslint@8.56.0)(typescript@5.1.6)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.1.6)
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-config-prettier:
+        specifier: 9.1.0
+        version: 9.1.0(eslint@8.56.0)
+      eslint-plugin-svelte3:
+        specifier: 4.0.0
+        version: 4.0.0(eslint@8.56.0)(svelte@4.2.9)
+      glob:
+        specifier: 10.3.10
+        version: 10.3.10
+      lighthouse:
+        specifier: 11.5.0
+        version: 11.5.0
+      prettier:
+        specifier: 3.2.4
+        version: 3.2.4
+      prettier-plugin-svelte:
+        specifier: 3.1.2
+        version: 3.1.2(prettier@3.2.4)(svelte@4.2.9)
 
 packages:
 
@@ -1737,9 +1738,8 @@ packages:
     resolution: {integrity: sha512-Kkpbhhdjw2qQs2O2DGX+8m5OVqEcbB9HRBvuYM9pgrjEFUg30A9LmXNlTAUj4S9kgtGyrMbTzVjH7E+s5Re2yg==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postgres@https://github.com/porsager/postgres/archive/2b85ea7fb8b50f7c69232bd8074aa11c8cbe9d3a.tar.gz:
-    resolution: {tarball: https://github.com/porsager/postgres/archive/2b85ea7fb8b50f7c69232bd8074aa11c8cbe9d3a.tar.gz}
-    version: 3.4.3
+  postgres@3.4.4:
+    resolution: {integrity: sha512-IbyN+9KslkqcXa8AO9fxpk97PA4pzewvpi2B3Dwy9u4zpV32QicaEdgmF3eSQUzdRk7ttDHQejNgAEr4XoeH4A==}
     engines: {node: '>=12'}
 
   prelude-ls@1.2.1:
@@ -3867,7 +3867,7 @@ snapshots:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
-  postgres@https://github.com/porsager/postgres/archive/2b85ea7fb8b50f7c69232bd8074aa11c8cbe9d3a.tar.gz: {}
+  postgres@3.4.4: {}
 
   prelude-ls@1.2.1: {}
 
