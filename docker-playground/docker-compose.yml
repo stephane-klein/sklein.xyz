@@ -12,7 +12,7 @@ services:
     image: stephaneklein/sklein.xyz:latest
     build: ../
     environment:
-        POSTGRES_URL: postgres://postgres:password@localhost:5432/postgres
+        POSTGRES_URL: postgres://postgres:password@postgres:5432/postgres
         GOTIFY_URL: "http://gotify"
         GOTIFY_KEY: "ASmAxUa-q1y7zqX"
         PUBLIC_GOATCOUNTER_URL: "http://127.0.0.1:8080"
