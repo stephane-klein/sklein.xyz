@@ -200,4 +200,14 @@
         ou au <a href="tel:+33661487604">06 61 48 76 04</a>, il est préférable de m'envoyer un SMS avant de me
         téléphoner.
     </p>
+
+    <div style="text-align: center">
+        <a href="https://www.linkedin.com/in/stephanekleinfrommetz" target="_blank" style="text-decoration:none;">
+            <button style="background-color:#0077B5; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;">
+                Me Contacter sur LinkedIn
+            </button>
+        </a>
+    </div>
+
+    <p>J'ai activé les notifications LinkedIn sur mon smartphone, je devrais donc pouvoir vous répondre rapidement.</p>
 </Layout>
