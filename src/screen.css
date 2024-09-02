@@ -3,12 +3,8 @@
 :root {
     /* Sizes */
     --type-base: calc(0.8em + 0.5vw);
-    --page-width: 70rem;
+    --page-width: 60rem;
 }
-html {
-  scroll-behavior: smooth;
-}
-
 .theme-light {
     /* Colors */
     --background-color: white;
@@ -84,8 +80,15 @@ button#theme-toggle {
     background: none;
 }
 
-BODY {
+HTML {
     font-family: serif;
+    scroll-behavior: smooth;
+    font-size: var(--type-base);
+    line-height: 1.5em;
+    color: var(--text-color);
+}
+
+BODY {
     min-height: 100vh;
 
     /* https://ux.stackexchange.com/questions/211/is-there-an-optimal-font-size */
@@ -95,14 +98,10 @@ BODY {
         font-size: 120%;
     }
     */
-    font-size: var(--type-base);
-    line-height: 1.5em;
     background-color: var(--background-color);
     max-width: var(--page-width);
     margin: auto;
     padding: 0;
-    color: var(--text-color);
-    scroll-behavior: smooth;
 }
 
 ARTICLE {
