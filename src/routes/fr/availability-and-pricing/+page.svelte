@@ -54,6 +54,7 @@
         N'hésitez pas à me contacter pour discuter de votre projet ou pour planifier un premier échange.
         Je serais ravi de comprendre vos besoins et de vous proposer des solutions adaptées.
     </p>
+
     <p>
         Vous pouvez me contacter par mail à <a href="mailto:contact@stephane-klein.info">contact@stephane-klein.info</a>
         ou au <a href="tel:+33661487604">06 61 48 76 04</a>, il est préférable de m'envoyer un SMS avant de me
@@ -83,9 +84,9 @@
         padding-right: 4rem;
     }
     tbody tr:nth-child(odd) {
-        background-color: #f2f2f2;
+        background-color: var(--table-zebra-theme-odd-row-background-color);
     }
     tbody tr:nth-child(even) {
-        background-color: #ffffff;
+        background-color: var(--table-zebra-theme-even-row-background-color);
     }
 </style>

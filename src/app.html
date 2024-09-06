@@ -9,7 +9,8 @@
         <meta name="viewport" content="width=device-width" />
         %sveltekit.head%
     </head>
-    <body class="theme-light">
-        <div>%sveltekit.body%</div>
+    <body data-sveltekit-preload-data="hover">
+        <script src="%sveltekit.assets%/theme.js"></script>
+        <div style="display: contents">%sveltekit.body%</div>
     </body>
 </html>

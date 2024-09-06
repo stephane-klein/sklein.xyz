@@ -5,7 +5,8 @@
     --type-base: calc(0.8em + 0.5vw);
     --page-width: 60rem;
 }
-.theme-light {
+
+:root[data-theme="light"] {
     /* Colors */
     --background-color: white;
     --text-color: hsl(200, 29%, 16%);
@@ -25,17 +26,17 @@
     --toc-left-active-line-color: hsl(0, 0%, 70%);
 
     --reaction-inset-background-color: hsl(200, 10%, 70%);
+    --reaction-inset-heading-h2-h3-h4-text-color: hsl(200, 0%, 20%);;
     --quoted-background-color: hsl(204, 0%, 80%);
     --code-in-quoted-background-color: hsl(204, 5%, 90%);
-    #sun {
-        display: none;
-    }
-    #moon {
-        display: block;
-    }
+
+    --theme-icon-sun-display: none;
+    --theme-icon-moon-display: block;
+    --table-zebra-theme-odd-row-background-color: #f2f2f2;
+    --table-zebra-theme-even-row-background-color: #fff;
 }
 
-.theme-dark {
+:root[data-theme="dark"] {
     /* Colors */
     --background-color: hsl(204, 20%, 10%);
     --quoted-background-color: hsl(204, 10%, 15%);
@@ -57,20 +58,24 @@
     --toc-left-active-line-color: hsl(0, 0%, 70%);
 
     --reaction-inset-background-color: hsl(200, 10%, 15%);
-    --reaction-inset-heading-h2-h3-h4-text-color: hsl(200, 0%, 20%);;
+    --reaction-inset-heading-h2-h3-h4-text-color: hsl(200, 10%, 80%);;
 
+    --theme-icon-sun-display: block;
+    --theme-icon-moon-display: none;
 
-    #moon {
-        display: none;
-    }
-    #sun {
-        color: var(--text-color);
-        display: block;
-    }
+    --table-zebra-theme-odd-row-background-color: #333;
+    --table-zebra-theme-even-row-background-color: #222;
 }
 
 #theme-toggle svg {
     height:24px
+}
+#moon {
+    display: var(--theme-icon-moon-display);
+}
+#sun {
+    color: var(--text-color);
+    display: var(--theme-icon-sun-display);
 }
 button#theme-toggle {
     font-size:26px;
@@ -86,6 +91,7 @@ HTML {
     font-size: var(--type-base);
     line-height: 1.5em;
     color: var(--text-color);
+
 }
 
 BODY {
