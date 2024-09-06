@@ -1,7 +1,4 @@
 const saved_theme = localStorage.getItem("theme");
-console.log("ici1");
-console.log(saved_theme);
-console.log(document);
 if (saved_theme) {
     document.documentElement.setAttribute("data-theme", saved_theme);
 } else {
