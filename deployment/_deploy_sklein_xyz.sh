@@ -31,7 +31,7 @@ services:
         condition: service_healthy
 
   postgres:
-    image: postgres:16
+    image: postgres:16.4
     restart: unless-stopped
     environment:
       POSTGRES_USER: postgres
