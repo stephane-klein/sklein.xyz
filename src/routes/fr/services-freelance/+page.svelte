@@ -195,6 +195,13 @@
         mission.
     </p>
 
+    <p>Voir aussi : <a href="/fr/availability-and-pricing/">« Mes disponibilités et mes tarifs »</a> et <a href="/fr/cv/">« Mon CV»</a>.</p>
+
+    <p>
+        N'hésitez pas à me contacter pour discuter de votre projet ou pour planifier un premier échange.
+        Je serais ravi de comprendre vos besoins et de vous proposer des solutions adaptées.
+    </p>
+
     <p>
         Vous pouvez me contacter par mail à <a href="mailto:contact@stephane-klein.info">contact@stephane-klein.info</a>
         ou au <a href="tel:+33661487604">06 61 48 76 04</a>, il est préférable de m'envoyer un SMS avant de me
