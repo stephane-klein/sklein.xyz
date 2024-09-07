@@ -1,12 +1,11 @@
 import adapter from "@sveltejs/adapter-node";
-import preprocess from "svelte-preprocess";
-
+import { sveltePreprocess } from "svelte-preprocess";
 import { importAssets } from "svelte-preprocess-import-assets";
 
 const config = {
     extensions: [".svelte", ".md"],
     preprocess:[
-        preprocess({
+        sveltePreprocess({
             postcss: true
         }),
         importAssets()
