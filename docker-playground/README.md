@@ -16,7 +16,7 @@ $ ../init-or-upgrade-db.js
 
 Load [`../contents/`](../contents/) to playground database:
 
-```
+```sh
 $ ../load-contents-to-db.js
 ```
 
@@ -26,13 +26,15 @@ To test virtualhost, add this lines in your `/etc/hosts`
 
 ```
 127.0.0.1 sklein.xyz
+127.0.0.1 stats.sklein.xyz
+127.0.0.1 plausible.sklein.xyz
 127.0.0.1 stephane-klein.info
 127.0.0.1 garden.stephane-klein.info
 ```
 
 Test redirection:
 
-```
+```sh
 $ curl http://garden.stephane-klein.info/003-ne-tonds-pas-de-yaks/ -i
 HTTP/1.1 302 Moved Temporarily
 Server: nginx/1.23.3

@@ -9,4 +9,7 @@
             data-goatcounter-settings={`{"allow_local": "${global.goatcounter_allow_local || "false"}"}`}
             async src={`${global.public_goatcounter_url}/count.js`}></script>
     {/if}
+    {#if (global.public_plausible_url)}
+        <script defer data-domain={global.public_plausible_domain} src={global.public_plausible_url}></script>
+    {/if}
 </svelte:head>

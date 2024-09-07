@@ -3,7 +3,8 @@ services:
     image: stephaneklein/nginx-sklein.xyz:latest
     restart: unless-stopped
     volumes:
-    - ../nginx-config/default.conf:/etc/nginx/conf.d/default.conf
+    - ../nginx-config/default.conf:/etc/nginx/conf.d/sklein.xyz.config
+    - ./nginx-config/default.conf:/etc/nginx/conf.d/default.conf
     ports:
     - 80:80
     depends_on:
@@ -18,7 +19,9 @@ services:
         POSTGRES_URL: postgres://postgres:password@postgres:5432/postgres
         GOTIFY_URL: "http://gotify"
         GOTIFY_KEY: "ASmAxUa-q1y7zqX"
-        PUBLIC_GOATCOUNTER_URL: "http://127.0.0.1:8080"
+        PUBLIC_GOATCOUNTER_URL: "http://stats.sklein.xyz"
+        PUBLIC_PLAUSIBLE_URL: "http://plausible.sklein.xyz/js/script.js"
+        PUBLIC_PLAUSIBLE_DOMAIN: "sklein.xyz"
     depends_on:
       postgres:
         condition: service_healthy
@@ -43,8 +46,6 @@ services:
     # Builder from https://github.com/tigattack/docker-goatcounter
     image: stephaneklein/goatcounter:latest
     restart: unless-stopped
-    ports:
-    - 8080:8080
     environment:
       GOATCOUNTER_DOMAIN: "127.0.0.1"
       GOATCOUNTER_EMAIL: contact@stephane-klein.info
@@ -103,11 +104,9 @@ services:
     depends_on:
       - plausible_db
       - plausible_events_db
-    ports:
-      - 8000:8000
     environment:
       DISABLE_REGISTRATION: true
-      BASE_URL: http://localhost:8000
+      BASE_URL: http://plausible.sklein.xyz
       SECRET_KEY_BASE: iXImFnvu8vmaJpMlwTrT+pVtd30MBmvz0I7WYW2KlZefGaiQVvv5ny9zUox0hgTb
       TOTP_VAULT_KEY: QFEKzBMIDMxFvRBZBIvdiGQilgnzRjvnEiPtsvtnjUI=
       ADMIN_USER_EMAIL: admin@example.com
