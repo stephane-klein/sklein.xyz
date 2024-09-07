@@ -13,7 +13,8 @@ export async function load({ request, params, locals }) {
             french_url,
             english_url,
             content,
-            instance_name
+            instance_name,
+            private
         FROM
             public.pages
         WHERE

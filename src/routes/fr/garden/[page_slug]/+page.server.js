@@ -12,7 +12,8 @@ export async function load({ request, params, locals }) {
             github_history_url,
             french_url,
             english_url,
-            content
+            content,
+            private
         FROM
             public.pages
         WHERE
