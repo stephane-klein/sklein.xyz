@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import yargs from "yargs/yargs";
 import { hideBin } from "yargs/helpers";
-import matter_read from "./src/lib/utils";
+import matter_read from "./src/lib/utils.js";
 import postgres from "postgres";
 import * as cheerio from "cheerio";
 import MarkdownIt from "markdown-it";
