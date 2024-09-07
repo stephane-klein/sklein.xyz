@@ -1,6 +1,8 @@
 <script>
     import Layout from "../layout.svelte";
+    import InitWebAnalytics from "$lib/InitWebAnalytics.svelte";
 </script>
+<InitWebAnalytics />
 
 <Layout>
     <p>Voici une première liste de prestations freelance que je propose.</p>

@@ -1,6 +1,8 @@
 <script>
     import Layout from "../layout.svelte";
+    import InitWebAnalytics from "$lib/InitWebAnalytics.svelte";
 </script>
+<InitWebAnalytics />
 
 <Layout>
     <h2>Mes disponibilités et mes tarifs</h2>

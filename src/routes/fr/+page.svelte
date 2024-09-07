@@ -1,18 +1,14 @@
 <script>
     import Layout from "./layout.svelte";
+    import InitWebAnalytics from "$lib/InitWebAnalytics.svelte";
     export let data;
 </script>
 
 <svelte:head>
     <title>Jardin numérique de Stéphane Klein</title>
     <meta name="description" content="Jardin numérique de Stéphane Klein" />
-    {#if (data.public_goatcounter_url) && (data.browser_user_agent != "stephane-klein")}
-        <script
-            data-goatcounter={`${data.public_goatcounter_url}/count`}
-            data-goatcounter-settings={`{'allow_local': false}`}
-        async src={`${data.public_goatcounter_url}/count.js`}></script>
-    {/if}
 </svelte:head>
+<InitWebAnalytics />
 
 <Layout>
     <div>
