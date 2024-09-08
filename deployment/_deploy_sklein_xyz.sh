@@ -16,6 +16,8 @@ services:
     depends_on:
       sklein_xyz:
         condition: service_healthy
+    networks:
+    - default
 
   sklein_xyz:
     image: stephaneklein/sklein.xyz:latest
@@ -23,12 +25,16 @@ services:
     environment:
       PUBLIC_GOATCOUNTER_URL: "https://stats.sklein.xyz"
       GOTIFY_KEY: "{{ .Env.GOTIFY_KEY }}"
+      GOTIFY_URL: "http://gotify/message"
       POSTGRES_URL: "postgres://postgres:{{ .Env.POSTGRES_PASSWORD }}@postgres:5432/postgres"
     extra_hosts:
     - gotify.sklein.xyz:51.158.146.33
     depends_on:
       postgres:
         condition: service_healthy
+    networks:
+    - default
+    - gotify_shared_network
 
   postgres:
     image: postgres:16.4
@@ -45,6 +51,8 @@ services:
       test: ['CMD', 'pg_isready']
       interval: 10s
       start_period: 30s
+    networks:
+    - default
 
   goatcounter:
     # Builder from https://github.com/tigattack/docker-goatcounter
@@ -58,6 +66,14 @@ services:
       GOATCOUNTER_PASSWORD: {{ .Env.GOATCOUNTER_PASSWORD }}
     volumes:
     - /var/lib/gc.sklein.xyz/goatcounter/:/goatcounter/db/
+    networks:
+    - default
+
+networks:
+  gotify_shared_network:
+    name: gotify_shared_network
+    external: true
+  default:
 EOF
 
 cd /srv/sklein_xyz/
