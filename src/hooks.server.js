@@ -13,3 +13,7 @@ export async function handle({ event, resolve }) {
     event.locals.sql.release();
     return response;
 }
+
+export async function handleError() {
+    return {};
+}
