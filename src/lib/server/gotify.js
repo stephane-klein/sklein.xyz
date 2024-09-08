@@ -1,8 +1,7 @@
-// See list in https://github.com/monperrus/crawler-user-agents/blob/master/crawler-user-agents.json
-const userAgentRegex = /bot|mastodon|feedspot|tiny|slackbot-linkexpanding|python-requests|revoltchat|apache-httpclient|redditbot|mj12bot|semrushbot|imagesiftbot|go-http-client|whatapp|stephane-klein|applebot|exabot|yandexbot|duckduckbot|bingbot|crawl|spider|slurp|yahoo|mediapartners|facebookexternalhit|linkedinbot|twitterbot|developers\.google\.com|googlebot|adsbot-google/i;
+import { isbot } from "isbot";
 
 export default function SendNotification(request, body) {
-    if (!userAgentRegex.test(request.headers.get("user-agent"))) {
+    if (!isbot(request.headers.get("user-agent"))) {
         if (process.env?.GOTIFY_KEY) {
             const url = new URL(request.url);
             fetch(
