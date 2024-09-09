@@ -20,7 +20,7 @@ export default function SendNotification(request, body) {
 
         User-Agent: ${request.headers.get("user-agent")}
         Accept-Language: ${request.headers.get("accept-language")}
-        Remote-IP: ${request.headers.get("x-forwarded-for")}
+        Remote-IP: ${request.headers.get("x-real-ip")}
         utm_source: ${url.searchParams.get("utm_source")}
                             `
                         })
