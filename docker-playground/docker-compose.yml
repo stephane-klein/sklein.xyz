@@ -77,10 +77,10 @@ services:
     image: stephaneklein/gibbon-replay-server:latest
     ports:
       - 5005:3000
+    volumes:
+      - ./volumes/sqlite/:/data/
     environment:
+      SQLITE_PATH: /data/gibbon.db
       ORIGIN: http://localhost:5005
-      REDIS_HOST: redis
-      REDIS_PORT: 6379
-      REDIS_PASSWORD: password
       AUTH_USER: admin
       AUTH_PASSWORD: password
