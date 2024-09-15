@@ -28,8 +28,6 @@ services:
       GOTIFY_URL: "http://gotify/message"
       POSTGRES_URL: "postgres://postgres:{{ .Env.POSTGRES_PASSWORD }}@postgres:5432/postgres"
       GIBBON_REPLAY_URL: "https://replay.sklein.xyz"
-    extra_hosts:
-    - gotify.sklein.xyz:51.158.146.33
     depends_on:
       postgres:
         condition: service_healthy
