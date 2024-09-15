@@ -7,7 +7,7 @@
 
     let open;
 </script>
-<article data-sveltekit-reload={true}>
+<article>
     <header class="wide-screen" role="navigation">
         <a href="/"><enhanced:img src="$lib/assets/avatar.png?w=50;25" alt="An alt text" /></a>
         <nav>
