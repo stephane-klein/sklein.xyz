@@ -81,9 +81,6 @@ services:
       SQLITE_PATH: /data/gibbon.db
       AUTH_USER: admin
       AUTH_PASSWORD: {{ .Env.GIBBON_REPLAY_SERVER_PASSWORD }}
-    depends_on:
-      redis:
-        condition: service_healthy
     networks:
     - default
 
