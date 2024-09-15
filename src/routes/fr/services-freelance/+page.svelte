@@ -5,6 +5,8 @@
 <InitWebAnalytics />
 
 <Layout>
+    <h2>Services que je propose en freelance</h2>
+
     <p>Voici une première liste de prestations freelance que je propose.</p>
 
     <p>

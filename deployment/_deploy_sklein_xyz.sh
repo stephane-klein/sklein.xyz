@@ -27,6 +27,7 @@ services:
       GOTIFY_KEY: "{{ .Env.GOTIFY_KEY }}"
       GOTIFY_URL: "http://gotify/message"
       POSTGRES_URL: "postgres://postgres:{{ .Env.POSTGRES_PASSWORD }}@postgres:5432/postgres"
+      GIBBON_REPLAY_URL: "https://replay.sklein.xyz"
     extra_hosts:
     - gotify.sklein.xyz:51.158.146.33
     depends_on:
@@ -66,6 +67,23 @@ services:
       GOATCOUNTER_PASSWORD: {{ .Env.GOATCOUNTER_PASSWORD }}
     volumes:
     - /var/lib/gc.sklein.xyz/goatcounter/:/goatcounter/db/
+    networks:
+    - default
+
+  gibbon-replay-server:
+    image: stephaneklein/gibbon-replay-server:latest
+    volumes:
+    - /var/lib/replay.sklein.xyz/sqlite/:/data/
+    environment:
+      VIRTUAL_HOST: "replay.sklein.xyz"
+      LETSENCRYPT_HOST: "replay.sklein.xyz"
+      ORIGIN: https://replay.sklein.xyz
+      SQLITE_PATH: /data/gibbon.db
+      AUTH_USER: admin
+      AUTH_PASSWORD: {{ .Env.GIBBON_REPLAY_SERVER_PASSWORD }}
+    depends_on:
+      redis:
+        condition: service_healthy
     networks:
     - default
 

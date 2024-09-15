@@ -72,3 +72,27 @@ services:
       GOTIFY_REGISTRATION: 'false'
     volumes:
       - ./volumes/gotify/:/data/
+
+  redis:
+    image: redis:7.4-alpine
+    command: redis-server --appendonly yes --appendfsync everysec --requirepass password
+    volumes:
+      - ./volumes/redis/:/data/
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+  gibbon-replay-server:
+    image: stephaneklein/gibbon-replay-server:latest
+    ports:
+      - 5005:3000
+    environment:
+      ORIGIN: http://localhost:5005
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      REDIS_PASSWORD: password
+      AUTH_USER: admin
+      AUTH_PASSWORD: password

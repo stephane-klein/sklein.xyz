@@ -2,3 +2,4 @@ export GOATCOUNT_PASSWORD=secret
 export GOTIFY_KEY=secret
 export POSTGRES_PASSWORD=secret
 export POSTGRES_URL="postgres://postgres:${POSTGRES_PASSWORD}@localhost:5490/postgres"
+export GIBBON_REPLAY_SERVER_PASSWORD=secret
