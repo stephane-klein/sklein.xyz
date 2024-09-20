@@ -7,11 +7,11 @@
 <Layout>
     <h2>Services que je propose en freelance</h2>
 
-    <p>Voici une première liste de prestations freelance que je propose.</p>
+    <p>Voici une liste non exhaustive de prestations freelances que je propose.</p>
 
     <p>
         Pour en savoir plus à mon sujet, vous pouvez consulter <a href="https://sklein.xyz">sklein.xyz</a> ou
-        <a href="/fr/cv/">mon CV</a>.
+        <a href="/fr/cv/">mon CV</a> et aussi <a href="/fr/availability-and-pricing/">« Mes disponibilités et mes tarifs »</a>.
     </p>
 
     <p>Précision : cette liste n'est pas du tout classée par prix de prestation.</p>
