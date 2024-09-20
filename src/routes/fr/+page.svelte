@@ -23,10 +23,10 @@
             <a href="https://fr.wikipedia.org/wiki/Tennis_de_table">pongiste</a>.
         </p>
 
+        <p>Depuis juillet 2024, je propose <a href="./services-freelance/">des services de software engineering en
+            freelance</a>.</p>
         <p>
-            Ancien <a href="https://fr.wikipedia.org/wiki/Directeur_de_la_technologie">CTO</a> chez
-            <a href="https://spacefill.fr/">SpaceFill</a> (2019-2023), j'écris du code
-            <a
+            J'écris du code <a
                 href="https://web.archive.org/web/20210624114811/https://web.eecs.utk.edu/~azh/blog/makinguselessstuff.html"
                 >pour le plaisir</a
             >
@@ -36,33 +36,23 @@
         <p>
             Vous pouvez me retrouver sur
             <a rel="me" href="https://mamot.fr/@stephane_klein">mamot.fr/@stephane_klein</a> (mon compte Mastodon),
-            <a href="https://twitter.com/klein_stephane">Twitter</a> (que je n'utilise plus trop depuis novembre 2022),
             <a href="https://www.linkedin.com/in/stephanekleinfrommetz/">LinkedIn</a>,
             <a href="https://www.reddit.com/user/sklein">Reddit</a>,
             <a href="https://stackoverflow.com/users/261061/st%c3%a9phane-klein">StackOverflow</a>
-            et <a href="https://github.com/stephane-klein">GitHub</a>.
+            <a href="https://github.com/stephane-klein">GitHub</a>,
+            et <a href="https://twitter.com/klein_stephane">Twitter</a> (que je n'utilise plus depuis novembre 2022).
         </p>
 
-        <p>
-            J'essaie de mettre en pratique les concepts <a href="https://www.swyx.io/learn-in-public/">#LearnInPublic</a
-            >
-            et <code>#WorkInPublic</code>, par exemple :
-            <a href="https://github.com/stephane-klein/backlog/issues"
-                >mon
-                <em>backlog public</em></a
-            >, plusieurs
-            <a href="https://github.com/stephane-klein?tab=repositories&q=playground&type=&language=&sort="
-                >playgrounds</a
-            >…
-        </p>
+        <p>Pour me contacter (par ordre de préférence):</p>
 
-        <p>
-            Le <em>repository</em> GitHub <a href="https://github.com/stephane-klein/dotfiles">dotfiles</a> contient la
-            configuration de mes
-            <em>desktops</em> gérés par <a href="https://www.chezmoi.io/">ChezMoi</a> (<em
-                >dotfile configuration manager</em
-            >).
-        </p>
+        <ul>
+            <li><a href="https://fr.wikipedia.org/wiki/Signal_(application)">Signal</a> :
+                <a href="tel:+33661487604">06 61 48 76 04</a>
+                ou email : <a href="mailto:contact@stephane-klein.info">contact@stephane-klein.info</li>
+            <li>WhatApps : <a href="tel:+33661487604">06 61 48 76 04</a></li>
+            <li>Téléphone : <a href="tel:+33661487604">06 61 48 76 04</a> (il est préférable de m'envoyer un SMS avant de
+                me téléphoner)</li>
+        </ul>
 
         <p>Billets de blog :</p>
 
@@ -83,6 +73,14 @@
         <p>Différence entre une "feuille" de mon jardin numérique et un billet de blog ?<br/>
         Le contenu des billets de blog ne sont pas modifiés (corrigés, améliorés…) après publication.<br />
         Les "feuilles" du jardin numérique sont continuellement actualisées.</p>
+
+        <p>
+            Le <em>repository</em> GitHub <a href="https://github.com/stephane-klein/dotfiles">dotfiles</a> contient la
+            configuration de mes
+            <em>desktops</em> gérés par <a href="https://www.chezmoi.io/">ChezMoi</a> (<em
+                >dotfile configuration manager</em
+            >).
+        </p>
     </div>
     <p slot="footer"><a rel="external" href="/reports/report.html">Voir le Lighthouse score de cette page</a></p>
 </Layout>

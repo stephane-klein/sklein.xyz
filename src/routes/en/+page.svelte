@@ -16,9 +16,9 @@
             <a href="https://en.wikipedia.org/wiki/Table_tennis">table tennis player</a>.
         </p>
 
+        <p>Since July 2024, I have been offering <a href="../fr/services-freelance/">freelance software engineering services</a> (page in french).
         <p>
-            Former <a href="https://fr.wikipedia.org/wiki/Directeur_de_la_technologie">CTO</a> at
-            <a href="https://spacefill.fr/">SpaceFill</a> (2019-2023) and I write code
+            I write code
             <a href="https://web.archive.org/web/20210624114811/https://web.eecs.utk.edu/~azh/blog/makinguselessstuff.html"
                 >for fun</a
             >
@@ -27,26 +27,11 @@
 
         <p>
             I'm on <a rel="me" href="https://mamot.fr/@stephane_klein">mamot.fr/@stephane_klein</a> (Mastodon account),
-            <a href="https://twitter.com/klein_stephane">Twitter</a>
-            (I do not use it much since November 2022),
             <a href="https://www.linkedin.com/in/stephanekleinfrommetz/">LinkedIn</a>,
-            <a href="https://www.reddit.com/user/sklein">Reddit</a>
-            and <a href="https://github.com/stephane-klein">GitHub</a>.
-        </p>
-
-        <p>
-            I try to practice the <a href="https://www.swyx.io/learn-in-public/">#LearnInPublic</a> and
-            <code>#WorkInPublic</code>, examples:
-            <a href="https://github.com/stephane-klein/backlog/issues">my public backlog</a>
-            (french),
-            <a href="https://github.com/stephane-klein?tab=repositories&q=playground&type=&language=&sort="
-                >many playgrounds</a
-            >...
-        </p>
-
-        <p>
-            <a href="https://github.com/stephane-klein/dotfiles">Here is</a> my work in progress <em>dotfiles</em> managed
-            by <a href="https://www.chezmoi.io/">ChezMoi</a>.
+            <a href="https://www.reddit.com/user/sklein">Reddit</a>,
+            <a href="https://github.com/stephane-klein">GitHub</a>
+            and <a href="https://twitter.com/klein_stephane">Twitter</a>
+            (I do not use it much since November 2022),
         </p>
 
         <p>My english blog posts :</p>
