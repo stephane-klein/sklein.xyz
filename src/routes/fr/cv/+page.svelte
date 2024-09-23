@@ -10,6 +10,16 @@
 
         <h2>Qui suis-je ?</h2>
 
+        <aside>
+            <a href="/fr/cv/cv-stephane-klein.pdf">
+                <enhanced:img
+                    src="./cv-stephane-klein.png"
+                    style=""
+                />
+            </a>
+            <a href="/fr/cv/cv-stephane-klein.pdf" style="text-align: center; font-size: 0.8rem;">Télécharger au format PDF</a>
+        </aside>
+
         <p>
             Stéphane Klein, artisan développeur de plus de 20 ans d'expérience, basé à <a
                 href="https://fr.wikipedia.org/wiki/Montrouge">Montrouge</a
@@ -280,6 +290,20 @@
         }
 
         .right {
+        }
+    }
+
+    aside {
+        padding: 0 1em;
+        width: 30%;
+        float: right;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+            height: auto;
+            border: 1px solid var(--text-color);
         }
     }
 </style>
