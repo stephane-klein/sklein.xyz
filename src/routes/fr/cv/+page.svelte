@@ -14,7 +14,7 @@
             <a href="/fr/cv/cv-stephane-klein.pdf">
                 <enhanced:img
                     src="./cv-stephane-klein.png"
-                    style=""
+                    sizes="400px"
                 />
             </a>
             <a href="/fr/cv/cv-stephane-klein.pdf" style="text-align: center; font-size: 0.8rem;">Télécharger au format PDF</a>
