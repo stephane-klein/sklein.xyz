@@ -34,7 +34,7 @@
     "autoprefixer": "10.4.20",
     "browserslist": "4.23.3",
     "cheerio": "1.0.0",
-    "gibbon-replay-js": "0.6.0",
+    "gibbon-replay-js": "0.8.0",
     "gray-matter": "4.0.3",
     "isbot": "5.1.17",
     "js-yaml": "4.1.0",
