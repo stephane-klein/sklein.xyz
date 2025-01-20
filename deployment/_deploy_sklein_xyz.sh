@@ -85,6 +85,14 @@ services:
     - default
     - gotify_shared_network
 
+  archives:
+    image: stephaneklein/achives.sklein.xyz:latest
+    environment:
+      VIRTUAL_HOST: "archives.sklein.xyz"
+      LETSENCRYPT_HOST: "archives.sklein.xyz"
+    networks:
+    - default
+
 networks:
   gotify_shared_network:
     name: gotify_shared_network
