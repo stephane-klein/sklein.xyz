@@ -20,8 +20,8 @@
 
     <ul>
         <li>
-            Lancement d'une application web de type MVP (Produit Minimum Viable) soignée, développée de déployée à
-            partir de zéro sans bug.
+            Lancement d'une application web de type MVP (Produit Minimum Viable) soignée, développée et déployée à
+            partir de zéro avec un minimum de bug.
         </li>
         <li>
             Développement et déploiement à partir de zéro d'une <a href="https://en.wikipedia.org/wiki/Web_API"
