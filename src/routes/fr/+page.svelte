@@ -35,12 +35,13 @@
 
         <p>
             Vous pouvez me retrouver sur
-            <a rel="me" href="https://mamot.fr/@stephane_klein">mamot.fr/@stephane_klein</a> (mon compte Mastodon),
+            <a rel="me" href="https://social.coop/@stephane_klein">social.coop/@stephane_klein</a> (mon compte <a
+                href="https://notes.sklein.xyz/Mastodon/">Mastodon</a>)
+            ainsi que sur
             <a href="https://www.linkedin.com/in/stephanekleinfrommetz/">LinkedIn</a>,
             <a href="https://www.reddit.com/user/sklein">Reddit</a>,
-            <a href="https://stackoverflow.com/users/261061/st%c3%a9phane-klein">StackOverflow</a>
-            <a href="https://github.com/stephane-klein">GitHub</a>,
-            et <a href="https://twitter.com/klein_stephane">Twitter</a> (que je n'utilise plus depuis novembre 2022).
+            <a href="https://stackoverflow.com/users/261061/st%c3%a9phane-klein">StackOverflow</a> et
+            <a href="https://github.com/stephane-klein">GitHub</a>.
         </p>
 
         <p>Pour me contacter (par ordre de préférence):</p>
