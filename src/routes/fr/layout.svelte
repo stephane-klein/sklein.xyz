@@ -19,6 +19,8 @@
             <span>|</span>
             <a href="/fr/availability-and-pricing/" title="Mes disponibilités et mes tarifs">Mes disponibilités et tarifs</a>
             <span>|</span>
+            <a href="https://notes.sklein.xyz" title="Mes connaissances personnelles en accès public">Mes notes</a>
+            <span>|</span>
             <a href="/en/">English home page</a>
 
             <span>

@@ -55,6 +55,10 @@
                 me téléphoner)</li>
         </ul>
 
+        <p>Depuis avril 2024, je poste principalement des messages sur mon <a
+            href="https://notes.sklein.xyz/Personal%20knowledge%20management/">Personal knowledge management</a> ouvert
+            : <a href="https://notes.sklein.xyz/">notes.sklein.xyz</a>.
+
         <p>Billets de blog :</p>
 
         <ul>
