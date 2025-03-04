@@ -49,7 +49,7 @@
         <ul>
             <li><a href="https://fr.wikipedia.org/wiki/Signal_(application)">Signal</a> :
                 <a href="tel:+33661487604">06 61 48 76 04</a>
-                ou email : <a href="mailto:contact@stephane-klein.info">contact@stephane-klein.info</li>
+                ou e-mail : <a href="mailto:contact@stephane-klein.info">contact@stephane-klein.info</li>
             <li>WhatApps : <a href="tel:+33661487604">06 61 48 76 04</a></li>
             <li>Téléphone : <a href="tel:+33661487604">06 61 48 76 04</a> (il est préférable de m'envoyer un SMS avant de
                 me téléphoner)</li>
