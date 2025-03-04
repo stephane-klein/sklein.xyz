@@ -11,7 +11,7 @@
     c'est-à-dire que je facture en fonction du temps réellement passé à réaliser les prestations, plutôt que sur la base d’un <a
     href="https://fr.wikipedia.org/wiki/Forfait#Commercial">forfait</a> fixe.</p>
 
-    <p>Voici le nombre de jours où je suis disponible chaque mois (mise à jour au 25 septembre 2024) :</p>
+    <p>Voici le nombre de jours où je suis disponible chaque mois (mise à jour au 4 mars 2025) :</p>
 
     <table>
         <thead>
@@ -22,24 +22,12 @@
         </thead>
         <tbody>
             <tr>
-                <td class="month">Octobre</td>
-                <td class="day">12</td>
+                <td class="month">Mai</td>
+                <td class="day">5</td>
             </tr>
             <tr>
-                <td class="month">Novembre</td>
-                <td class="day">12</td>
-            </tr>
-            <tr>
-                <td class="month">Décembre</td>
+                <td class="month">Juin</td>
                 <td class="day">10</td>
-            </tr>
-            <tr>
-                <td class="month">Janvier 2025</td>
-                <td class="day">18</td>
-            </tr>
-            <tr>
-                <td class="month">Février 2025</td>
-                <td class="day">18</td>
             </tr>
         </tbody>
     </table>
