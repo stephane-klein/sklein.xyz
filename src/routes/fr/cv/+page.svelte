@@ -6,17 +6,25 @@
 
 <Layout
     ><div>
-        <p style="text-align: right; font-size: 0.8em;">Dernière mise à jour : 30 août 2024</p>
+        <p style="text-align: right; font-size: 0.8em;">Dernière mise à jour : 28 mars 2025</p>
 
         <h2>Qui suis-je ?</h2>
 
         <aside>
-            <a href="/fr/cv/cv-stephane-klein.pdf">
-                <enhanced:img
-                    src="./cv-stephane-klein.png"
-                    sizes="400px"
-                />
-            </a>
+            <div>
+                <a href="/fr/cv/cv-stephane-klein.pdf">
+                    <enhanced:img
+                        src="./cv-stephane-klein-page1.png"
+                        sizes="300px"
+                    />
+                </a>
+                <a href="/fr/cv/cv-stephane-klein.pdf">
+                    <enhanced:img
+                        src="./cv-stephane-klein-page2.png"
+                        sizes="300px"
+                    />
+                </a>
+            </div>
             <a href="/fr/cv/cv-stephane-klein.pdf" style="text-align: center; font-size: 0.8rem;">Télécharger au format PDF</a>
         </aside>
 
@@ -65,10 +73,7 @@
 
         <h2>Mes objectifs professionnels</h2>
 
-        <p>
-            Depuis juillet 2024, je propose mes services en software engineering freelance.<br />
-            Depuis cette date, je travaille déjà en régie pour deux clients, leur apportant mon expertise en développement d'applications web et en DevOps.
-        </p>
+        <p>Depuis juillet 2024, je propose mes services en software engineering freelance.</p>
 
         <p>Mon objectif pour ces six prochains mois est d'essayer de développer cette activité.</p>
 
@@ -81,6 +86,11 @@
                 href="https://www.urbandictionary.com/define.php?term=Individual+Contributor"
                 >Contributeur Individuel</a> ou de management, au sein de toutes petites structures ou des ETI.
         </p>
+
+        <p>Je suis un artisan développeur dans l'âme, j'aime animer une équipe sous une forme inspirée
+        du <a href="https://fr.wikipedia.org/wiki/Compagnonnage">compagnonnage traditionnel</a>. Mon idéal professionnel
+        serait d'occuper une fonction de "CPTO" avec un équilibre autour de 50% de management et 50% de contribution
+        directe au projet.</p>
 
         <h2>Types de projets qui ne m'intéressent pas</h2>
 
@@ -111,6 +121,38 @@
             <p>Software Engineering : Git, Scrum, TDD, Lean, GitOps.</p>
 
         <h2>Expériences professionnelles</h2>
+
+
+        <h3 class="professional-experience-section">
+            <span class="left">Freelance</span>
+            <span class="right">Depuis juillet 2024</span>
+        </h3>
+
+        <p>Entre juillet 2024 et fin mars 2025, j'ai réalisé en tout 120 jours de prestations, pour 5 clients différents.<p>
+
+        <ul>
+            <li>Développement d'une application <a href="https://kit.svelte.dev/docs/glossary#ssr">SSR</a> avec <a href="https://kit.svelte.dev/docs/glossary#hydration">hydration</a> en <a href="https://kit.svelte.dev">SvelteKit</a>, <a href="https://fr.wikipedia.org/wiki/PostgreSQL">PostgreSQL</a>, <a href="https://tailwindcss.com/">TailwindCSS</a> et son déploiement chez le cloud provider <a href="https://www.scaleway.com/">Scaleway</a>.</li>
+
+            <li>Migration complète de l'infrastructure d'un client vers <a href="https://www.scaleway.com/">Scaleway</a>.
+            Mise en place d'une approche <a href="https://www.gitops.tech/">GitOps</a>, basée sur de l'<a href="https://notes.sklein.xyz/Infrastructure%20as%20code/">Infrastructure as Code</a>,
+            <a href="https://notes.sklein.xyz/Configuration%20management/">Configuration as Code</a> pour automatiser l'intégralité du déploiement.<br />
+            Monitoring des serveurs et centralisation des logs. Mise en place de sauvegardes immutables en mode <a href="https://notes.sklein.xyz/Write%20Once%20Read%20Many/">WORM</a>.
+            Adaptation des services à déployer selon les principes <a href="https://notes.sklein.xyz/The%20Twelve-Factors%20App/">Twelve-Factor</a>.<br/>
+            Technologies mise en œuvre : <a href="https://notes.sklein.xyz/Terraform/">Terraform</a>,
+            <a href="https://notes.sklein.xyz/Prometheus/">Prometheus</a>, <a href="https://notes.sklein.xyz/Loki/">Loki</a>,
+            <a href="https://notes.sklein.xyz/Grafana/">Grafana</a>, <a href="https://notes.sklein.xyz/Docker/">Docker</a>, <a href="https://notes.sklein.xyz/GitLab-CI%20CD/">GitLab-CI</a>, etc.</li>
+
+            <li>Conception et implémentation d'une architecture de limitation d'accès aux PII (<a
+            href="https://notes.sklein.xyz/Personally%20Identifiable%20Information/">Personally Identifiable Information</a>) pour startup qui développe une application mobile de santé.
+            Je me suis basé sur les fonctionnalités PostgreSQL suivantes : <em>security definer</em> des fonctions <a href="https://notes.sklein.xyz/PLpgSQL/">PL/pgSQL</a>,
+            tigger, <em><a href="https://notes.sklein.xyz/Row%20Security%20Policies/">row level security</a></em>.
+            J'ai ensuite documenté comment effectuer l'intégration de ce système dans l'infrastructure existante : Hasura, services serverless, frontend web et l'application mobile.</li>
+
+            <li>Migration d'une application mobile de <a href="https://notes.sklein.xyz/Apache%20Cordova/">Cordova</a> vers <a href="https://notes.sklein.xyz/Capacitor/">Capacitor</a>, pour Android et iOS.</li>
+
+            <li>Maintenance corrective et évolutive d'une application web développée en <a href="https://notes.sklein.xyz/ReactJS/">ReactJS</a>, <a href="https://notes.sklein.xyz/Remix/">Remix</a>,
+            <a href="https://nestjs.com/">Nest.js</a> et PostgreSQL, le tout hébergé sur Microsoft Azure.</li>
+        </ul>
 
         <h3 class="professional-experience-section">
             <span class="left">Cofondateur — Value Props</span>
@@ -295,10 +337,16 @@
 
     aside {
         padding: 0 1em;
-        width: 30%;
+        width: 40%;
         float: right;
         display: flex;
         flex-direction: column;
+
+        div {
+            display: flex;
+            gap: 0.5rem;
+            flex-direction: row;
+        }
 
         img {
             width: 100%;
