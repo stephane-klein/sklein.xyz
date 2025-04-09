@@ -315,6 +315,26 @@
             <span class="left">Développeur — KTP Concept</span>
             <span class="right">Octobre 2001 - Août 2003</span>
         </h3>
+
+        <h2>Projets personnels et bénévolat</h2>
+
+            <p>En 2014, j'ai été président fondateur de l'association <a href="https://www.coworking-metz.fr/" style="white-space: nowrap">« Le
+            Poulailler »</a>, un espace de coworking à Metz.</p>
+
+            <p>De janvier 2023 à juin 2024, j'ai occupé le poste de président de l'association de tennis de table d'Issy-les-Moulineaux,
+            qui compte environ 15 salariés pour un budget de plus de 300 K€.</p>
+
+            <p>Imprégné par la culture hacker, je porte un grand intérêt à l'histoire de l'informatique, du software engineering, des logiciels libres,
+            ainsi qu'au self-hosting. J'aime <a href="https://www.swyx.io/learn-in-public">apprendre en public</a>. Je partage certaines de mes
+            réflexions ou retours d'exprériences sur <a href="https://notes.sklein.xyz">notes.sklein.xyz</a>, mes expérimentations et des petits
+            projets <a href="https://github.com/stephane-klein">sur GitHub</a>.</p>
+
+            <p>Lorsque je ne suis pas en train de coder, j'occupe mon temps d'otium à étudier l'histoire des XIXᵉ et XXᵉ siècles, l'épistémologie, la zététique,
+            l'économie, la philosophie, etc. Je passe mes étés à randonner en montagne et m'initie depuis quelque temps à la randonnée itinérante.
+            Par ailleurs, je pratique le tennis de table en compétition depuis l'âge de 10 ans.</p>
+
+            <p>Pour en savoir plus à mon sujet, rendez-vous sur &lt;<a href="https://sklein.xyz" style="white-space: nowrap">https://sklein.xyz</a>&gt;.</p>
+
     </div></Layout>
 
 <style>
