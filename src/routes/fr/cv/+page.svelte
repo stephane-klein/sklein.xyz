@@ -325,8 +325,8 @@
             qui compte environ 15 salariés pour un budget de plus de 300 K€.</p>
 
             <p>Imprégné par la culture hacker, je porte un grand intérêt à l'histoire de l'informatique, du software engineering, des logiciels libres,
-            ainsi qu'au self-hosting. J'aime <a href="https://www.swyx.io/learn-in-public">apprendre en public</a>. Je partage certaines de mes
-            réflexions ou retours d'exprériences sur <a href="https://notes.sklein.xyz">notes.sklein.xyz</a>, mes expérimentations et des petits
+            ainsi qu'au self-hosting. J'aime <a href="https://www.swyx.io/learn-in-public">apprendre en public</a>. Je publie certaines de mes
+            réflexions ou retours d'expériences sur <a href="https://notes.sklein.xyz">notes.sklein.xyz</a>, mes expérimentations et des petits
             projets <a href="https://github.com/stephane-klein">sur GitHub</a>.</p>
 
             <p>Lorsque je ne suis pas en train de coder, j'occupe mon temps d'otium à étudier l'histoire des XIXᵉ et XXᵉ siècles, l'épistémologie, la zététique,
