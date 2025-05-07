@@ -42,7 +42,8 @@
             <a transition:fly={{ y: -15, delay: 100 }} href="/fr/cv/">CV</a>
             <a transition:fly={{ y: -15, delay: 150 }} href="/fr/services-freelance/">Services que je propose en freelance</a>
             <a transition:fly={{ y: -15, delay: 200 }} href="/fr/availability-and-pricing/">Mes disponibilités et mes tarifs</a>
-            <a transition:fly={{ y: -15, delay: 250 }} href="/en/">English home page</a>
+            <a transition:fly={{ y: -15, delay: 250 }} href="https://notes.sklein.xyz">Mes notes</a>
+            <a transition:fly={{ y: -15, delay: 300 }} href="/en/">English home page</a>
         </nav>
         <div class="bar" transition:scale={{ duration: 750, easing: quadOut, opacity: 1 }} />
         {/if}
