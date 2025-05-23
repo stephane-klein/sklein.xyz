@@ -13,6 +13,8 @@
         <nav>
             <a href="/fr/">Accueil</a>
             <span>|</span>
+            <a href="/NowNowNow/">NowNowNow</a>
+            <span>|</span>
             <a href="/fr/cv/">CV</a>
             <span>|</span>
             <a href="/fr/services-freelance/" title="Services que je propose en freelance">Mes services</a>
@@ -39,11 +41,12 @@
         {#if open}
         <nav>
             <a transition:fly={{ y: -15, delay: 50 }} href="/fr/">Accueil</a>
-            <a transition:fly={{ y: -15, delay: 100 }} href="/fr/cv/">CV</a>
-            <a transition:fly={{ y: -15, delay: 150 }} href="/fr/services-freelance/">Services que je propose en freelance</a>
-            <a transition:fly={{ y: -15, delay: 200 }} href="/fr/availability-and-pricing/">Mes disponibilités et mes tarifs</a>
-            <a transition:fly={{ y: -15, delay: 250 }} href="https://notes.sklein.xyz">Mes notes</a>
-            <a transition:fly={{ y: -15, delay: 300 }} href="/en/">English home page</a>
+            <a transition:fly={{ y: -15, delay: 100 }} href="/NowNowNow/">NowNowNow</a>
+            <a transition:fly={{ y: -15, delay: 150 }} href="/fr/cv/">CV</a>
+            <a transition:fly={{ y: -15, delay: 200 }} href="/fr/services-freelance/">Services que je propose en freelance</a>
+            <a transition:fly={{ y: -15, delay: 250 }} href="/fr/availability-and-pricing/">Mes disponibilités et mes tarifs</a>
+            <a transition:fly={{ y: -15, delay: 300 }} href="https://notes.sklein.xyz">Mes notes</a>
+            <a transition:fly={{ y: -15, delay: 350 }} href="/en/">English home page</a>
         </nav>
         <div class="bar" transition:scale={{ duration: 750, easing: quadOut, opacity: 1 }} />
         {/if}
