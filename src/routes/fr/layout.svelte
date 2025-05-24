@@ -13,7 +13,7 @@
         <nav>
             <a href="/fr/">Accueil</a>
             <span>|</span>
-            <a href="/NowNowNow/">NowNowNow</a>
+            <a href="/Now/">Now</a>
             <span>|</span>
             <a href="/fr/cv/">CV</a>
             <span>|</span>
@@ -41,7 +41,7 @@
         {#if open}
         <nav>
             <a transition:fly={{ y: -15, delay: 50 }} href="/fr/">Accueil</a>
-            <a transition:fly={{ y: -15, delay: 100 }} href="/NowNowNow/">NowNowNow</a>
+            <a transition:fly={{ y: -15, delay: 100 }} href="/Now/">Now</a>
             <a transition:fly={{ y: -15, delay: 150 }} href="/fr/cv/">CV</a>
             <a transition:fly={{ y: -15, delay: 200 }} href="/fr/services-freelance/">Services que je propose en freelance</a>
             <a transition:fly={{ y: -15, delay: 250 }} href="/fr/availability-and-pricing/">Mes disponibilités et mes tarifs</a>
