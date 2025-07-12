@@ -93,6 +93,15 @@ services:
     networks:
     - default
 
+  data:
+    # https://github.com/stephane-klein/observable-playground
+    image: stephaneklein/data.sklein.xyz:latest
+    environment:
+      VIRTUAL_HOST: "data.sklein.xyz"
+      LETSENCRYPT_HOST: "data.sklein.xyz"
+    networks:
+    - default
+
 networks:
   gotify_shared_network:
     name: gotify_shared_network
