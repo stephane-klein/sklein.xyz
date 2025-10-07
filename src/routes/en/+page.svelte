@@ -16,6 +16,8 @@
             <a href="https://en.wikipedia.org/wiki/Table_tennis">table tennis player</a>.
         </p>
 
+        <p>Since October 2025, I have been working full-time for <a href="https://brainboard.co/">Brainboard</a> as a DevOps Engineer</p>
+
         <p>Since July 2024, I have been offering <a href="../fr/services-freelance/">freelance software engineering services</a> (page in french).
         <p>
             I write code

@@ -7,12 +7,22 @@
 <Layout>
     <h2>Services que je propose en freelance</h2>
 
-    <p>Voici une liste non exhaustive de prestations freelances que je propose.</p>
+    <p>Voici une liste non exhaustive de prestations freelances que j'ai proposé de juillet 2024 à septembre 2025.</p>
 
+    <p>Depuis octobre 2025, je travaille à temps plein pour <a href="https://brainboard.co/">Brainboard</a> et je ne suis donc plus disponible pour de nouvelles prestations.
+    Je vous renvoie vers quelques amis freelances (par ordre alphabétique) :
+    <a href="https://www.linkedin.com/in/elias-demnati/">Elias Demnati</a>,
+    <a href="https://www.linkedin.com/in/washaweb/">Jérôme Poslednik</a>,
+    <a href="https://www.linkedin.com/in/olivier-k3z/">Olivier Kautz</a> et
+    <a href="https://www.linkedin.com/in/thibaut-madelaine-122163203/">Thibaut Madelaine</a>.
+    </p>
+
+    <!--
     <p>
         Pour en savoir plus à mon sujet, vous pouvez consulter <a href="https://sklein.xyz">sklein.xyz</a> ou
         <a href="/fr/cv/">mon CV</a> et aussi <a href="/fr/availability-and-pricing/">« Mes disponibilités et mes tarifs »</a>.
     </p>
+    -->
 
     <p>Précision : cette liste n'est pas du tout classée par prix de prestation.</p>
 

@@ -6,7 +6,7 @@
 
 <Layout
     ><div>
-        <p style="text-align: right; font-size: 0.8em;">Dernière mise à jour : 28 mars 2025</p>
+        <p style="text-align: right; font-size: 0.8em;">Dernière mise à jour : 7 octobre 2025</p>
 
         <h2>Qui suis-je ?</h2>
 
@@ -34,7 +34,9 @@
             >, au sud de Paris.
         </p>
 
-        <p>Depuis juillet 2024, je propose <a href="../services-freelance/">des services de software engineering en
+        <p>Actuellement DevOps à temps plein chez <a href="https://brainboard.co">Brainboard</a>.</p>
+
+        <p>De juillet 2024 à septembre 2025, j'ai proposé <a href="../services-freelance/">des services de software engineering en
             freelance</a> (<small>SIREN <a href="https://data.inpi.fr/entreprises/478587512">478 587 512</a></small>).</p>
 
         <p>
@@ -122,13 +124,20 @@
 
         <h2>Expériences professionnelles</h2>
 
+        <h3 class="professional-experience-section">
+            <span class="left">DevOps Engineer - Brainboard</span>
+            <span class="right">Depuis octobre 2025</span>
+        </h3>
+
+        <p><a href="https://brainboard.co">Brainboard</a> est un service SaaS qui permet de concevoir et gérer visuellement des infrastructures (AWS,
+        Azure) tout en produisant des configurations au format <a href="https://notes.sklein.xyz/Terraform/">Terraform</a>.</p>
 
         <h3 class="professional-experience-section">
             <span class="left">Freelance</span>
-            <span class="right">Depuis juillet 2024</span>
+            <span class="right">Juillet 2024 - Septembre 2025</span>
         </h3>
 
-        <p>Entre juillet 2024 et fin mars 2025, j'ai réalisé en tout 120 jours de prestations, pour 5 clients différents.<p>
+        <p>Entre juillet 2024 et septembre 2025, j'ai réalisé en tout 195 jours de prestations, pour 7 clients différents.<p>
 
         <ul>
             <li>Développement d'une application <a href="https://kit.svelte.dev/docs/glossary#ssr">SSR</a> avec <a href="https://kit.svelte.dev/docs/glossary#hydration">hydration</a> en <a href="https://kit.svelte.dev">SvelteKit</a>, <a href="https://fr.wikipedia.org/wiki/PostgreSQL">PostgreSQL</a>, <a href="https://tailwindcss.com/">TailwindCSS</a> et son déploiement chez le cloud provider <a href="https://www.scaleway.com/">Scaleway</a>.</li>
@@ -152,6 +161,17 @@
 
             <li>Maintenance corrective et évolutive d'une application web développée en <a href="https://notes.sklein.xyz/ReactJS/">ReactJS</a>, <a href="https://notes.sklein.xyz/Remix/">Remix</a>,
             <a href="https://nestjs.com/">Nest.js</a> et PostgreSQL, le tout hébergé sur Microsoft Azure.</li>
+
+            <li>J'ai travaillé quelques mois dans l'équipe <a href="https://notes.sklein.xyz/Albert%20Conversation/">Albert Conversation</a> du
+            département ETALAB de la <a href="https://notes.sklein.xyz/DINUM/">DINUM</a>.
+            J'ai contribué au développement de features frontend en <a href="https://notes.sklein.xyz/Svelte/">Svelte</a> et <a href="https://notes.sklein.xyz/Python/">Python</a>
+            pour le projet Open Source <a href="https://notes.sklein.xyz/Open%20WebUI/">Open WebUI</a>, un agent conversationnel du type ChatGPT, ainsi qu'à son déploiement sur
+            un environnement <a href="https://notes.sklein.xyz/Kubernetes/">Kubernetes</a>. Je suis également intervenue sur des RAGs développés par l'équipe.<br />
+            Ce projet a été arrêté et remplacé par un nouveau produit développé par le département
+            <a href="https://notes.sklein.xyz/Op%C3%A9rateur%20de%20Produits%20Interminist%C3%A9riels/">Opérateur de Produits Interministériels</a> (OPI) pour être intégré
+            dans <a href="https://notes.sklein.xyz/La%20Suite%20Num%C3%A9rique/">La Suite Numérique</a>.
+
+            <li>Prestation d'amélioration de <a href="https://notes.sklein.xyz/Email%20deliverability/">délivrabilité d'e-mail.</li>
         </ul>
 
         <h3 class="professional-experience-section">

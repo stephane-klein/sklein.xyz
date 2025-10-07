@@ -23,8 +23,8 @@
             <a href="https://fr.wikipedia.org/wiki/Tennis_de_table">pongiste</a>.
         </p>
 
-        <p>Depuis juillet 2024, je propose <a href="./services-freelance/">des services de software engineering en
-            freelance</a>.</p>
+        <p>Depuis octobre 2025, je travaille à temps plein pour <a href="https://brainboard.co/">Brainboard</a> en tant que DevOps</p>
+
         <p>
             J'écris du code <a
                 href="https://web.archive.org/web/20210624114811/https://web.eecs.utk.edu/~azh/blog/makinguselessstuff.html"
