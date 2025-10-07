@@ -154,7 +154,7 @@
             <li>Conception et implémentation d'une architecture de limitation d'accès aux PII (<a
             href="https://notes.sklein.xyz/Personally%20Identifiable%20Information/">Personally Identifiable Information</a>) pour startup qui développe une application mobile de santé.
             Je me suis basé sur les fonctionnalités PostgreSQL suivantes : <em>security definer</em> des fonctions <a href="https://notes.sklein.xyz/PLpgSQL/">PL/pgSQL</a>,
-            tigger, <em><a href="https://notes.sklein.xyz/Row%20Security%20Policies/">row level security</a></em>.
+            trigger, <em><a href="https://notes.sklein.xyz/Row%20Security%20Policies/">row level security</a></em>.
             J'ai ensuite documenté comment effectuer l'intégration de ce système dans l'infrastructure existante : Hasura, services serverless, frontend web et l'application mobile.</li>
 
             <li>Migration d'une application mobile de <a href="https://notes.sklein.xyz/Apache%20Cordova/">Cordova</a> vers <a href="https://notes.sklein.xyz/Capacitor/">Capacitor</a>, pour Android et iOS.</li>
