@@ -6,7 +6,7 @@
 
 <Layout
     ><div>
-        <p style="text-align: right; font-size: 0.8em;">Dernière mise à jour : 7 octobre 2025</p>
+        <p style="text-align: right; font-size: 0.8em;">Dernière mise à jour : 30 août 2026</p>
 
         <h2>Qui suis-je ?</h2>
 
@@ -34,7 +34,7 @@
             >, au sud de Paris.
         </p>
 
-        <p>Actuellement DevOps à temps plein chez <a href="https://brainboard.co">Brainboard</a>.</p>
+        <p>Depuis mars 2026, je suis en année sabbatique pour progresser en développement assisté par IA.</p>
 
         <p>De juillet 2024 à septembre 2025, j'ai proposé <a href="../services-freelance/">des services de software engineering en
             freelance</a> (<small>SIREN <a href="https://data.inpi.fr/entreprises/478587512">478 587 512</a></small>).</p>
@@ -75,11 +75,10 @@
 
         <h2>Mes objectifs professionnels</h2>
 
-        <p>Depuis juillet 2024, je propose mes services en software engineering freelance.</p>
+        <p>Depuis mars 2026, je suis en année sabbatique : j'ai choisi de prendre douze mois pour progresser en
+        développement assisté par IA.</p>
 
-        <p>Mon objectif pour ces six prochains mois est d'essayer de développer cette activité.</p>
-
-        <p>Vous pouvez consulter la liste de <a href="/fr/services-freelance/">mes prestations en freelance</a>.</p>
+        <p>À l'issue de cette année, en mars 2027, je reprendrai un poste en entreprise.</p>
 
         <h2>Projets susceptibles de m'intéresser</h2>
 
@@ -125,8 +124,8 @@
         <h2>Expériences professionnelles</h2>
 
         <h3 class="professional-experience-section">
-            <span class="left">DevOps Engineer - Brainboard</span>
-            <span class="right">Depuis octobre 2025</span>
+            <span class="left">DevOps Engineer - Brainboard (freelance à plein temps)</span>
+            <span class="right">Octobre 2025 - Février 2026</span>
         </h3>
 
         <p><a href="https://brainboard.co">Brainboard</a> est un service SaaS qui permet de concevoir et gérer visuellement des infrastructures (AWS,

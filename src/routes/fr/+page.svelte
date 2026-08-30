@@ -19,18 +19,21 @@
         <p>
             Mon nom est <a href="https://www.facebook.com/stephane.klein.moselle">Stéphane Klein</a>,
             <a href="https://fr.wikipedia.org/wiki/Metz">Messin</a>
-            expatrié à Paris, <a href="https://fr.wikipedia.org/wiki/Software_craftsmanship">artisan développeur</a> et
+            arrivé à Paris en 2016, <a href="https://fr.wikipedia.org/wiki/Software_craftsmanship">artisan développeur</a> et
             <a href="https://fr.wikipedia.org/wiki/Tennis_de_table">pongiste</a>.
         </p>
 
-        <p>Depuis octobre 2025, je travaille à temps plein pour <a href="https://brainboard.co/">Brainboard</a> en tant que DevOps</p>
+        <p>
+            Depuis mars 2026, je suis en année sabbatique : j'ai choisi de prendre douze mois pour
+            progresser en développement assisté par IA. Je développe des projets concrets — des outils que j'utilise au
+            quotidien, des prototypes, et des projets qui pourront être utiles à d'autres — je fais des
+            contributions open source, et je construis des méthodes et des outils pour coder plus vite
+            et mieux avec les agents IA.
+        </p>
 
         <p>
-            J'écris du code <a
-                href="https://web.archive.org/web/20210624114811/https://web.eecs.utk.edu/~azh/blog/makinguselessstuff.html"
-                >pour le plaisir</a
-            >
-            (<a href="https://news.ycombinator.com/item?id=27256867">comments HN</a>) et pour gagner ma vie.
+            Vous pouvez suivre mes notes sur <a href="https://notes.sklein.xyz/">notes.sklein.xyz</a> et découvrir mes
+            projets sur <a href="https://github.com/stephane-klein?tab=repositories">mon profil GitHub</a>.
         </p>
 
         <p>

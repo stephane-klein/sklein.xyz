@@ -16,7 +16,17 @@
             <a href="https://en.wikipedia.org/wiki/Table_tennis">table tennis player</a>.
         </p>
 
-        <p>Since October 2025, I have been working full-time for <a href="https://brainboard.co/">Brainboard</a> as a DevOps Engineer</p>
+        <p>
+            Since March 2026, I am on a sabbatical year: I chose to take twelve months to get better at
+            AI-assisted development. I build real projects — tools I use daily, prototypes, and things that may be
+            useful to others — I do open-source contributions, and I build methods and tools to code
+            faster and better with AI agents.
+        </p>
+
+        <p>
+            You can follow my notes on <a href="https://notes.sklein.xyz/">notes.sklein.xyz</a> and discover my projects
+            on <a href="https://github.com/stephane-klein?tab=repositories">my GitHub profile</a>.
+        </p>
 
         <p>Since July 2024, I have been offering <a href="../fr/services-freelance/">freelance software engineering services</a> (page in french).
         <p>

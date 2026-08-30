@@ -10,7 +10,7 @@
     <!-- <p><strong>Mise à jour du 17 avril 2025 : je n'ai plus aucune disponibilité de prestation Freelance jusqu'à une date
         indéterminé.</strong></p> -->
 
-    <p>Depuis octobre 2025, je travaille à temps plein pour <a href="https://brainboard.co/">Brainboard</a> et je ne suis donc plus disponible pour de nouvelles prestations.
+    <p>Depuis mars 2026, je suis en année sabbatique et je ne prends pas de nouvelles missions freelance.
     Je vous renvoie vers quelques amis freelances (par ordre alphabétique) :
     <a href="https://www.linkedin.com/in/elias-demnati/">Elias Demnati</a>,
     <a href="https://www.linkedin.com/in/washaweb/">Jérôme Poslednik</a>,
